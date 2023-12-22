@@ -1,3 +1,0 @@
- * Adding a Get Simple Phone button into the About section
- * Added Monochrome icon and Language picker support on Android 13+
- * Added some translation and UX improvements
