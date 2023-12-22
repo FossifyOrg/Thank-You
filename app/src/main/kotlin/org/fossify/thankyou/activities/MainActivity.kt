@@ -1,4 +1,4 @@
-package com.simplemobiletools.thankyou.activities
+package org.fossify.thankyou.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,22 +6,22 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.*
 import androidx.compose.runtime.snapshots.SnapshotStateList
-import com.simplemobiletools.commons.compose.alert_dialog.AlertDialogState
-import com.simplemobiletools.commons.compose.alert_dialog.rememberAlertDialogState
-import com.simplemobiletools.commons.compose.extensions.*
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.dialogs.DonateAlertDialog
-import com.simplemobiletools.commons.dialogs.RateStarsAlertDialog
-import com.simplemobiletools.commons.dialogs.WhatsNewAlertDialog
-import com.simplemobiletools.commons.extensions.hideKeyboard
-import com.simplemobiletools.commons.extensions.launchMoreAppsFromUsIntent
-import com.simplemobiletools.commons.models.FAQItem
-import com.simplemobiletools.commons.models.Release
-import com.simplemobiletools.thankyou.BuildConfig
-import com.simplemobiletools.thankyou.R
-import com.simplemobiletools.thankyou.extensions.startAboutActivity
-import com.simplemobiletools.thankyou.screens.MainScreen
 import kotlinx.collections.immutable.toImmutableList
+import org.fossify.commons.compose.alert_dialog.AlertDialogState
+import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
+import org.fossify.commons.compose.extensions.*
+import org.fossify.commons.compose.theme.AppThemeSurface
+import org.fossify.commons.dialogs.DonateAlertDialog
+import org.fossify.commons.dialogs.RateStarsAlertDialog
+import org.fossify.commons.dialogs.WhatsNewAlertDialog
+import org.fossify.commons.extensions.hideKeyboard
+import org.fossify.commons.extensions.launchMoreAppsFromUsIntent
+import org.fossify.commons.models.FAQItem
+import org.fossify.commons.models.Release
+import org.fossify.thankyou.BuildConfig
+import org.fossify.thankyou.R
+import org.fossify.thankyou.extensions.startAboutActivity
+import org.fossify.thankyou.screens.MainScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -68,10 +68,7 @@ class MainActivity : ComponentActivity() {
     ) {
         DisposableEffect(Unit) {
             checkWhatsNewCompose(
-                releases = listOf(
-                    Release(14, R.string.release_14),
-                    Release(3, R.string.release_3)
-                ),
+                releases = listOf(),
                 currVersion = BuildConfig.VERSION_CODE,
                 showWhatsNewDialog = { releases ->
                     releasesList.addAll(releases)

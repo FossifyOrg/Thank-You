@@ -5,7 +5,7 @@
     <string name="main_text">Terima kasih telah mendukung kami!
 \n
 \nJangan ragu untuk menghubungi kami di
-\n hello@simplemobiletools.com,
+\n hello@fossify.org,
 \n kami akan sangat senang bisa membaca semua umpanbalik dan saran dari anda.
 \n
 \n(Biarkan aplikasi tetap terpasang untuk menghindari dialog \'Beli\' dan terus menikmati semua fitur yang ada)</string>
@@ -14,6 +14,6 @@
     <string name="hide_launcher_icon_explanation">Untuk menampilkan lagi ikon launcher, anda harus memasang ulang aplikasi. Jangan khawatir, anda tidak perlu membelinya lagi.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>

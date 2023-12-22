@@ -5,7 +5,7 @@
     <string name="main_text">سوپاس بۆ پاڵپشتیت!
 \n
 \nپەیامێک بنێرە بۆمان
-\n hello@simplemobiletools.com,
+\n hello@fossify.org,
 \n هەر سەرنج و تێبینی و پێشنیارێکت هەیە پێمان بڵێ.
 \n
 \n(تکایە ئەم بەرنامەیە لای خۆت بهێڵەوە و مەیسڕەوە بۆ ئەوەی تایبەتمەندییەکانی وەشانی پارەدان لەدەست نەدەیت)</string>
@@ -14,6 +14,6 @@
     <string name="hide_launcher_icon_explanation">بۆ دووبارە پیشاندانەوەی ئایکۆنەکە پێویستە دووبارە بەرنامەکە دابەزێنیتەوە، بێخەمبە پێویست ناکات دووبارە پارە بدەیتەوە.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>

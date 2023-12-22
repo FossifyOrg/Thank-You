@@ -1,8 +1,8 @@
-package com.simplemobiletools.thankyou.helpers
+package org.fossify.thankyou.helpers
 
 import android.content.Context
-import com.simplemobiletools.commons.helpers.BaseConfig
 import kotlinx.coroutines.flow.Flow
+import org.fossify.commons.helpers.BaseConfig
 
 class Config(context: Context) : BaseConfig(context) {
     companion object {

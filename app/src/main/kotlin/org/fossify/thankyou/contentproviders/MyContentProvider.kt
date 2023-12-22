@@ -1,17 +1,18 @@
-package com.simplemobiletools.thankyou.contentproviders
+package org.fossify.thankyou.contentproviders
 
 import android.content.ContentProvider
 import android.content.ContentValues
 import android.net.Uri
-import com.simplemobiletools.thankyou.dbhelpers.MyContentProviderDbHelper
-import com.simplemobiletools.thankyou.extensions.config
+import org.fossify.thankyou.dbhelpers.MyContentProviderDbHelper
+import org.fossify.thankyou.extensions.config
 
 class MyContentProvider : ContentProvider() {
     lateinit var dbHelper: MyContentProviderDbHelper
 
     override fun insert(uri: Uri, contentValues: ContentValues?) = null
 
-    override fun query(uri: Uri, projection: Array<out String>?, selection: String?, selectionArgs: Array<out String>?, sortOrder: String?) = dbHelper.getSharedTheme()
+    override fun query(uri: Uri, projection: Array<out String>?, selection: String?, selectionArgs: Array<out String>?, sortOrder: String?) =
+        dbHelper.getSharedTheme()
 
     override fun onCreate(): Boolean {
         dbHelper = MyContentProviderDbHelper.newInstance(context!!)

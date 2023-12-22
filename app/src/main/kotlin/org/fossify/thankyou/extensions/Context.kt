@@ -1,4 +1,4 @@
-package com.simplemobiletools.thankyou.extensions
+package org.fossify.thankyou.extensions
 
 import android.app.Activity
 import android.content.Context
@@ -7,19 +7,14 @@ import android.net.Uri
 import android.os.Build
 import android.provider.Settings
 import androidx.annotation.RequiresApi
-import com.simplemobiletools.commons.activities.AboutActivity
-import com.simplemobiletools.commons.activities.CustomizationActivity
-import com.simplemobiletools.commons.dialogs.ConfirmationDialog
-import com.simplemobiletools.commons.dialogs.WhatsNewDialog
-import com.simplemobiletools.commons.extensions.baseConfig
-import com.simplemobiletools.commons.extensions.hideKeyboard
-import com.simplemobiletools.commons.extensions.launchViewIntent
-import com.simplemobiletools.commons.extensions.openDeviceSettings
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.FAQItem
-import com.simplemobiletools.commons.models.Release
-import com.simplemobiletools.thankyou.R
-import com.simplemobiletools.thankyou.helpers.Config
+import org.fossify.commons.activities.AboutActivity
+import org.fossify.commons.activities.CustomizationActivity
+import org.fossify.commons.extensions.hideKeyboard
+import org.fossify.commons.extensions.openDeviceSettings
+import org.fossify.commons.helpers.*
+import org.fossify.commons.models.FAQItem
+import org.fossify.thankyou.R
+import org.fossify.thankyou.helpers.Config
 
 val Context.config: Config get() = Config.newInstance(applicationContext)
 

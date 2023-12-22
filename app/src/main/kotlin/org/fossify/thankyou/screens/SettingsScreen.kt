@@ -1,14 +1,14 @@
-package com.simplemobiletools.thankyou.screens
+package org.fossify.thankyou.screens
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.lists.SimpleColumnScaffold
-import com.simplemobiletools.commons.compose.settings.*
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
-import com.simplemobiletools.commons.helpers.isTiramisuPlus
+import org.fossify.commons.R
+import org.fossify.commons.compose.extensions.MyDevices
+import org.fossify.commons.compose.lists.SimpleColumnScaffold
+import org.fossify.commons.compose.settings.*
+import org.fossify.commons.compose.theme.AppThemeSurface
+import org.fossify.commons.compose.theme.SimpleTheme
+import org.fossify.commons.helpers.isTiramisuPlus
 
 @Composable
 internal fun SettingsScreen(
@@ -52,7 +52,7 @@ internal fun SettingsScreen(
                 )
             }
             SettingsCheckBoxComponent(
-                label = stringResource(id = com.simplemobiletools.thankyou.R.string.hide_launcher_icon),
+                label = stringResource(id = org.fossify.thankyou.R.string.hide_launcher_icon),
                 initialValue = isHidingLauncherIcon,
                 onChange = hideLauncherIconClick,
             )

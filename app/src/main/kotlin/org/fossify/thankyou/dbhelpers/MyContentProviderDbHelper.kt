@@ -1,21 +1,21 @@
-package com.simplemobiletools.thankyou.dbhelpers
+package org.fossify.thankyou.dbhelpers
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.helpers.MyContentProvider.Companion.COL_ACCENT_COLOR
-import com.simplemobiletools.commons.helpers.MyContentProvider.Companion.COL_APP_ICON_COLOR
-import com.simplemobiletools.commons.helpers.MyContentProvider.Companion.COL_BACKGROUND_COLOR
-import com.simplemobiletools.commons.helpers.MyContentProvider.Companion.COL_ID
-import com.simplemobiletools.commons.helpers.MyContentProvider.Companion.COL_LAST_UPDATED_TS
-import com.simplemobiletools.commons.helpers.MyContentProvider.Companion.COL_PRIMARY_COLOR
-import com.simplemobiletools.commons.helpers.MyContentProvider.Companion.COL_TEXT_COLOR
-import com.simplemobiletools.commons.helpers.MyContentProvider.Companion.fillThemeContentValues
-import com.simplemobiletools.commons.models.SharedTheme
-import com.simplemobiletools.thankyou.extensions.config
+import org.fossify.commons.R
+import org.fossify.commons.helpers.MyContentProvider.Companion.COL_ACCENT_COLOR
+import org.fossify.commons.helpers.MyContentProvider.Companion.COL_APP_ICON_COLOR
+import org.fossify.commons.helpers.MyContentProvider.Companion.COL_BACKGROUND_COLOR
+import org.fossify.commons.helpers.MyContentProvider.Companion.COL_ID
+import org.fossify.commons.helpers.MyContentProvider.Companion.COL_LAST_UPDATED_TS
+import org.fossify.commons.helpers.MyContentProvider.Companion.COL_PRIMARY_COLOR
+import org.fossify.commons.helpers.MyContentProvider.Companion.COL_TEXT_COLOR
+import org.fossify.commons.helpers.MyContentProvider.Companion.fillThemeContentValues
+import org.fossify.commons.models.SharedTheme
+import org.fossify.thankyou.extensions.config
 
 class MyContentProviderDbHelper private constructor(private val context: Context) : SQLiteOpenHelper(context, DB_NAME, null, DB_VERSION) {
     private val mDb = writableDatabase

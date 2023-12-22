@@ -1,7 +1,7 @@
-package com.simplemobiletools.thankyou
+package org.fossify.thankyou
 
 import android.app.Application
-import com.simplemobiletools.commons.extensions.checkUseEnglish
+import org.fossify.commons.extensions.checkUseEnglish
 
 class App : Application() {
     override fun onCreate() {

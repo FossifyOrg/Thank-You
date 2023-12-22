@@ -5,7 +5,7 @@
     <string name="main_text">Σας ευχαριστούμε που μας υποστηρίζετε!
 \n
 \nΑφήστε μας μια γραμμή στο
-\n hello@simplemobiletools.com,
+\n hello@fossify.org,
 \n\\ θα θέλαμε πολύ να ακούσουμε όλα τα σχόλιά σας και τις προτάσεις σας.
 \n
 \n(Διατηρήστε την εφαρμογή εγκατεστημένη για να αποφύγετε την εμφάνιση του παραθύρου διαλόγου \'Αγορά\' και ξεκλειδώστε όλες τις δυνατότητες εφαρμογής)</string>
@@ -14,6 +14,6 @@
     <string name="hide_launcher_icon_explanation">Για να εμφανιστεί ξανά το εικονίδιο εκκίνησης, θα πρέπει να εγκαταστήσετε ξανά την εφαρμογή. Μην ανησυχείτε, δεν θα χρειαστεί να πληρώσετε ξανά.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>

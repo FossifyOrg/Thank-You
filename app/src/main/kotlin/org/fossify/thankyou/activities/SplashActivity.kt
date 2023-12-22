@@ -1,7 +1,7 @@
-package com.simplemobiletools.thankyou.activities
+package org.fossify.thankyou.activities
 
 import android.content.Intent
-import com.simplemobiletools.commons.activities.BaseSplashActivity
+import org.fossify.commons.activities.BaseSplashActivity
 
 class SplashActivity : BaseSplashActivity() {
     override fun initActivity() {

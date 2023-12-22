@@ -5,7 +5,7 @@
     <string name="main_text">우리를 지원해 주셔서 감사합니다.
 \n
 \n아래 링크를 이용해서 당신의 의견과 제안내용을 보내주세요.
-\n hello@simplemobiletools.com
+\n hello@fossify.org
 \n우리는 당신의 의견과 제안을 듣는 것을 종아 합니다.
 \nSimple Thank You 런처 아이콘은 설정 메뉴의 옵션을 이용해서 숨길 수 있습니다.
 \n
@@ -15,6 +15,6 @@
     <string name="hide_launcher_icon_explanation">런처 아이콘이 다시 표시되게 하려면 앱을 다시 설치해야 합니다. 앱을 다시 설치해도 추가 결제가 되지 않으니 안심하셔도 됩니다.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>

@@ -12,7 +12,7 @@
         android:required="false" />
 
     <application
-        android:name=".App"
+        android:name="org.fossify.thankyou.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_launcher_name"
@@ -22,22 +22,22 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".activities.SplashActivity"
+            android:name="org.fossify.thankyou.activities.SplashActivity"
             android:theme="@style/SplashTheme" />
 
         <activity
-            android:name=".activities.MainActivity"
+            android:name="org.fossify.thankyou.activities.MainActivity"
             android:configChanges="orientation"
             android:enableOnBackInvokedCallback="true"
             android:exported="false" />
 
         <activity
-            android:name=".activities.SettingsActivity"
+            android:name="org.fossify.thankyou.activities.SettingsActivity"
             android:configChanges="orientation"
-            android:exported="true"
             android:enableOnBackInvokedCallback="true"
+            android:exported="true"
             android:label="@string/settings"
-            android:parentActivityName=".activities.MainActivity">
+            android:parentActivityName="org.fossify.thankyou.activities.MainActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
@@ -46,22 +46,22 @@
         </activity>
 
         <activity
-            android:name="com.simplemobiletools.commons.activities.AboutActivity"
+            android:name="org.fossify.commons.activities.AboutActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:label="@string/about"
-            android:parentActivityName=".activities.MainActivity" />
+            android:parentActivityName="org.fossify.thankyou.activities.MainActivity" />
 
         <activity
-            android:name="com.simplemobiletools.commons.activities.CustomizationActivity"
+            android:name="org.fossify.commons.activities.CustomizationActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:label="@string/customize_colors"
-            android:parentActivityName=".activities.SettingsActivity" />
+            android:parentActivityName="org.fossify.thankyou.activities.SettingsActivity" />
 
         <provider
-            android:name=".contentproviders.MyContentProvider"
-            android:authorities="com.simplemobiletools.commons.provider"
+            android:name="org.fossify.thankyou.contentproviders.MyContentProvider"
+            android:authorities="org.fossify.commons.provider"
             android:exported="true" />
 
         <activity-alias
@@ -70,7 +70,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_red"
             android:roundIcon="@mipmap/ic_launcher_red"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -84,7 +84,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_pink"
             android:roundIcon="@mipmap/ic_launcher_pink"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -98,7 +98,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_purple"
             android:roundIcon="@mipmap/ic_launcher_purple"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -112,7 +112,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_deep_purple"
             android:roundIcon="@mipmap/ic_launcher_deep_purple"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -126,7 +126,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_indigo"
             android:roundIcon="@mipmap/ic_launcher_indigo"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -140,7 +140,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_blue"
             android:roundIcon="@mipmap/ic_launcher_blue"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -154,7 +154,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_light_blue"
             android:roundIcon="@mipmap/ic_launcher_light_blue"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -168,7 +168,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_cyan"
             android:roundIcon="@mipmap/ic_launcher_cyan"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -182,7 +182,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_teal"
             android:roundIcon="@mipmap/ic_launcher_teal"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -196,7 +196,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_green"
             android:roundIcon="@mipmap/ic_launcher_green"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -210,7 +210,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_light_green"
             android:roundIcon="@mipmap/ic_launcher_light_green"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -224,7 +224,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_lime"
             android:roundIcon="@mipmap/ic_launcher_lime"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -238,7 +238,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_yellow"
             android:roundIcon="@mipmap/ic_launcher_yellow"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -252,7 +252,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_amber"
             android:roundIcon="@mipmap/ic_launcher_amber"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -266,7 +266,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher"
             android:roundIcon="@mipmap/ic_launcher"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -279,7 +279,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_deep_orange"
             android:roundIcon="@mipmap/ic_launcher_deep_orange"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -293,7 +293,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_brown"
             android:roundIcon="@mipmap/ic_launcher_brown"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -307,7 +307,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_blue_grey"
             android:roundIcon="@mipmap/ic_launcher_blue_grey"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -321,7 +321,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_grey_black"
             android:roundIcon="@mipmap/ic_launcher_grey_black"
-            android:targetActivity=".activities.SplashActivity">
+            android:targetActivity="org.fossify.thankyou.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

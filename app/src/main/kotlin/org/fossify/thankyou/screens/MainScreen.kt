@@ -1,16 +1,19 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.simplemobiletools.thankyou.screens
+package org.fossify.thankyou.screens
 
 import android.text.util.Linkify
 import android.view.Gravity
 import android.widget.TextView
 import androidx.compose.foundation.interaction.MutableInteractionSource
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.outlined.Info
-import androidx.compose.material3.*
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarScrollBehavior
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -18,15 +21,18 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.lists.*
-import com.simplemobiletools.commons.compose.menus.ActionItem
-import com.simplemobiletools.commons.compose.menus.ActionMenu
-import com.simplemobiletools.commons.compose.menus.OverflowMode
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
 import kotlinx.collections.immutable.toImmutableList
+import org.fossify.commons.R
+import org.fossify.commons.compose.extensions.MyDevices
+import org.fossify.commons.compose.lists.SimpleScaffold
+import org.fossify.commons.compose.lists.simpleTopAppBarColors
+import org.fossify.commons.compose.lists.topAppBarInsets
+import org.fossify.commons.compose.lists.topAppBarPaddings
+import org.fossify.commons.compose.menus.ActionItem
+import org.fossify.commons.compose.menus.ActionMenu
+import org.fossify.commons.compose.menus.OverflowMode
+import org.fossify.commons.compose.theme.AppThemeSurface
+import org.fossify.commons.compose.theme.SimpleTheme
 
 @Composable
 internal fun MainScreen(
@@ -55,7 +61,7 @@ internal fun MainScreen(
         AndroidView(
             factory = { context ->
                 TextView(context).apply {
-                    setText(com.simplemobiletools.thankyou.R.string.main_text)
+                    setText(org.fossify.thankyou.R.string.main_text)
                     textSize = 16.sp.value
                     setLineSpacing(3.dp.value, 1f)
                     gravity = Gravity.CENTER_HORIZONTAL

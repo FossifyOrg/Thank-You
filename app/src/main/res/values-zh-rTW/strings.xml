@@ -5,7 +5,7 @@
     <string name="main_text">感謝您支持我們!
 \n寫信給我們
 \n
-\n hello@simplemobiletools.com
+\n hello@fossify.org
 \n我們非常樂於聽取您所有的反饋和建議
 \n
 \n(請一直安裝著這程式以避免看見[購買]對話框，並解鎖應用程式全部功能)</string>
@@ -14,6 +14,6 @@
     <string name="hide_launcher_icon_explanation">想在啟動器再次顯示圖標，你必須重新安裝這程式。不用擔心，你不必再付費。</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>

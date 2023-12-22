@@ -5,7 +5,7 @@
     <string name="main_text">Kiitos tuestasi!
 \n
 \nLähetä ihmeessä palautetta osoitteeseen
-\n hello@simplemobiletools.com.
+\n hello@fossify.org.
 \n Kuulisimme kaikki mielipiteesi ja ehdotuksesi mielellämme.
 \n
 \n(Pidä sovellus asennettuna, jotta ostovalinnat pysyvät piilossa ja sovellusten kaikki ominaisuudet käytössäsi.)</string>
@@ -14,6 +14,6 @@
     <string name="hide_launcher_icon_explanation">Kuvakkeen pslautus vaatii sovelluksen uudelleenasennuksen. Ei huolta, sillä et kuitenkaan joudu ostamaan sitä uudelleen.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>

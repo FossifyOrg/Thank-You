@@ -5,7 +5,7 @@
     <string name="main_text">Dziękujemy za wsparcie!
 \n
 \nNapisz do nas na adres:
-\n hello@simplemobiletools.com
+\n hello@fossify.org
 \n Z przyjemnością posłuchamy Twoich opinii i sugestii.
 \n
 \n(Trzymaj tę aplikację zainstalowaną, aby unikać okna „Kup” i mieć odblokowane wszystkie funkcje.)</string>
@@ -14,6 +14,6 @@
     <string name="hide_launcher_icon_explanation">Aby ikona pojawiła się ponownie w launcherze, należy przeinstalować aplikację. Nie martw się — nie będziesz musiał(a) płacić ponownie za aplikację.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>
