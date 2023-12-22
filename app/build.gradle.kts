@@ -107,7 +107,7 @@ android {
 }
 
 dependencies {
-    implementation(libs.simple.tools.commons)
+    implementation(libs.fossify.commons)
     implementation(libs.bundles.lifecycle)
     implementation(libs.bundles.compose)
     debugImplementation(libs.bundles.compose.preview)

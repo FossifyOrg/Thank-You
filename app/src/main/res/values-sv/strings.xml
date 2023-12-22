@@ -5,7 +5,7 @@
     <string name="main_text">Tack för att du stödjer oss!
 \n
 \nSkriv till oss på
-\n hello@simplemobiletools.com,
+\n hello@fossify.org,
 \n vi vill gärna höra alla dina synpunkter och förslag.
 \n
 \n(Behåll appen installerad för att låsa upp alla appfunktioner och hindra dialogrutan \'Köp\' från att visas)</string>
@@ -14,6 +14,6 @@
     <string name="hide_launcher_icon_explanation">Om du vill visa appens ikon igen, måste du installera om appen. Oroa dig inte, du behöver inte betala igen.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>

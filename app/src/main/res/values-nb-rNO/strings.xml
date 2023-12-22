@@ -5,7 +5,7 @@
     <string name="main_text">Takk for at du støtter oss.
 \n
 \nSkriv til oss på
-\nhello@simplemobiletools.com
+\nhello@fossify.org
 \nVi setter pris på tilbakemeldinger.
 \n
 \n(Behold programmet installert for å unngå å se «Kjøp»-dialogen og for å ha alle funksjonene opplåst.)</string>
@@ -14,6 +14,6 @@
     <string name="hide_launcher_icon_explanation">Reinstaller programmet igjen for å se oppstarterikonet igjen. Du må ikke betale igjen.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>

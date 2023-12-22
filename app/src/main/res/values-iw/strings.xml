@@ -5,7 +5,7 @@
     <string name="main_text">תודה שתמכת בנו!
 \n
 \nפנה אלינו ב-
-\nhello@simplemobiletools.com,
+\nhello@fossify.org,
 \nנשמח לשמוע את כל המשוב וההצעות שלך.
 \n
 \n(אנא השאר את האפליקציה מותקנת כדי להימנע מלראות את תיבת הדו-שיח \'רכישה\' ולבטל את הנעילה של כל תכונות האפליקציה)</string>
@@ -14,6 +14,6 @@
     <string name="hide_launcher_icon_explanation">כדי שסמל המפעיל יוצג שוב, תצטרך להתקין מחדש את האפליקציה. אל תדאג, לא תצטרך לשלם שוב.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>

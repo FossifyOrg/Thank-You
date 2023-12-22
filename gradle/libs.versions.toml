@@ -1,8 +1,8 @@
 [versions]
 #jetbrains
 kotlin = "1.9.10"
-#Simple tools
-simple-commons = "fd497d3719"
+#Fossify
+commons = "8d12b39e48"
 #Compose
 composeActivity = "1.8.0"
 compose = "1.6.0-alpha07"
@@ -13,22 +13,22 @@ androidx-customView = "1.2.0-alpha02"
 androidx-customViewPooling = "1.0.0"
 androidx-lifecycle = "2.7.0-alpha02"
 #Gradle
-gradlePlugins-agp = "8.1.2"
+gradlePlugins-agp = "8.2.0"
 app-build-compileSDKVersion = "34"
 app-build-targetSDK = "34"
 app-build-minimumSDK = "23"
 app-build-javaVersion = "VERSION_17"
 app-build-kotlinJVMTarget = "17"
 #versioning
-app-version-appId = "com.simplemobiletools.thankyou"
-app-version-versionCode = "32"
-app-version-versionName = "5.8.0"
+app-version-appId = "org.fossify.thankyou"
+app-version-versionCode = "1"
+app-version-versionName = "1.0.0"
 [libraries]
 #Android X
 androidx-customView = { module = "androidx.customview:customview", version.ref = "androidx-customView" }
 androidx-customViewPooling = { module = "androidx.customview:customview-poolingcontainer", version.ref = "androidx-customViewPooling" }
-#Simple Mobile Tools
-simple-tools-commons = { module = "com.github.SimpleMobileTools:Simple-Commons", version.ref = "simple-commons" }
+#Fossify
+fossify-commons = { module = "org.fossify:commons", version.ref = "commons" }
 #Android X lifecycle
 androidx-lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidx-lifecycle" }
 androidx-lifecycle-viewModel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }

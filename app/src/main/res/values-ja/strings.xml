@@ -4,7 +4,7 @@
     <string name="app_launcher_name">感謝</string>
     <string name="main_text">応援ありがとうございます！
 \n
-\nhello@simplemobiletools.com
+\nhello@fossify.org
 \nまでご連絡ください。
 \n皆様のご意見、ご提案をお待ちしています。
 \n
@@ -14,6 +14,6 @@
     <string name="hide_launcher_icon_explanation">ランチャーアイコンを再度表示するには、アプリを再インストールする必要があります。支払いはもう次からはしなくても大丈夫です。</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>

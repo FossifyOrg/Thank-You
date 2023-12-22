@@ -5,7 +5,7 @@
     <string name="main_text">Gràcies per donar-nos suport!
 \n
 \nEnvieu-nos quatre línies a
-\n hola@simplemobiletools.com,
+\n hello@fossify.org,
 \n ens agradaria escoltar tots els vostres comentaris i suggeriments.
 \n
 \n(Si us plau, mantingueu l\'aplicació instal·lada per evitar veure el diàleg «Compra» i tenir totes les funcions desbloquejades de l\'aplicació)</string>
@@ -14,6 +14,6 @@
     <string name="hide_launcher_icon_explanation">Per tornar a mostrar la icona del llançador, cal tornar a instal·lar l\'aplicació. No us preocupeu, no cal tornar a pagar.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>

@@ -5,7 +5,7 @@
     <string name="main_text">Спасибо вам за поддержку!
 \n
 \nНапишите нам по адресу
-\n hello@simplemobiletools.com,
+\n hello@fossify.org,
 \n мы будем рады услышать все ваши отзывы и предложения.
 \n
 \n(Пожалуйста, сохраняйте приложение установленным, чтобы не видеть диалоговое окно \"Покупка\" и чтобы все функции приложения оставались разблокированными)</string>
@@ -14,6 +14,6 @@
     <string name="hide_launcher_icon_explanation">Чтобы значок снова появился, вам потребуется переустановить приложение. Не волнуйтесь, ещё раз платить не придётся.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>
