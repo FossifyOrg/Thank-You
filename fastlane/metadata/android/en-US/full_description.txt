@@ -6,9 +6,6 @@ By installing Fossify Thank You, you unlock every feature across our suite of ap
 🎨 Color Customization and Shared Themes:
 Take control of your experience with color customization. Fossify Thank You introduces Shared Themes, allowing color changes in one app to seamlessly update all others. It's a magical way to unify your app experience.
 
-⏳ Avoid Automatic Refunds:
-To ensure your support stays with us, please keep Fossify Thank You installed for at least a day to avoid automatic refunds.
-
 🎨 Material Design and Dark Theme:
 Experience a visually stunning interface with material design and a default dark theme. Fossify Thank You provides a great user experience for effortless navigation.
 
@@ -18,7 +15,7 @@ With no internet access, Fossify Thank You prioritizes your privacy, security, a
 💼 Not a Replacement for Pro Versions:
 While Fossify Thank You enhances your experience, it doesn't replace our Pro app versions. If you desire additional features, consider purchasing the Pro versions separately.
 
-Your support makes a real difference. Thank you for being a part of the Fossify community!
+Your support makes a real difference. Thank you for being a part of the Fossify community! To ensure your support stays with us, please keep Fossify Thank You installed for at least a day to avoid automatic refunds.
 
 Explore more apps by Fossify: https://www.fossify.org
 Source Code: https://www.github.com/FossifyOrg
