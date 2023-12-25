@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Simple Thank You</string>
     <string name="app_launcher_name">Thank You</string>
     <string name="main_text">感謝您支持我們!
 \n寫信給我們
