@@ -1,5 +1,5 @@
 # Fossify Thank You
-<img alt="Logo" src="graphics/icon.webp" width="192" />
+<img alt="Logo" src="graphics/icon.webp" width="120" />
 
 If you like our apps which are free, non-intrusive and have no ads, please consider supporting us in some way. It will be hugely appreciated.
 
