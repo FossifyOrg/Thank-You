@@ -8,11 +8,6 @@
 \n мы будем рады услышать все ваши отзывы и предложения.
 \n
 \n(Пожалуйста, сохраняйте приложение установленным, чтобы не видеть диалоговое окно \"Покупка\" и чтобы все функции приложения оставались разблокированными)</string>
-    <!-- Settings -->
     <string name="hide_launcher_icon">Скрыть значок приложения</string>
     <string name="hide_launcher_icon_explanation">Чтобы значок снова появился, вам потребуется переустановить приложение. Не волнуйтесь, ещё раз платить не придётся.</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

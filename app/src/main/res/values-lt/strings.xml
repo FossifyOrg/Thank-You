@@ -6,11 +6,6 @@
 \nParašykite mums adresu hello@fossify.org, mes norėtume išgirsti visus jūsų atsiliepimus ir pasiūlymus.
 \n
 \n(Prašome laikyti programėlę įdiegtą, kad nematytumėte  Pirkimo \" dialogo ir visos programėlės funkcijos bus atrakintos)"</string>
-    <!-- Settings -->
     <string name="hide_launcher_icon">Paslėpti paleidimo priemonės ikonelę</string>
     <string name="hide_launcher_icon_explanation">Kad paleidimo priemonės piktograma vėl būtų rodoma, turite iš naujo įdiegti programėlę. Nesijaudinkite, jūs neturite mokėti dar kartą.</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

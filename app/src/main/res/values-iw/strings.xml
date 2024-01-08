@@ -8,11 +8,6 @@
 \nנשמח לשמוע את כל המשוב וההצעות שלך.
 \n
 \n(אנא השאר את האפליקציה מותקנת כדי להימנע מלראות את תיבת הדו-שיח \'רכישה\' ולבטל את הנעילה של כל תכונות האפליקציה)</string>
-    <!-- Settings -->
     <string name="hide_launcher_icon">הסתר את סמל המפעיל</string>
     <string name="hide_launcher_icon_explanation">כדי שסמל המפעיל יוצג שוב, תצטרך להתקין מחדש את האפליקציה. אל תדאג, לא תצטרך לשלם שוב.</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

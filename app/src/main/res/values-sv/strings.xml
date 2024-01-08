@@ -8,11 +8,6 @@
 \n vi vill gärna höra alla dina synpunkter och förslag.
 \n
 \n(Behåll appen installerad för att låsa upp alla appfunktioner och hindra dialogrutan \'Köp\' från att visas)</string>
-    <!-- Settings -->
     <string name="hide_launcher_icon">Dölj appens ikon</string>
     <string name="hide_launcher_icon_explanation">Om du vill visa appens ikon igen, måste du installera om appen. Oroa dig inte, du behöver inte betala igen.</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

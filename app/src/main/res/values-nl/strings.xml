@@ -8,11 +8,6 @@
 \n we stellen alle feedback en suggesties erg op prijs.
 \n
 \n(Houd deze app geïnstalleerd om alle functies te ontgrendelen en om te voorkomen dat het venster \'Kopen\' wordt getoond)</string>
-    <!-- Settings -->
     <string name="hide_launcher_icon">Launcher-icoon verbergen</string>
     <string name="hide_launcher_icon_explanation">Om het launcher-icoon weer te tonen, deïnstalleer en herinstalleer de app. Wees niet bang, betalen hoeft maar een keer.</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

@@ -7,11 +7,6 @@
 \nмы будзем рады пачуць усе вашы водгукі і прапановы. 
 \n
 \n(Калі ласка, пакіньце праграму ўсталяванай, каб не бачыць дыялогавае акно «Купля» і каб усе функцыі праграмы былі разблакіраваны)</string>
-    <!-- Settings -->
     <string name="hide_launcher_icon">Схаваць значок праграмы запуску</string>
     <string name="hide_launcher_icon_explanation">Каб значок праграмы запуску зноў адлюстроўваўся, вам трэба будзе пераўсталяваць праграму. Не хвалюйцеся, вам больш не прыйдзецца плаціць.</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

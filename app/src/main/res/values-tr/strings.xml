@@ -8,11 +8,6 @@
 \n geri bildirimlerinizi ve önerilerinizi duymak isteriz.
 \n
 \n(Lütfen \'Satın Al\' penceresini görmemek ve tüm uygulama özelliklerini kullanmaya devam etmek için uygulamayı kurulu tutun)</string>
-    <!-- Settings -->
     <string name="hide_launcher_icon">Başlatıcı simgesini gizle</string>
     <string name="hide_launcher_icon_explanation">Başlatıcı simgesinin tekrar görüntülenmesi için uygulamayı yeniden kurmanız gerekir. Endişelenmeyin, tekrar ödeme yapmanız gerekmez.</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>
