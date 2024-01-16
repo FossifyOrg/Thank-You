@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_launcher_name">Gratias</string>
+    <string name="hide_launcher_icon">Celar le icone de lanceator</string>
+</resources>
