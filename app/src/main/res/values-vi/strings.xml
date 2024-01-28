@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_launcher_name">Cảm ơn bạn</string>
+    <string name="main_text">Cảm ơn bạn đã ủng hộ chúng tôi!
+\n
+\nGửi lời nhắn cho chúng tôi tại
+\n hello@fossify.org,
+\n chúng tôi muốn nghe tất cả phản hồi và đề xuất của bạn.
+\n
+\n(Vui lòng giữ ứng dụng cài đặt để tránh nhìn thấy hộp thoại \'Mua\' và giữ tất cả tính năng của ứng dụng được mở khóa)</string>
+    <string name="hide_launcher_icon">Ẩn biểu tượng trên trình khởi chạy</string>
+    <string name="hide_launcher_icon_explanation">Để biểu tượng trên trình khởi chạy hiện lại, bạn sẽ phải cài đặt lại ứng dụng. Đừng lo vì bạn sẽ không phải trả tiền lần nữa.</string>
+</resources>
