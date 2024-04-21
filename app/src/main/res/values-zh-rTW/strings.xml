@@ -9,4 +9,5 @@
 \n(請一直安裝著這程式以避免看見[購買]對話框，並解鎖應用程式全部功能)</string>
     <string name="hide_launcher_icon">在啟動器隱藏圖標</string>
     <string name="hide_launcher_icon_explanation">想在啟動器再次顯示圖標，你必須重新安裝這程式。不用擔心，你不必再付費。</string>
+    <string name="app_launcher_name">感謝</string>
 </resources>
