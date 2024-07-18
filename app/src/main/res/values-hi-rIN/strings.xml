@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="main_text">Thank you for supporting us!
+    <string name="main_text">हमें समर्थन करने के लिए आपको धन्यवाद!
 \n
-\nDrop us a line at
+\nहमें यहां एक पंक्ति लिखें
 \n hello@fossify.org,
-\n we\'d love to hear all your feedback and suggestions.
+\n हमें आपकी सभी प्रतिक्रियाएँ और सुझाव सुनना अच्छा लगेगा।
 \n
-\n(Please keep the app installed to avoid seeing the \'Purchase\' dialog and have all app features unlocked)</string>
-    </resources>
+\n(कृपया \'खरीदारी\' डायलॉग देखने से बचने के लिए ऐप इंस्टॉल रखें और ऐप की सभी सुविधाएं अनलॉक रखें)</string>
+    <string name="app_launcher_name">धन्यवाद</string>
+    <string name="hide_launcher_icon">लॉन्चर आइकन छिपाएँ</string>
+    <string name="hide_launcher_icon_explanation">लॉन्चर आइकन को दोबारा प्रदर्शित करने के लिए, आपको ऐप को फिर से इंस्टॉल करना होगा। चिंता न करें, आपको दोबारा भुगतान नहीं करना पड़ेगा।</string>
+</resources>
