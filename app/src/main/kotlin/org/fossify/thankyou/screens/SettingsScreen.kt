@@ -51,7 +51,7 @@ internal fun SettingsScreen(
                     preferenceLabelColor = SimpleTheme.colorScheme.onSurface,
                 )
             }
-            SettingsCheckBoxComponent(
+            SettingsSwitchComponent(
                 label = stringResource(id = org.fossify.thankyou.R.string.hide_launcher_icon),
                 initialValue = isHidingLauncherIcon,
                 onChange = hideLauncherIconClick,
