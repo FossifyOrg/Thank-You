@@ -1,6 +1,7 @@
 package org.fossify.thankyou.activities
 
 import android.annotation.SuppressLint
+import android.content.ContentValues
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -15,6 +16,8 @@ import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.dialogs.ConfirmationAdvancedAlertDialog
 import org.fossify.commons.extensions.getAppIconColors
 import org.fossify.commons.extensions.toggleAppIconColor
+import org.fossify.commons.extensions.updateGlobalConfig
+import org.fossify.commons.helpers.MyContentProvider
 import org.fossify.commons.helpers.isTiramisuPlus
 import org.fossify.thankyou.BuildConfig
 import org.fossify.thankyou.R
@@ -38,6 +41,7 @@ class SettingsActivity : ComponentActivity() {
                 val wasUseEnglishToggledFlow by preferences.wasUseEnglishToggledFlow.collectAsStateWithLifecycle(preferences.wasUseEnglishToggled)
                 val useEnglishFlow by preferences.useEnglishFlow.collectAsStateWithLifecycle(preferences.useEnglish)
                 val hideLauncherIconFlow by preferences.hideLauncherIconFlow.collectAsStateWithLifecycle(preferences.hideLauncherIcon)
+                val showCheckmarksOnSwitches by preferences.showCheckmarksOnSwitchesFlow.collectAsStateWithLifecycle(preferences.showCheckmarksOnSwitches)
                 val displayLanguage = remember { Locale.getDefault().displayLanguage }
                 val isUseEnglishEnabled by remember(wasUseEnglishToggledFlow) {
                     derivedStateOf {
@@ -50,6 +54,7 @@ class SettingsActivity : ComponentActivity() {
                     displayLanguage = displayLanguage,
                     isUseEnglishEnabled = isUseEnglishEnabled,
                     isUseEnglishChecked = useEnglishFlow,
+                    isShowingCheckmarksOnSwitches = showCheckmarksOnSwitches,
                     onUseEnglishPress = { isChecked ->
                         preferences.useEnglish = isChecked
                         exitProcess(0)
@@ -63,6 +68,14 @@ class SettingsActivity : ComponentActivity() {
                             toggleHideLauncherIcon()
                             preferences.hideLauncherIcon = false
                         }
+                    },
+                    showCheckmarksOnSwitches = { isChecked ->
+                        preferences.showCheckmarksOnSwitches = isChecked
+                        updateGlobalConfig(
+                            contentValues = ContentValues().apply {
+                                put(MyContentProvider.COL_SHOW_CHECKMARKS_ON_SWITCHES, isChecked)
+                            }
+                        )
                     },
                     customizeColors = ::startCustomizationActivity,
                     goBack = ::finish

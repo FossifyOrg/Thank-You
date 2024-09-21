@@ -11,8 +11,12 @@
         android:name="android.hardware.faketouch"
         android:required="false" />
 
+    <permission
+        android:name="org.fossify.android.permission.WRITE_GLOBAL_SETTINGS"
+        android:protectionLevel="signature" />
+
     <application
-        android:name="org.fossify.thankyou.App"
+        android:name="org.fossify.commons.FossifyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_launcher_name"
@@ -61,8 +65,9 @@
 
         <provider
             android:name="org.fossify.thankyou.contentproviders.MyContentProvider"
-            android:authorities="org.fossify.commons.provider"
-            android:exported="true" />
+            android:authorities="org.fossify.android.provider"
+            android:exported="true"
+            android:permission="org.fossify.android.permission.WRITE_GLOBAL_SETTINGS" />
 
         <activity-alias
             android:name=".activities.SplashActivity.Red"

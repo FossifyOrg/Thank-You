@@ -16,9 +16,11 @@ internal fun SettingsScreen(
     isUseEnglishEnabled: Boolean,
     isUseEnglishChecked: Boolean,
     isHidingLauncherIcon: Boolean,
+    isShowingCheckmarksOnSwitches: Boolean,
     onUseEnglishPress: (Boolean) -> Unit,
     onSetupLanguagePress: () -> Unit,
     hideLauncherIconClick: (Boolean) -> Unit,
+    showCheckmarksOnSwitches: (Boolean) -> Unit,
     customizeColors: () -> Unit,
     goBack: () -> Unit,
 ) {
@@ -55,6 +57,18 @@ internal fun SettingsScreen(
                 label = stringResource(id = org.fossify.thankyou.R.string.hide_launcher_icon),
                 initialValue = isHidingLauncherIcon,
                 onChange = hideLauncherIconClick,
+                showCheckmark = isShowingCheckmarksOnSwitches
+            )
+        }
+        SettingsHorizontalDivider()
+        SettingsGroup(title = {
+            SettingsTitleTextComponent(text = stringResource(id = R.string.all_fossify_apps))
+        }) {
+            SettingsSwitchComponent(
+                label = stringResource(id = org.fossify.thankyou.R.string.show_checkmarks_on_switches),
+                initialValue = isShowingCheckmarksOnSwitches,
+                onChange = showCheckmarksOnSwitches,
+                showCheckmark = isShowingCheckmarksOnSwitches
             )
         }
     }
@@ -69,9 +83,11 @@ private fun SettingsScreenPreview() {
             isUseEnglishEnabled = false,
             isUseEnglishChecked = false,
             isHidingLauncherIcon = false,
+            isShowingCheckmarksOnSwitches = false,
             onUseEnglishPress = {},
             onSetupLanguagePress = {},
             hideLauncherIconClick = {},
+            showCheckmarksOnSwitches = {},
             customizeColors = {},
             goBack = {},
         )
