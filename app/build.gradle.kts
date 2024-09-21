@@ -104,6 +104,13 @@ android {
         checkReleaseBuilds = false
         abortOnError = false
     }
+
+    bundle {
+        language {
+            @Suppress("UnstableApiUsage")
+            enableSplit = false
+        }
+    }
 }
 
 dependencies {
