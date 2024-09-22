@@ -7,7 +7,8 @@
 \nhello@fossify.org,
 \n we stellen alle feedback en suggesties erg op prijs.
 \n
-\n(Houd deze app geïnstalleerd om alle functies te ontgrendelen en om te voorkomen dat het venster \'Kopen\' wordt getoond)</string>
+\n(Houd deze app geïnstalleerd om alle functies te ontgrendelen)</string>
     <string name="hide_launcher_icon">Launcher-icoon verbergen</string>
     <string name="hide_launcher_icon_explanation">Om het launcher-icoon weer te tonen, de-installeer en herinstalleer de app. Wees niet bang, betalen hoeft maar een keer.</string>
+    <string name="show_checkmarks_on_switches">Vinkjes op schakelaars tonen</string>
 </resources>
