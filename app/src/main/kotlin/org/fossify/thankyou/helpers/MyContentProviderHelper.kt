@@ -17,7 +17,10 @@ import org.fossify.commons.helpers.MyContentProvider.COL_TEXT_COLOR
 import org.fossify.commons.helpers.MyContentProvider.COL_THEME_TYPE
 import org.fossify.commons.helpers.MyContentProvider.GLOBAL_THEME_DISABLED
 
-class MyContentProviderHelper private constructor(private val context: Context) : SQLiteOpenHelper(context, DB_NAME, null, DB_VERSION) {
+class MyContentProviderHelper private constructor(
+    private val context: Context
+) : SQLiteOpenHelper(context, DB_NAME, null, DB_VERSION) {
+
     private val db = writableDatabase
 
     companion object {
@@ -84,7 +87,10 @@ class MyContentProviderHelper private constructor(private val context: Context) 
         val selectionArgs = arrayOf(PREF_ID.toString())
         var cursor: Cursor? = null
         try {
-            cursor = db.query(TABLE_NAME, cols, selection, selectionArgs, null, null, null)
+            cursor = db.query(
+                TABLE_NAME, cols, selection, selectionArgs, null, null, null
+            )
+
             return cursor.moveToFirst()
         } finally {
             cursor?.close()
@@ -105,6 +111,8 @@ class MyContentProviderHelper private constructor(private val context: Context) 
 
         val selection = "$COL_ID = ?"
         val selectionArgs = arrayOf(PREF_ID.toString())
-        return db.query(TABLE_NAME, columns, selection, selectionArgs, null, null, null)
+        return db.query(
+            TABLE_NAME, columns, selection, selectionArgs, null, null, null
+        )
     }
 }
