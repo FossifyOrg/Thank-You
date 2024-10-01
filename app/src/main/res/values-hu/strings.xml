@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_launcher_name">Köszönet</string>
-    <string name="main_text">Köszönjük, hogy támogat minket!
+    <string name="main_text">"Köszönjük, hogy támogat minket!
 \n
-\nÍrjunk nekik a következő címre:
+\nÍrjunk nekük a következő címre:
 \n hello@fossify.org,
-\n szeretnénk hallani a visszajelzéseit és javaslatait.
+\n  szívesen meghallgatnánk minden visszajelzést és javaslatot.
 \n
-\n(Hagyja telepítve az alkalmazást, hogy ne jelenjen meg a „Megvásárlás” párbeszédablak és az összes alkalmazásfunkció működjön)</string>
+\n(Az összes alkalmazásfunkció működéséhez hagyja telepítve az alkalmazást)"</string>
     <string name="hide_launcher_icon">Indítóikon elrejtése</string>
     <string name="hide_launcher_icon_explanation">Hogy újra megjelenjen az indítóikon, újra kell telepítenie az alkalmazást. Ne aggódjon, nem kell újra fizetnie.</string>
+    <string name="show_checkmarks_on_switches">Jelölések megjelenítése a kapcsolókon</string>
 </resources>
