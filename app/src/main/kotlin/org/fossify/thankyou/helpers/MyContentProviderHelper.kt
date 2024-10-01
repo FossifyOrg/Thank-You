@@ -2,10 +2,14 @@ package org.fossify.thankyou.helpers
 
 import android.content.ContentValues
 import android.content.Context
+import android.content.Intent
+import android.content.Intent.FLAG_INCLUDE_STOPPED_PACKAGES
+import android.content.pm.PackageManager.SIGNATURE_MATCH
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import org.fossify.commons.R
+import org.fossify.commons.helpers.MyContentProvider.ACTION_GLOBAL_CONFIG_UPDATED
 import org.fossify.commons.helpers.MyContentProvider.COL_ACCENT_COLOR
 import org.fossify.commons.helpers.MyContentProvider.COL_APP_ICON_COLOR
 import org.fossify.commons.helpers.MyContentProvider.COL_BACKGROUND_COLOR
@@ -78,7 +82,12 @@ class MyContentProviderHelper private constructor(
 
         val selection = "$COL_ID = ?"
         val selectionArgs = arrayOf(PREF_ID.toString())
-        return db.update(TABLE_NAME, values, selection, selectionArgs)
+        val rowsChanged = db.update(TABLE_NAME, values, selection, selectionArgs)
+        if (rowsChanged > 0) {
+            broadcastChanges()
+        }
+
+        return rowsChanged
     }
 
     private fun isPreferenceInitialized(): Boolean {
@@ -114,5 +123,24 @@ class MyContentProviderHelper private constructor(
         return db.query(
             TABLE_NAME, columns, selection, selectionArgs, null, null, null
         )
+    }
+
+    private fun broadcastChanges() {
+        val intent = Intent(ACTION_GLOBAL_CONFIG_UPDATED).apply {
+            addFlags(FLAG_INCLUDE_STOPPED_PACKAGES)
+        }
+
+        val packageName = context.packageName
+        val packageManager = context.packageManager
+        val packages = packageManager.queryBroadcastReceivers(intent, 0)
+            .map { it.activityInfo.applicationInfo.packageName }
+            .filter {
+                packageManager.checkSignatures(packageName, it) == SIGNATURE_MATCH
+            }
+
+        for (`package` in packages) {
+            intent.setPackage(`package`)
+            context.sendBroadcast(intent)
+        }
     }
 }
