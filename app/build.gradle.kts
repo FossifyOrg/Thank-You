@@ -124,5 +124,6 @@ dependencies {
     implementation(libs.fossify.commons)
     implementation(libs.bundles.lifecycle)
     implementation(libs.bundles.compose)
+    implementation(libs.accompanist.drawablepainter)
     debugImplementation(libs.bundles.compose.preview)
 }

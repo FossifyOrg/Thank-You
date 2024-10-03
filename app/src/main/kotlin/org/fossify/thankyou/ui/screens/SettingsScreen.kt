@@ -1,4 +1,4 @@
-package org.fossify.thankyou.screens
+package org.fossify.thankyou.ui.screens
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource

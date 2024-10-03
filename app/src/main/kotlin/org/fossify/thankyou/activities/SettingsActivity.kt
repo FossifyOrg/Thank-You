@@ -24,7 +24,7 @@ import org.fossify.thankyou.R
 import org.fossify.thankyou.extensions.config
 import org.fossify.thankyou.extensions.launchChangeAppLanguageIntent
 import org.fossify.thankyou.extensions.startCustomizationActivity
-import org.fossify.thankyou.screens.SettingsScreen
+import org.fossify.thankyou.ui.screens.SettingsScreen
 import java.util.Locale
 import kotlin.system.exitProcess
 
@@ -91,8 +91,8 @@ class SettingsActivity : ComponentActivity() {
                 ConfirmationAdvancedAlertDialog(
                     alertDialogState = this,
                     messageId = R.string.hide_launcher_icon_explanation,
-                    positive = R.string.ok,
-                    negative = R.string.cancel
+                    positive = org.fossify.commons.R.string.ok,
+                    negative = org.fossify.commons.R.string.cancel
                 ) { hideIcon ->
                     preferences.hideLauncherIcon = hideIcon
                     if (hideIcon) {

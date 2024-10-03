@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:installLocation="auto">
 
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+
     <uses-permission
         android:name="android.permission.USE_FINGERPRINT"
         tools:node="remove" />
@@ -14,6 +16,52 @@
     <permission
         android:name="org.fossify.android.permission.WRITE_GLOBAL_SETTINGS"
         android:protectionLevel="signature" />
+
+    <queries>
+        <package android:name="org.fossify.appdrawer" />
+        <package android:name="org.fossify.appdrawer.debug" />
+        <package android:name="org.fossify.calculator" />
+        <package android:name="org.fossify.calculator.debug" />
+        <package android:name="org.fossify.calendar" />
+        <package android:name="org.fossify.calendar.debug" />
+        <package android:name="org.fossify.camera" />
+        <package android:name="org.fossify.camera.debug" />
+        <package android:name="org.fossify.clock" />
+        <package android:name="org.fossify.clock.debug" />
+        <package android:name="org.fossify.commons.samples" />
+        <package android:name="org.fossify.commons.samples.debug" />
+        <package android:name="org.fossify.contacts" />
+        <package android:name="org.fossify.contacts.debug" />
+        <package android:name="org.fossify.documents" />
+        <package android:name="org.fossify.documents.debug" />
+        <package android:name="org.fossify.draw" />
+        <package android:name="org.fossify.draw.debug" />
+        <package android:name="org.fossify.filemanager" />
+        <package android:name="org.fossify.filemanager.debug" />
+        <package android:name="org.fossify.flashlight" />
+        <package android:name="org.fossify.flashlight.debug" />
+        <package android:name="org.fossify.gallery" />
+        <package android:name="org.fossify.gallery.debug" />
+        <package android:name="org.fossify.keyboard" />
+        <package android:name="org.fossify.keyboard.debug" />
+        <package android:name="org.fossify.launcher" />
+        <package android:name="org.fossify.launcher.debug" />
+        <package android:name="org.fossify.messages" />
+        <package android:name="org.fossify.messages.debug" />
+        <package android:name="org.fossify.musicplayer" />
+        <package android:name="org.fossify.musicplayer.debug" />
+        <package android:name="org.fossify.notes" />
+        <package android:name="org.fossify.notes.debug" />
+        <package android:name="org.fossify.phone" />
+        <package android:name="org.fossify.phone.debug" />
+        <package android:name="org.fossify.thankyou.debug" />
+        <package android:name="org.fossify.voicerecorder" />
+        <package android:name="org.fossify.voicerecorder.debug" />
+        <package android:name="org.fdroid.fdroid" />
+        <package android:name="dev.imranr.obtainium" />
+        <package android:name="dev.imranr.obtainium.fdroid" />
+        <package android:name="com.aurora.store" />
+    </queries>
 
     <application
         android:name="org.fossify.commons.FossifyApp"
