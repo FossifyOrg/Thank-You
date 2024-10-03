@@ -1,5 +1,6 @@
 package org.fossify.thankyou.extensions
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
@@ -26,6 +27,7 @@ fun Context.getFossifyAppsFlow(
     value = { getApps() }
 )
 
+@SuppressLint("QueryPermissionsNeeded")
 fun Context.getAllFossifyApps(): List<FossifyApp> {
     val packageName = packageName
     return with(packageManager) {
@@ -48,6 +50,7 @@ fun Context.getAllFossifyApps(): List<FossifyApp> {
     }
 }
 
+@SuppressLint("QueryPermissionsNeeded")
 fun Context.getFakeFossifyApps(): List<FossifyApp> {
     val packageName = packageName
     return with(packageManager) {
