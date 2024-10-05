@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_launcher_name">Gracias</string>
-    <string name="main_text">¡Gracias por apoyarnos!
+    <string name="main_text">Gracias por apoyarnos!
 \n
-\nEscríbenos a
+\nEscríbe a
 \n hello@fossify.org,
-\n nos encantaría escuchar tus comentarios y sugerencias.
+\n nos encantaría escuchar todos tus comentarios y sugerencias.
 \n
-\n(Por favor, mantenga la aplicación instalada para mantener todas las funciones de la aplicación desbloqueada)</string>
-    <string name="hide_launcher_icon">Oculta el icono del lanzador</string>
-    <string name="hide_launcher_icon_explanation">Para que el icono del aplicación vuelva a aparecer, tendrás que volver a instalar la aplicación. No te preocupes, no tendrás que volver a pagar.</string>
+\n(Por favor, mantén la aplicación instalada para evitar ver el cuadro de diálogo \"Comprar\" y tener todas las funciones de la aplicación desbloqueadas)</string>
     <string name="show_checkmarks_on_switches">Mostrar marcas de verificación en los interruptores</string>
 </resources>

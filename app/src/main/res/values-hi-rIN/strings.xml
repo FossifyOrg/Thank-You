@@ -8,6 +8,4 @@
 \n
 \n(कृपया \'खरीदारी\' डायलॉग देखने से बचने के लिए ऐप इंस्टॉल रखें और ऐप की सभी सुविधाएं अनलॉक रखें)</string>
     <string name="app_launcher_name">धन्यवाद</string>
-    <string name="hide_launcher_icon">लॉन्चर आइकन छिपाएँ</string>
-    <string name="hide_launcher_icon_explanation">लॉन्चर आइकन को दोबारा प्रदर्शित करने के लिए, आपको ऐप को फिर से इंस्टॉल करना होगा। चिंता न करें, आपको दोबारा भुगतान नहीं करना पड़ेगा।</string>
 </resources>

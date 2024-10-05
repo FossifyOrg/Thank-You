@@ -7,8 +7,6 @@
 \n hello@fossify.org,
 \n wir freuen uns über jede Rückmeldung und jeden Vorschlag.
 \n
-\n(Bitte diese App installiert lassen, damit alle Funktionen freigeschaltet bleiben)</string>
-    <string name="hide_launcher_icon">Das Launcher-Symbol ausblenden</string>
-    <string name="hide_launcher_icon_explanation">Um die App im Menü wieder anzuzeigen, muss sie neu installiert werden. Keine Sorge, die App muss nicht erneut gekauft werden.</string>
+\n(Bitte diese App installiert lassen, um den „Kaufen“-Dialog auszublenden und alle Features der App freizuschalten)</string>
     <string name="show_checkmarks_on_switches">Häkchen bei Schaltern anzeigen</string>
 </resources>

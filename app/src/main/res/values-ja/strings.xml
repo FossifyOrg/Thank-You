@@ -8,6 +8,4 @@
 \n皆様のご意見、ご提案をお待ちしています。
 \n
 \n(購入ダイアログが表示されないように、アプリをインストールしたままにして、すべてのアプリ機能をロック解除してください)</string>
-    <string name="hide_launcher_icon">ランチャーアイコンを非表示にする</string>
-    <string name="hide_launcher_icon_explanation">ランチャーアイコンを再度表示するには、アプリを再インストールする必要があります。支払いはもう次からはしなくても大丈夫です。</string>
 </resources>

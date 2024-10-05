@@ -10,8 +10,6 @@
     <string name="signed_by">Signed by: %1$s</string>
 
     <!-- Settings -->
-    <string name="hide_launcher_icon">Hide the launcher icon</string>
-    <string name="hide_launcher_icon_explanation">To have the launcher icon displayed again, you will have to reinstall the app. Don\'t worry, you won\'t have to pay again.</string>
     <string name="show_checkmarks_on_switches">Show checkmarks on switches</string>
     <!--
         Haven't found some strings? There's more at

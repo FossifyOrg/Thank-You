@@ -9,7 +9,6 @@ class Config(context: Context) : BaseConfig(context) {
         fun newInstance(context: Context) = Config(context)
 
         const val SHOW_THANK_YOU_NOTICE = "show_thank_you_notice"
-        const val HIDE_LAUNCHER_ICON = "hide_launcher_icon"
     }
 
     var showThankYouNotice: Boolean
@@ -18,12 +17,5 @@ class Config(context: Context) : BaseConfig(context) {
             SHOW_THANK_YOU_NOTICE, showThankYouNotice
         ).apply()
 
-    var hideLauncherIcon: Boolean
-        get() = prefs.getBoolean(HIDE_LAUNCHER_ICON, false)
-        set(hideLauncherIcon) = prefs.edit().putBoolean(
-            HIDE_LAUNCHER_ICON, hideLauncherIcon
-        ).apply()
-
-    val hideLauncherIconFlow: Flow<Boolean> = ::hideLauncherIcon.asFlowNonNull()
     val showThankYouNoticeFlow: Flow<Boolean> = ::showThankYouNotice.asFlowNonNull()
 }

@@ -7,8 +7,6 @@
 \n hello@fossify.org,
 \n rádi uslyšíme jakoukoliv zpětnou vazbu a doporučení.
 \n
-\n(Ponechejte si prosím aplikaci nainstalovanou, aby vám zůstaly všechny funkce aplikací odemčené)</string>
-    <string name="hide_launcher_icon">Skrýt spouštěcí ikonu</string>
-    <string name="hide_launcher_icon_explanation">Pro opětovné zobrazení ikony budete muset aplikaci přeinstalovat. Nebojte se však, nebudete muset znovu platit.</string>
+\n(Ponechejte si prosím aplikaci nainstalovanou, aby se vám nezobrazoval dialog „Podpořte nás“ a měli jste všechny funkce aplikací odemknuté)</string>
     <string name="show_checkmarks_on_switches">Zobrazit zaškrtávátka na přepínačích</string>
 </resources>

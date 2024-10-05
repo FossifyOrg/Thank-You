@@ -7,8 +7,6 @@
 \n adresinden bize mesaj bırakın,
 \n geri bildirimlerinizi ve önerilerinizi duymak isteriz.
 \n
-\n(Lütfen tüm uygulama özelliklerini kullanmaya devam etmek için uygulamayı kurulu tutun)</string>
-    <string name="hide_launcher_icon">Başlatıcı simgesini gizle</string>
-    <string name="hide_launcher_icon_explanation">Başlatıcı simgesinin tekrar görüntülenmesi için uygulamayı yeniden kurmanız gerekir. Endişelenmeyin, tekrar ödeme yapmanız gerekmez.</string>
+\n(Lütfen \'Satın Al\' penceresini görmemek ve tüm uygulama özelliklerini kullanmaya devam etmek için uygulamayı kurulu tutun)</string>
     <string name="show_checkmarks_on_switches">Geçiş düğmelerinde onay işaretlerini göster</string>
 </resources>

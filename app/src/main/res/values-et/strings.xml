@@ -7,8 +7,6 @@
 \n hello@fossify.org aadressil
 \n ja kirjelda meile oma ettepanekuid ja soove.
 \n
-\n(Kui see rakendus on nutiseadmes olemas, siis on Fossify rakendused saadaval täisfunktsionaalsuses)</string>
-    <string name="hide_launcher_icon">Peida rakenduse ikoon</string>
-    <string name="hide_launcher_icon_explanation">Kui soovid rakenduse ikooni uuesti näha, siis paigalda rakendus uuesti. Ära muretse, uuesti maksta pole vaja.</string>
+\n(Kui see rakendus on nutiseadmes olemas, siis ei teki ka „Ostupakkumiste“ akent ning rakenduse kõik valikud on saadaval)</string>
     <string name="show_checkmarks_on_switches">Näita lülitusnuppudel linnukesi</string>
 </resources>

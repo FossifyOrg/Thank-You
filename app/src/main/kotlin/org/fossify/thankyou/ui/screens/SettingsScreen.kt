@@ -5,7 +5,12 @@ import androidx.compose.ui.res.stringResource
 import org.fossify.commons.R
 import org.fossify.commons.compose.extensions.MyDevices
 import org.fossify.commons.compose.lists.SimpleColumnScaffold
-import org.fossify.commons.compose.settings.*
+import org.fossify.commons.compose.settings.SettingsCheckBoxComponent
+import org.fossify.commons.compose.settings.SettingsGroup
+import org.fossify.commons.compose.settings.SettingsHorizontalDivider
+import org.fossify.commons.compose.settings.SettingsPreferenceComponent
+import org.fossify.commons.compose.settings.SettingsSwitchComponent
+import org.fossify.commons.compose.settings.SettingsTitleTextComponent
 import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.compose.theme.SimpleTheme
 import org.fossify.commons.helpers.isTiramisuPlus
@@ -15,11 +20,9 @@ internal fun SettingsScreen(
     displayLanguage: String,
     isUseEnglishEnabled: Boolean,
     isUseEnglishChecked: Boolean,
-    isHidingLauncherIcon: Boolean,
     isShowingCheckmarksOnSwitches: Boolean,
     onUseEnglishPress: (Boolean) -> Unit,
     onSetupLanguagePress: () -> Unit,
-    hideLauncherIconClick: (Boolean) -> Unit,
     showCheckmarksOnSwitches: (Boolean) -> Unit,
     customizeColors: () -> Unit,
     goBack: () -> Unit,
@@ -53,12 +56,6 @@ internal fun SettingsScreen(
                     preferenceLabelColor = SimpleTheme.colorScheme.onSurface,
                 )
             }
-            SettingsSwitchComponent(
-                label = stringResource(id = org.fossify.thankyou.R.string.hide_launcher_icon),
-                initialValue = isHidingLauncherIcon,
-                onChange = hideLauncherIconClick,
-                showCheckmark = isShowingCheckmarksOnSwitches
-            )
         }
         SettingsHorizontalDivider()
         SettingsGroup(title = {
@@ -82,11 +79,9 @@ private fun SettingsScreenPreview() {
             displayLanguage = "English",
             isUseEnglishEnabled = false,
             isUseEnglishChecked = false,
-            isHidingLauncherIcon = false,
             isShowingCheckmarksOnSwitches = false,
             onUseEnglishPress = {},
             onSetupLanguagePress = {},
-            hideLauncherIconClick = {},
             showCheckmarksOnSwitches = {},
             customizeColors = {},
             goBack = {},
