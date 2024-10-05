@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_launcher_name">Gracias</string>
-    <string name="main_text">Gracias por apoyarnos!
-\n
-\nEscríbe a
-\n hello@fossify.org,
-\n nos encantaría escuchar todos tus comentarios y sugerencias.
-\n
-\n(Por favor, mantén la aplicación instalada para evitar ver el cuadro de diálogo \"Comprar\" y tener todas las funciones de la aplicación desbloqueadas)</string>
+    <string name="main_text">¡Gracias por su apoyo!\n\nEscríbenos a\n hello@fossify.org,\n nos encantaría escuchar tus comentarios y sugerencias.\n\n(Por favor, mantenga la aplicación instalada para mantener todas las funciones de la aplicación desbloqueada)</string>
     <string name="show_checkmarks_on_switches">Mostrar marcas de verificación en los interruptores</string>
     <string name="potentially_unsafe_apps">Aplicaciones potencialmente inseguras</string>
     <string name="installed_fossify_apps">Aplicaciones Fossify instaladas</string>
