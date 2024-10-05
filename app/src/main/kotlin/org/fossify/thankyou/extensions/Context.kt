@@ -19,7 +19,12 @@ import org.fossify.thankyou.helpers.Config
 val Context.config: Config get() = Config.newInstance(applicationContext)
 
 internal fun Activity.startAboutActivity(
-    appNameId: Int, licenseMask: Long, versionName: String, faqItems: ArrayList<FAQItem>, showFAQBeforeMail: Boolean,
+    appNameId: Int,
+    licenseMask: Long,
+    versionName: String,
+    packageName: String,
+    faqItems: ArrayList<FAQItem>,
+    showFAQBeforeMail: Boolean,
     getAppIconIDs: ArrayList<Int> = getAppIconIDs(),
     getAppLauncherName: String = launcherName()
 ) {
@@ -30,6 +35,7 @@ internal fun Activity.startAboutActivity(
         putExtra(APP_NAME, getString(appNameId))
         putExtra(APP_LICENSES, licenseMask)
         putExtra(APP_VERSION_NAME, versionName)
+        putExtra(APP_PACKAGE_NAME, packageName)
         putExtra(APP_FAQ, faqItems)
         putExtra(SHOW_FAQ_BEFORE_MAIL, showFAQBeforeMail)
         startActivity(this)

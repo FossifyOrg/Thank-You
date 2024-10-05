@@ -3,7 +3,6 @@ package org.fossify.thankyou.activities
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
@@ -14,6 +13,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import kotlinx.collections.immutable.toImmutableList
+import org.fossify.commons.activities.BaseComposeActivity
 import org.fossify.commons.compose.alert_dialog.AlertDialogState
 import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
 import org.fossify.commons.compose.extensions.appLaunchedCompose
@@ -40,7 +40,7 @@ import org.fossify.thankyou.extensions.getFossifyAppsFlow
 import org.fossify.thankyou.extensions.startAboutActivity
 import org.fossify.thankyou.ui.screens.MainScreen
 
-class MainActivity : ComponentActivity() {
+class MainActivity : BaseComposeActivity() {
 
     private val preferences by lazy { config }
     private val allAppsFlow by lazy { getFossifyAppsFlow(::getAllFossifyApps) }
@@ -171,7 +171,14 @@ class MainActivity : ComponentActivity() {
             )
         }
 
-        startAboutActivity(R.string.app_name, 0, BuildConfig.VERSION_NAME, faqItems, false)
+        startAboutActivity(
+            appNameId = R.string.app_name,
+            licenseMask = 0,
+            versionName = BuildConfig.VERSION_NAME,
+            packageName = packageName,
+            faqItems = faqItems,
+            showFAQBeforeMail = false
+        )
     }
 
     private fun launchApp(packageName: String) {
