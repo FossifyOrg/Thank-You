@@ -9,4 +9,10 @@
 \n
 \n(Por favor, mantén la aplicación instalada para evitar ver el cuadro de diálogo \"Comprar\" y tener todas las funciones de la aplicación desbloqueadas)</string>
     <string name="show_checkmarks_on_switches">Mostrar marcas de verificación en los interruptores</string>
+    <string name="potentially_unsafe_apps">Aplicaciones potencialmente inseguras</string>
+    <string name="installed_fossify_apps">Aplicaciones Fossify instaladas</string>
+    <string name="version">Versión: %1$s</string>
+    <string name="package_id">Paquete: %1$s</string>
+    <string name="installed_by">Instalado por: %1$s</string>
+    <string name="signed_by">Firmado por: %1$s</string>
 </resources>
