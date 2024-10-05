@@ -1,23 +1,14 @@
-If you cherish our commitment to delivering free, ad-free, and non-intrusive apps, consider showing your support for the Fossify mission. Your support is invaluable and greatly appreciated.
-
-🎁 Unlock Every Feature:
-By installing Fossify Thank You, you unlock every feature across our suite of apps. Enjoy the full potential of customization and prevent any "Donate please" dialogs in the free apps.
-
-🎨 Color Customization and Shared Themes:
-Take control of your experience with color customization. Fossify Thank You introduces Shared Themes, allowing color changes in one app to seamlessly update all others. It's a magical way to unify your app experience.
-
-🎨 Material Design and Dark Theme:
-Experience a visually stunning interface with material design and a default dark theme. Fossify Thank You provides a great user experience for effortless navigation.
-
-🌐 Privacy, Security, and Stability:
-With no internet access, Fossify Thank You prioritizes your privacy, security, and app stability. Enjoy an environment free from ads and unnecessary permissions. It's fully open source, ensuring transparency and customization.
-
-💼 Not a Replacement for Pro Versions:
-While Fossify Thank You enhances your experience, it doesn't replace our Pro app versions. If you desire additional features, consider purchasing the Pro versions separately.
-
-Your support makes a real difference. Thank you for being a part of the Fossify community! To ensure your support stays with us, please keep Fossify Thank You installed for at least a day to avoid automatic refunds.
-
-Explore more apps by Fossify: https://www.fossify.org
-Source Code: https://www.github.com/FossifyOrg
-Join the community on Reddit: https://www.reddit.com/r/Fossify
-Connect on Telegram: https://t.me/Fossify
+If you cherish our commitment to delivering free, ad-free, and non-intrusive apps, consider showing your support for the Fossify mission. Your support is invaluable and greatly appreciated.<br><br>
+<b>🎁 UNLOCK EVERY FEATURE:</b><br>
+By installing Fossify Thank You, you unlock every feature across our suite of apps. Enjoy the full potential of customization and prevent any "Donate please" dialogs.<br><br>
+<b>🎨 GLOBAL THEMES AND PREFERENCES:</b><br>
+Take control of your experience with color customization. Fossify Thank You introduces Global themes, allowing color changes in one app to seamlessly update all other Fossify apps. It's a magical way to unify your app experience.<br><br>
+<b>🎨 MATERIAL DESIGN AND DARK THEME:</b><br>
+Experience a visually stunning interface with material design and dark theme. Fossify Thank You provides a great user experience for effortless navigation.<br><br>
+<b>🌐 PRIVACY, SECURITY, AND STABILITY:</b><br>
+With no internet access, Fossify Thank You prioritizes your privacy, security, and app stability. Enjoy an environment free from ads and unnecessary permissions. It's fully open source, ensuring transparency and customization.<br><br>
+Your support makes a real difference. Thank you for being a part of the Fossify community! To ensure your support stays with us, please keep Fossify Thank You installed for at least a day to avoid automatic refunds.<br><br>
+Explore more apps by Fossify: https://www.fossify.org<br>
+Source Code: https://www.github.com/FossifyOrg<br>
+Join the community on Reddit: https://www.reddit.com/r/Fossify<br>
+Connect on Telegram: https://t.me/Fossify<br>

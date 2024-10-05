@@ -1,15 +1,21 @@
 # Fossify Thank You
 <img alt="Logo" src="graphics/icon.webp" width="120" />
 
-If you like our apps which are free, non-intrusive and have no ads, please consider supporting us in some way. It will be hugely appreciated.
+If you cherish our commitment to delivering free, ad-free, and non-intrusive apps, consider showing your support for the Fossify mission. Your support is invaluable and greatly appreciated.
 
-Having this app installed will unlock every feature, allow color customization and prevent the displaying of a "Donate please" dialog in the free apps. Other than that, it also allows using a Shared Theme, which means that as soon as you change a color in one app, all other apps will be updated. Newly installed apps from the suite will automagically receive the shared colors too.
+**🎁 UNLOCK EVERY FEATURE:**    
+By installing Fossify Thank You, you unlock every feature across our suite of apps. Enjoy the full potential of customization and prevent any "Donate please" dialogs.
 
-Please keep the app installed at least for a day, to avoid getting automatically refunded.
+**🎨 GLOBAL THEMES AND PREFERENCES:**    
+Take control of your experience with color customization. Fossify Thank You introduces Global themes, allowing color changes in one app to seamlessly update all other Fossify apps. It's a magical way to unify your app experience.
 
-It comes with material design and dark theme by default, provides great user experience for easy usage. The lack of internet access gives you more privacy, security and stability than other apps.
+**🎨 MATERIAL DESIGN AND DARK THEME:**    
+Experience a visually stunning interface with material design and dark theme. Fossify Thank You provides a great user experience for effortless navigation.
 
-Contains no ads or unnecessary permissions. It is fully opensource, provides customizable colors.
+**🌐 PRIVACY, SECURITY, AND STABILITY:**    
+With no internet access, Fossify Thank You prioritizes your privacy, security, and app stability. Enjoy an environment free from ads and unnecessary permissions. It's fully open source, ensuring transparency and customization.
+
+Your support makes a real difference. Thank you for being a part of the Fossify community! To ensure your support stays with us, please keep Fossify Thank You installed for at least a day to avoid automatic refunds.
 
 ➡️ Explore more Fossify apps: https://www.fossify.org<br>
 ➡️ Open-Source Code: https://www.github.com/FossifyOrg<br>
