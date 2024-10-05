@@ -9,4 +9,10 @@
 \n
 \n(Trzymaj tę aplikację zainstalowaną, aby unikać okna „Kup” i mieć odblokowane wszystkie funkcje.)</string>
     <string name="show_checkmarks_on_switches">Pokazuj znaczniki na przełącznikach</string>
+    <string name="version">Wersja: %1$s</string>
+    <string name="package_id">Pakiet: %1$s</string>
+    <string name="potentially_unsafe_apps">Potencjalnie niebezpieczne aplikacje</string>
+    <string name="installed_fossify_apps">Zainstalowane aplikacje Fossify</string>
+    <string name="installed_by">Zainstalowane przez: %1$s</string>
+    <string name="signed_by">Podpisane przez: %1$s</string>
 </resources>
