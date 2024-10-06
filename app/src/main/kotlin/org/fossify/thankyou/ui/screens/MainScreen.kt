@@ -34,10 +34,12 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
 import kotlinx.collections.immutable.toImmutableList
+import org.fossify.commons.compose.extensions.BooleanPreviewParameterProvider
 import org.fossify.commons.compose.extensions.MyDevices
 import org.fossify.commons.compose.lists.SimpleScaffold
 import org.fossify.commons.compose.lists.simpleTopAppBarColors
@@ -57,7 +59,7 @@ import org.fossify.thankyou.ui.components.FossifyApp
 internal fun MainScreen(
     allApps: List<FossifyApp>,
     fakeApps: List<FossifyApp>,
-    showMoreApps: Boolean,
+    showGoogleRelations: Boolean,
     showThankYouNotice: Boolean,
     openSettings: () -> Unit,
     openAbout: () -> Unit,
@@ -65,6 +67,7 @@ internal fun MainScreen(
     launchApp: (packageName: String) -> Unit,
     uninstallApp: (packageName: String) -> Unit,
     hideThankYouNotice: () -> Unit,
+    onDonateClicked: () -> Unit,
     linkColor: Color,
 ) {
     SimpleScaffold(
@@ -81,8 +84,13 @@ internal fun MainScreen(
                     )
                 },
                 actions = {
-                    val actionMenus =
-                        rememberActionItems(openSettings, openAbout, showMoreApps, moreAppsFromUs)
+                    val actionMenus = rememberActionItems(
+                        openSettings = openSettings,
+                        openAbout = openAbout,
+                        showMoreApps = showGoogleRelations,
+                        moreAppsFromUs = moreAppsFromUs
+                    )
+
                     var isMenuVisible by remember { mutableStateOf(false) }
                     ActionMenu(
                         items = actionMenus,
@@ -102,21 +110,30 @@ internal fun MainScreen(
                 windowInsets = topAppBarInsets()
             )
         }) { paddingValues ->
-        val textColor = SimpleTheme.colorScheme.onSurface
-
         LazyColumn(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(bottom = paddingValues.calculateBottomPadding()),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            if (showThankYouNotice) {
-                item(key = "thankyou") {
-                    ThankYou(
+            item(key = "notice") {
+                if (showGoogleRelations) {
+                    if (showThankYouNotice) {
+                        MainNotice(
+                            text = stringResource(R.string.main_text),
+                            buttonText = stringResource(org.fossify.commons.R.string.do_not_show_again),
+                            modifier = Modifier.animateItem(),
+                            linkColor = linkColor,
+                            onButtonClicked = hideThankYouNotice
+                        )
+                    }
+                } else {
+                    MainNotice(
+                        text = stringResource(R.string.main_donation_text),
+                        buttonText = stringResource(org.fossify.commons.R.string.donate),
                         modifier = Modifier.animateItem(),
-                        textColor = textColor,
                         linkColor = linkColor,
-                        hideThankYouNotice = hideThankYouNotice
+                        onButtonClicked = onDonateClicked
                     )
                 }
             }
@@ -176,12 +193,14 @@ private fun rememberActionItems(
 }
 
 @Composable
-private fun ThankYou(
+private fun MainNotice(
+    text: String,
+    buttonText: String,
     modifier: Modifier,
-    textColor: Color,
     linkColor: Color,
-    hideThankYouNotice: () -> Unit
+    onButtonClicked: () -> Unit
 ) {
+    val textColor = SimpleTheme.colorScheme.onSurface
     OutlinedCard(
         modifier = Modifier
             .padding(start = 16.dp, end = 16.dp, top = 16.dp, bottom = 8.dp)
@@ -190,7 +209,7 @@ private fun ThankYou(
         AndroidView(
             factory = { context ->
                 TextView(context).apply {
-                    setText(R.string.main_text)
+                    setText(text)
                     textSize = 16.sp.value
                     setLineSpacing(3.dp.value, 1f)
                     gravity = Gravity.CENTER_HORIZONTAL
@@ -206,12 +225,12 @@ private fun ThankYou(
         )
 
         TextButton(
-            onClick = hideThankYouNotice,
+            onClick = onButtonClicked,
             modifier = Modifier
                 .padding(vertical = 6.dp, horizontal = 12.dp)
                 .align(Alignment.End),
         ) {
-            Text(text = stringResource(org.fossify.commons.R.string.do_not_show_again))
+            Text(text = buttonText)
         }
     }
 }
@@ -257,7 +276,9 @@ private fun LazyListScope.fossifyApps(
 
 @Composable
 @MyDevices
-private fun MainScreenPreview() {
+private fun MainScreenPreview(
+    @PreviewParameter(BooleanPreviewParameterProvider::class) showGoogleRelations: Boolean
+) {
     AppThemeSurface {
         MainScreen(
             allApps = mutableListOf<FossifyApp>().apply {
@@ -294,7 +315,7 @@ private fun MainScreenPreview() {
                     verified = false
                 )
             ),
-            showMoreApps = true,
+            showGoogleRelations = showGoogleRelations,
             openSettings = {},
             openAbout = {},
             moreAppsFromUs = {},
@@ -302,7 +323,8 @@ private fun MainScreenPreview() {
             uninstallApp = {},
             linkColor = SimpleTheme.colorScheme.onSurface,
             showThankYouNotice = true,
-            hideThankYouNotice = {}
+            hideThankYouNotice = {},
+            onDonateClicked = {}
         )
     }
 }

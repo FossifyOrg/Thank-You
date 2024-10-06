@@ -14,6 +14,7 @@ import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import kotlinx.collections.immutable.toImmutableList
 import org.fossify.commons.activities.BaseComposeActivity
+import org.fossify.commons.activities.DonationActivity
 import org.fossify.commons.compose.alert_dialog.AlertDialogState
 import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
 import org.fossify.commons.compose.extensions.appLaunchedCompose
@@ -67,7 +68,7 @@ class MainActivity : BaseComposeActivity() {
                     allApps = allApps,
                     fakeApps = fakeApps,
                     linkColor = linkColor,
-                    showMoreApps = showMoreApps,
+                    showGoogleRelations = showMoreApps,
                     showThankYouNotice = showThankYouNotice,
                     openSettings = ::launchSettings,
                     openAbout = ::launchAbout,
@@ -76,7 +77,8 @@ class MainActivity : BaseComposeActivity() {
                     uninstallApp = ::uninstallApp,
                     hideThankYouNotice = {
                         preferences.showThankYouNotice = false
-                    }
+                    },
+                    onDonateClicked = ::launchDonationActivity
                 )
 
                 AppLaunched()
@@ -152,6 +154,11 @@ class MainActivity : BaseComposeActivity() {
     private fun launchSettings() {
         hideKeyboard()
         startActivity(Intent(this, SettingsActivity::class.java))
+    }
+
+    private fun launchDonationActivity() {
+        hideKeyboard()
+        startActivity(Intent(this, DonationActivity::class.java))
     }
 
     private fun launchAbout() {
