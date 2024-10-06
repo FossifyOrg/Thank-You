@@ -15,4 +15,5 @@
     <string name="potentially_unsafe_apps">Olası güvensiz uygulamalar</string>
     <string name="installed_fossify_apps">Kurulu Fossify uygulamaları</string>
     <string name="package_id">Paket: %1$s</string>
+    <string name="main_donation_text">Fossify sizin gibi kullanıcılar tarafından desteklenmektedir!\n\nBağışlarınız iyileştirmeleri ve yeni özellikleri destekler. Desteğiniz için minnettarız - lütfen katkıda bulunmayı düşünün!\n\nTeşekkür ederiz!</string>
 </resources>
