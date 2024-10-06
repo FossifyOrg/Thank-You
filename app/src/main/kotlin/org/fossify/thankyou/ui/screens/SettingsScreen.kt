@@ -36,27 +36,30 @@ internal fun SettingsScreen(
                 doOnPreferenceClick = customizeColors,
             )
         }
-        SettingsHorizontalDivider()
-        SettingsGroup(title = {
-            SettingsTitleTextComponent(text = stringResource(id = R.string.general_settings))
-        }) {
 
-            if (isUseEnglishEnabled) {
-                SettingsCheckBoxComponent(
-                    label = stringResource(id = R.string.use_english_language),
-                    initialValue = isUseEnglishChecked,
-                    onChange = onUseEnglishPress,
-                )
-            }
-            if (isTiramisuPlus()) {
-                SettingsPreferenceComponent(
-                    label = stringResource(id = R.string.language),
-                    value = displayLanguage,
-                    doOnPreferenceClick = onSetupLanguagePress,
-                    preferenceLabelColor = SimpleTheme.colorScheme.onSurface,
-                )
+        if (isUseEnglishEnabled || isTiramisuPlus()) {
+            SettingsHorizontalDivider()
+            SettingsGroup(title = {
+                SettingsTitleTextComponent(text = stringResource(id = R.string.general_settings))
+            }) {
+                if (isUseEnglishEnabled) {
+                    SettingsCheckBoxComponent(
+                        label = stringResource(id = R.string.use_english_language),
+                        initialValue = isUseEnglishChecked,
+                        onChange = onUseEnglishPress,
+                    )
+                }
+                if (isTiramisuPlus()) {
+                    SettingsPreferenceComponent(
+                        label = stringResource(id = R.string.language),
+                        value = displayLanguage,
+                        doOnPreferenceClick = onSetupLanguagePress,
+                        preferenceLabelColor = SimpleTheme.colorScheme.onSurface,
+                    )
+                }
             }
         }
+
         SettingsHorizontalDivider()
         SettingsGroup(title = {
             SettingsTitleTextComponent(text = stringResource(id = R.string.all_fossify_apps))
