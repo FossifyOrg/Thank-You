@@ -13,4 +13,7 @@
     <string name="installed_fossify_apps">Paigaldatud Fossify rakendused</string>
     <string name="version">Versioon: %1$s</string>
     <string name="package_id">Tarkvarapakett: %1$s</string>
+    <string name="installed_by">Paigaldaja: %1$s</string>
+    <string name="signed_by">Allkirjastaja: %1$s</string>
+    <string name="main_donation_text">Fossify rahastus tuleb kasutajatelt, nagu sina!\n\nSinu annetused aitavad teha vigade parandusi ja lisada uut funktsionaalsust. Me hindame sinu panust - kui võimalik, siis palun toeta meie tegevust!\n\nTäname sind juba ette!</string>
 </resources>
