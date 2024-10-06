@@ -9,4 +9,8 @@
 \n
 \n(Kui see rakendus on nutiseadmes olemas, siis ei teki ka „Ostupakkumiste“ akent ning rakenduse kõik valikud on saadaval)</string>
     <string name="show_checkmarks_on_switches">Näita lülitusnuppudel linnukesi</string>
+    <string name="potentially_unsafe_apps">Võimalikud ebaturvalised rakendused</string>
+    <string name="installed_fossify_apps">Paigaldatud Fossify rakendused</string>
+    <string name="version">Versioon: %1$s</string>
+    <string name="package_id">Tarkvarapakett: %1$s</string>
 </resources>
