@@ -15,4 +15,5 @@
     <string name="installed_fossify_apps">Zainstalowane aplikacje Fossify</string>
     <string name="installed_by">Zainstalowane przez: %1$s</string>
     <string name="signed_by">Podpisane przez: %1$s</string>
+    <string name="main_donation_text">Fossify jest finansowane przez użytkowników takich jak Ty!\n\nTwoje darowizny napędzają ulepszenia i nowe funkcje. Doceniamy Twoje wsparcie — prosimy o rozważenie wpłaty!\n\nDziękujemy!</string>
 </resources>
