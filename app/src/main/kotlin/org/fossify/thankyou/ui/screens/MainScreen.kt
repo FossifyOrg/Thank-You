@@ -230,7 +230,7 @@ private fun MainNotice(
                 .padding(vertical = 6.dp, horizontal = 12.dp)
                 .align(Alignment.End),
         ) {
-            Text(text = buttonText)
+            Text(text = buttonText, fontWeight = FontWeight.SemiBold)
         }
     }
 }
