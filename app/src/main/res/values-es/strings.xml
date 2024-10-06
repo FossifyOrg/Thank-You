@@ -9,4 +9,5 @@
     <string name="package_id">Paquete: %1$s</string>
     <string name="installed_by">Instalado por: %1$s</string>
     <string name="signed_by">Firmado por: %1$s</string>
+    <string name="main_donation_text">¡Fossify se financia gracias a usuarios como tú!\n\nTus donaciones impulsan mejoras y nuevas funciones. Agradecemos tu apoyo. ¡Considera contribuir!\n\n¡Gracias!</string>
 </resources>
