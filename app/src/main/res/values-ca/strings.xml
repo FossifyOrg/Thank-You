@@ -9,4 +9,11 @@
 \n
 \n(Si us plau, mantingueu l\'aplicació instal·lada per a evitar veure el diàleg «Compra» i tenir totes les funcions desbloquejades de l\'aplicació)</string>
     <string name="show_checkmarks_on_switches">Mostra marques de verificació en els commutadors</string>
+    <string name="potentially_unsafe_apps">Aplicacions potencialment insegures</string>
+    <string name="installed_fossify_apps">Aplicacions Fossify instal·lades</string>
+    <string name="main_donation_text">El Fossify està finançat per usuaris com vostè.\n\nLes vostres donacions ajuden molt les millores i funcionalitats noves. Apreciem la vostra ajuda. Si us plau, considereu contribuir-hi.\n\nGràcies!</string>
+    <string name="version">Versió: %1$s</string>
+    <string name="package_id">Paquet: %1$s</string>
+    <string name="signed_by">Signat per: %1$s</string>
+    <string name="installed_by">Instal·lat per: %1$s</string>
 </resources>
