@@ -44,8 +44,8 @@
         <package android:name="org.fossify.gallery.debug" />
         <package android:name="org.fossify.keyboard" />
         <package android:name="org.fossify.keyboard.debug" />
-        <package android:name="org.fossify.launcher" />
-        <package android:name="org.fossify.launcher.debug" />
+        <package android:name="org.fossify.home" />
+        <package android:name="org.fossify.home.debug" />
         <package android:name="org.fossify.messages" />
         <package android:name="org.fossify.messages.debug" />
         <package android:name="org.fossify.musicplayer" />
