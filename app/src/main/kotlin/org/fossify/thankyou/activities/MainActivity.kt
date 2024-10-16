@@ -39,6 +39,7 @@ import org.fossify.thankyou.extensions.getAllFossifyApps
 import org.fossify.thankyou.extensions.getFakeFossifyApps
 import org.fossify.thankyou.extensions.getFossifyAppsFlow
 import org.fossify.thankyou.extensions.startAboutActivity
+import org.fossify.thankyou.helpers.REPOSITORY_NAME
 import org.fossify.thankyou.ui.screens.MainScreen
 
 class MainActivity : BaseComposeActivity() {
@@ -183,6 +184,7 @@ class MainActivity : BaseComposeActivity() {
             licenseMask = 0,
             versionName = BuildConfig.VERSION_NAME,
             packageName = packageName,
+            repositoryName = REPOSITORY_NAME,
             faqItems = faqItems,
             showFAQBeforeMail = false
         )

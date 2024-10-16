@@ -11,7 +11,15 @@ import org.fossify.commons.activities.AboutActivity
 import org.fossify.commons.activities.CustomizationActivity
 import org.fossify.commons.extensions.hideKeyboard
 import org.fossify.commons.extensions.openDeviceSettings
-import org.fossify.commons.helpers.*
+import org.fossify.commons.helpers.APP_FAQ
+import org.fossify.commons.helpers.APP_ICON_IDS
+import org.fossify.commons.helpers.APP_LAUNCHER_NAME
+import org.fossify.commons.helpers.APP_LICENSES
+import org.fossify.commons.helpers.APP_NAME
+import org.fossify.commons.helpers.APP_PACKAGE_NAME
+import org.fossify.commons.helpers.APP_REPOSITORY_NAME
+import org.fossify.commons.helpers.APP_VERSION_NAME
+import org.fossify.commons.helpers.SHOW_FAQ_BEFORE_MAIL
 import org.fossify.commons.models.FAQItem
 import org.fossify.thankyou.R
 import org.fossify.thankyou.helpers.Config
@@ -23,6 +31,7 @@ internal fun Activity.startAboutActivity(
     licenseMask: Long,
     versionName: String,
     packageName: String,
+    repositoryName: String,
     faqItems: ArrayList<FAQItem>,
     showFAQBeforeMail: Boolean,
     getAppIconIDs: ArrayList<Int> = getAppIconIDs(),
@@ -36,6 +45,7 @@ internal fun Activity.startAboutActivity(
         putExtra(APP_LICENSES, licenseMask)
         putExtra(APP_VERSION_NAME, versionName)
         putExtra(APP_PACKAGE_NAME, packageName)
+        putExtra(APP_REPOSITORY_NAME, repositoryName)
         putExtra(APP_FAQ, faqItems)
         putExtra(SHOW_FAQ_BEFORE_MAIL, showFAQBeforeMail)
         startActivity(this)
