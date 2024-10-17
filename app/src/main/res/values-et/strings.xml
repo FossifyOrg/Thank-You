@@ -9,4 +9,11 @@
 \n
 \n(Kui see rakendus on nutiseadmes olemas, siis ei teki ka „Ostupakkumiste“ akent ning rakenduse kõik valikud on saadaval)</string>
     <string name="show_checkmarks_on_switches">Näita lülitusnuppudel linnukesi</string>
+    <string name="potentially_unsafe_apps">Võimalikud ebaturvalised rakendused</string>
+    <string name="installed_fossify_apps">Paigaldatud Fossify rakendused</string>
+    <string name="version">Versioon: %1$s</string>
+    <string name="package_id">Tarkvarapakett: %1$s</string>
+    <string name="installed_by">Paigaldaja: %1$s</string>
+    <string name="signed_by">Allkirjastaja: %1$s</string>
+    <string name="main_donation_text">Fossify rahastus tuleb kasutajatelt, nagu sina!\n\nSinu annetused aitavad teha vigade parandusi ja lisada uut funktsionaalsust. Me hindame sinu panust - kui võimalik, siis palun toeta meie tegevust!\n\nTäname sind juba ette!</string>
 </resources>

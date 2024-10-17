@@ -9,4 +9,11 @@
 \n
 \n(Houd deze app geïnstalleerd om alle functies te ontgrendelen en om te voorkomen dat het venster \'Kopen\' wordt getoond)</string>
     <string name="show_checkmarks_on_switches">Vinkjes op schakelaars tonen</string>
+    <string name="main_donation_text">Fossify wordt gefinancierd door gebruikers zoals jij!\n\nJouw donaties zorgen voor verbeteringen en nieuwe functies. We waarderen je steun - overweeg alsjeblieft om bij te dragen!\n\nHartelijk dank!</string>
+    <string name="potentially_unsafe_apps">Mogelijk onveilige apps</string>
+    <string name="installed_fossify_apps">Geïnstalleerde Fossify-apps</string>
+    <string name="version">Versie: %1$s</string>
+    <string name="package_id">Pakket: %1$s</string>
+    <string name="installed_by">Geïnstalleerd via: %1$s</string>
+    <string name="signed_by">Ondertekend door: %1$s</string>
 </resources>

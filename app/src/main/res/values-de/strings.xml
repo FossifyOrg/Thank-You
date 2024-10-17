@@ -9,4 +9,11 @@
 \n
 \n(Bitte diese App installiert lassen, um den „Kaufen“-Dialog auszublenden und alle Features der App freizuschalten)</string>
     <string name="show_checkmarks_on_switches">Häkchen bei Schaltern anzeigen</string>
+    <string name="potentially_unsafe_apps">Potenziell unsichere Apps</string>
+    <string name="installed_fossify_apps">Installierte Fossify-Apps</string>
+    <string name="package_id">Paket: %1$s</string>
+    <string name="installed_by">Installiert von: %1$s</string>
+    <string name="signed_by">Signiert von: %1$s</string>
+    <string name="main_donation_text">Fossify wird von Nutzern wie dir finanziert!\n\nDeine Spenden finanzieren Verbesserungen und neue Funktionen. Wir freuen uns über deine Unterstützung – bitte ziehe es in Erwägung, zu spenden!\n\nWir danken dir!</string>
+    <string name="version">Version: %1$s</string>
 </resources>

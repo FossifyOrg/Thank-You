@@ -9,4 +9,11 @@
 \n
 \n(Ponechejte si prosím aplikaci nainstalovanou, aby se vám nezobrazoval dialog „Podpořte nás“ a měli jste všechny funkce aplikací odemknuté)</string>
     <string name="show_checkmarks_on_switches">Zobrazit zaškrtávátka na přepínačích</string>
+    <string name="installed_fossify_apps">Nainstalované aplikace Fossify</string>
+    <string name="potentially_unsafe_apps">Potenciálně nebezpečné aplikace</string>
+    <string name="version">Verze: %1$s</string>
+    <string name="signed_by">Podepsáno: %1$s</string>
+    <string name="installed_by">Nainstalováno z obchodu: %1$s</string>
+    <string name="package_id">Balíček: %1$s</string>
+    <string name="main_donation_text">Fossify je financováno uživateli, jako jste vy!\n\nVaše dary podporují vylepšení a nové funkce. Vážíme si vaší podpory – zvažte prosím možnost přispění!\n\nDěkujeme vám!</string>
 </resources>

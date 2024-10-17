@@ -9,4 +9,11 @@
 \n
 \n(Lütfen \'Satın Al\' penceresini görmemek ve tüm uygulama özelliklerini kullanmaya devam etmek için uygulamayı kurulu tutun)</string>
     <string name="show_checkmarks_on_switches">Geçiş düğmelerinde onay işaretlerini göster</string>
+    <string name="version">Sürüm: %1$s</string>
+    <string name="installed_by">Kurulumu yapan: %1$s</string>
+    <string name="signed_by">İmzalayan: %1$s</string>
+    <string name="potentially_unsafe_apps">Olası güvensiz uygulamalar</string>
+    <string name="installed_fossify_apps">Kurulu Fossify uygulamaları</string>
+    <string name="package_id">Paket: %1$s</string>
+    <string name="main_donation_text">Fossify sizin gibi kullanıcılar tarafından desteklenmektedir!\n\nBağışlarınız iyileştirmeleri ve yeni özellikleri destekler. Desteğiniz için minnettarız - lütfen katkıda bulunmayı düşünün!\n\nTeşekkür ederiz!</string>
 </resources>
