@@ -4,7 +4,7 @@ kotlin = "1.9.25"
 #Detekt
 detekt = "1.23.3"
 #Fossify
-commons = "6500fc4111"
+commons = "54b78551a4"
 #Compose
 composeActivity = "1.9.3"
 compose = "1.7.4"
