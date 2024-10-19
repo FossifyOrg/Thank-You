@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_launcher_name">Tack</string>
-    <string name="main_text">Tack för att du stödjer oss!
-\n
-\nSkriv till oss på
-\n hello@fossify.org,
-\n vi vill gärna höra alla dina synpunkter och förslag.
-\n
-\n(Behåll appen installerad för att låsa upp alla appfunktioner och hindra dialogrutan \'Köp\' från att visas)</string>
+    <string name="main_text">Tack för att du stödjer oss!\n\nSkriv till oss på\n hello@fossify.org,\n vi vill gärna höra alla dina synpunkter och förslag.\n\n(Behåll appen installerad för att låsa upp alla appfunktioner)</string>
+    <string name="show_checkmarks_on_switches">Visa bockar på växlingsknappar</string>
+    <string name="main_donation_text">Fossify finansieras av användare som du!\n\nDina donationer driver förbättringar och nya funktioner. Vi uppskattar ditt stöd — överväg att bidra!\n\nTack!</string>
+    <string name="potentially_unsafe_apps">Potentiellt osäkra appar</string>
+    <string name="installed_fossify_apps">Installerade Fossify-appar</string>
+    <string name="package_id">Paket: %1$s</string>
+    <string name="installed_by">Har installerats av: %1$s</string>
+    <string name="signed_by">Har signerats av: %1$s</string>
+    <string name="version">Version: %1$s</string>
 </resources>

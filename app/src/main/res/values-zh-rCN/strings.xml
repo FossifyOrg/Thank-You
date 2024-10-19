@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_launcher_name">感谢</string>
-    <string name="main_text">感谢您支持我们！Thank you for supporting us!
-\n
-\n可以通过
-\n hello@fossify.org 给我们留言
-\n 我们愿意听到您全部的反馈和建议
-\n
-\n(请保持这个应用为安装状态来避免看到\'购买\'对话框从而保持全部应用功能解锁)</string>
+    <string name="main_text">感谢您对我们的支持！\n\n请发送电子邮件至\n hello@fossify.org，\n 我们很乐意听取您的所有反馈和建议。\n\n（请保持本应用已安装，以解锁所有应用功能）</string>
     <string name="show_checkmarks_on_switches">在切换按钮上显示复选标记</string>
+    <string name="installed_fossify_apps">安装的 Fossify 应用</string>
+    <string name="version">版本：%1$s</string>
+    <string name="package_id">软件包：%1$s</string>
+    <string name="signed_by">签名者：%1$s</string>
+    <string name="main_donation_text">Fossify 由像您这样的用户资助！\n\n您的捐款为改进和新功能提供了动力。我们感谢您的支持——请考虑贡献！\n\n谢谢您！</string>
+    <string name="potentially_unsafe_apps">潜在的不安全应用</string>
+    <string name="installed_by">安装者：%1$s</string>
 </resources>
