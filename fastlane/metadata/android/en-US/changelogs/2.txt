@@ -1,0 +1,2 @@
+* Fixed a crash
+* Added more translations
