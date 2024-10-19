@@ -131,13 +131,18 @@ private fun AppIcon(
 
 @Composable
 private fun AppInfo(
-    versionName: String,
+    versionName: String?,
     packageName: String,
     signerName: String?,
     installerName: String?
 ) {
     Column {
-        Text(text = stringResource(R.string.version, versionName))
+        Text(
+            text = stringResource(
+                R.string.version,
+                versionName ?: stringResource(org.fossify.commons.R.string.unknown)
+            )
+        )
         Text(
             text = stringResource(R.string.package_id, packageName),
             maxLines = 1,
@@ -152,14 +157,10 @@ private fun AppInfo(
             overflow = TextOverflow.Ellipsis
         )
         Text(
-            text = if (installerName != null) {
-                stringResource(R.string.installed_by, installerName)
-            } else {
-                stringResource(
-                    R.string.installed_by,
-                    stringResource(org.fossify.commons.R.string.unknown)
-                )
-            },
+            text = stringResource(
+                R.string.installed_by,
+                installerName ?: stringResource(org.fossify.commons.R.string.unknown)
+            ),
             maxLines = 1,
             overflow = TextOverflow.Ellipsis,
         )

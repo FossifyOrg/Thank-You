@@ -8,7 +8,7 @@ data class FossifyApp(
     val name: String,
     val icon: Drawable?,
     val packageName: String,
-    val versionName: String,
+    val versionName: String?,
     val signerName: String?,
     val installerPackage: String?,
     val installerName: String?,
