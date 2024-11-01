@@ -8,4 +8,10 @@
 \nadoraríamos ouvir todos os seus comentários e sugestões.
 \n
 \n(Por favor, mantenha a aplicação instalada para evitar ver o diálogo \'Comprar\' e ter todos os recursos da aplicação desbloqueadas)</string>
+    <string name="potentially_unsafe_apps">Aplicações potencialmente inseguras</string>
+    <string name="installed_fossify_apps">Aplicações Fossify instaladas</string>
+    <string name="version">Versão: %1$s</string>
+    <string name="package_id">Pacote: %1$s</string>
+    <string name="installed_by">Instalada de: %1$s</string>
+    <string name="signed_by">Assinada por: %1$s</string>
 </resources>
