@@ -9,4 +9,11 @@
 \n
 \n(Будь ласка, залиште застосунок встановленим, щоб не бачити діалогове вікно \'Купити\' , а також розблокувати всі можливості, які надає застосунок)</string>
     <string name="show_checkmarks_on_switches">Показати позначки на перемикачах</string>
+    <string name="main_donation_text">Fossify фінансується такими користувачами, як ви!\n\nВаші пожертви допомагають нам вдосконалюватись та створювати нові функції. Ми цінуємо вашу підтримку, подумайте над тим, щоб зробити свій внесок!\n\nДякуємо!</string>
+    <string name="package_id">Пакет: %1$s</string>
+    <string name="installed_by">Встановлено: %1$s</string>
+    <string name="potentially_unsafe_apps">Потенційно небезпечні застосунки</string>
+    <string name="installed_fossify_apps">Встановлені застосунки Fossify</string>
+    <string name="version">Версія: %1$s</string>
+    <string name="signed_by">Підписано: %1$s</string>
 </resources>
