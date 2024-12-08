@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_launcher_name">Merci</string>
-    <string name="main_text">Merci pour votre soutien !
-\n
-\nÉcrivez-nous un petit message à l\'adresse
-\n hello@fossify.org,
-\n nous aimerions connaître votre avis et vos suggestions.
-\n
-\n(Veuillez conserver l\'application installée pour éviter l\'affichage de la boîte de dialogue d\'achat et avoir accès aux fonctionnalités déverrouillées par cette application)</string>
+    <string name="main_text">Merci pour votre soutien !\n\nÉcrivez-nous un petit message à l\'adresse\n hello@fossify.org,\n nous aimerions connaître votre avis et vos suggestions.\n\n(Veuillez conserver l\'application installée pour avoir accès aux fonctionnalités déverrouillées par cette application)</string>
     <string name="main_donation_text">Fossify est financé par des utilisateurs comme vous !\n\nVos dons permettent de financer les améliorations et les nouvelles fonctionnalités. Nous apprécions votre soutien—veuillez envisager de contribuer !\n\nNous vous remercions.</string>
     <string name="potentially_unsafe_apps">Applications potentiellement dangereuses</string>
     <string name="installed_fossify_apps">Applications Fossify installées</string>
