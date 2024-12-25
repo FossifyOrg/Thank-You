@@ -9,4 +9,11 @@
 \n(請一直安裝著這程式以避免看見[購買]對話框，並解鎖應用程式全部功能)</string>
     <string name="app_launcher_name">感謝</string>
     <string name="show_checkmarks_on_switches">在開關上顯示核取標記</string>
+    <string name="potentially_unsafe_apps">潛在的不安全應用程式</string>
+    <string name="installed_fossify_apps">已安裝的 Fossify 應用程式</string>
+    <string name="main_donation_text">Fossify 是由像您這樣的使用者所資助！\n\n您的捐款為我們的改進與新功能提供了動力。我們感謝您的支持，請考慮捐款！\n\n感謝您！</string>
+    <string name="version">版本：%1$s</string>
+    <string name="package_id">軟體包：%1$s</string>
+    <string name="installed_by">安裝者：%1$s</string>
+    <string name="signed_by">簽署者：%1$s</string>
 </resources>

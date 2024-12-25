@@ -9,4 +9,11 @@
 \n
 \n(Пожалуйста, сохраняйте приложение установленным, чтобы не видеть диалоговое окно \"Покупка\" и чтобы все функции приложения оставались разблокированными)</string>
     <string name="show_checkmarks_on_switches">Показывать метки на переключателях</string>
+    <string name="installed_fossify_apps">Установленные приложения Fossify</string>
+    <string name="potentially_unsafe_apps">Потенциально небезопасные приложения</string>
+    <string name="main_donation_text">Fossify финансируется такими же пользователями, как вы!\n\nВаши пожертвования способствуют улучшению и появлению новых функций. Мы ценим вашу поддержку — пожалуйста, сделайте свой вклад!\n\nСпасибо!</string>
+    <string name="version">Версия: %1$s</string>
+    <string name="package_id">Пакет: %1$s</string>
+    <string name="installed_by">Установлено: %1$s</string>
+    <string name="signed_by">Подписано: %1$s</string>
 </resources>
