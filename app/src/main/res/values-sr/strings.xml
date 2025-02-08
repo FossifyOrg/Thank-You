@@ -8,4 +8,12 @@
 \nволели бисмо да чујемо све ваше повратне информације и сугестије.
 \n
 \n(Молимо да задржите инсталирану апликацију да не бисте видели дијалог „Куповина“ и да бисте откључали све функције апликације)</string>
+    <string name="show_checkmarks_on_switches">Прикажи квачице на прекидачима</string>
+    <string name="main_donation_text">Fossify је финансиран од стране корисника као што си ти!\n\nТвоје донације покрећу побољшања и нове функције. Ценимо вашу подршку-молимо Вас да размислите о доприносу!\n\nХвала!</string>
+    <string name="potentially_unsafe_apps">Потенцијалне небезбедне апликације</string>
+    <string name="installed_fossify_apps">Инсталиране Fossify апликације</string>
+    <string name="version">Верзија: %1$s</string>
+    <string name="package_id">Пакет: %1$s</string>
+    <string name="installed_by">Инсталирано од стране: %1$s</string>
+    <string name="signed_by">Потписао: %1$s</string>
 </resources>

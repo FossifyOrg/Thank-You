@@ -8,4 +8,12 @@
 \n rado bismo čuli tvoje mišljenje i prijedloge.
 \n
 \n(Ostavi aplikaciju instaliranom kako bi izbjegao/la dialog „Kupi\'” i imao/la sve značajke aplikacije otključane)</string>
+    <string name="show_checkmarks_on_switches">Prikaži kvačice na prekidačima</string>
+    <string name="main_donation_text">Fossify financiraju korisnici poput tebe!\n\nTvoje donacije potiču poboljšanja i nove funkcije. Cijenimo tvoju podršku – razmisli o doprinošenju!\n\nHvala!</string>
+    <string name="potentially_unsafe_apps">Potencijalno nesigurne aplikacije</string>
+    <string name="installed_fossify_apps">Instalirane Fossify aplikacije</string>
+    <string name="version">Verzija: %1$s</string>
+    <string name="package_id">Paket: %1$s</string>
+    <string name="installed_by">Instalirano od: %1$s</string>
+    <string name="signed_by">Potpisano od: %1$s</string>
 </resources>

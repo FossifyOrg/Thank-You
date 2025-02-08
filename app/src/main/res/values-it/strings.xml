@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_launcher_name">Grazie</string>
-    <string name="main_text">Grazie per supportarci!\n\nSi può lasciare un pensiero a\n hello@fossify.org,\n saremo felici di ascoltare le opinioni e suggerimenti.\n\n(Tenere questa applicazione installata per avere tutte le funzionalità sbloccate)</string>
+    <string name="main_text">Grazie per supportarci!\n\nSi può lasciare un pensiero a \n hello@fossify.org,\n saremo felici di ascoltare le opinioni e suggerimenti.\n\n(Tenere questa applicazione installata per avere tutte le funzionalità sbloccate)</string>
     <string name="show_checkmarks_on_switches">Mostra segni di spunta sugli interruttori</string>
     <string name="main_donation_text">Fossify è finanziato da utenti come te!\n\nLe tue donazioni alimentano miglioramenti e nuove funzionalità. Apprezziamo il tuo supporto: ti preghiamo di considerare di contribuire!\n\nGrazie!</string>
     <string name="installed_fossify_apps">App Fossify installate</string>
