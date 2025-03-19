@@ -18,10 +18,6 @@
         android:protectionLevel="signature" />
 
     <queries>
-        <package android:name="org.fossify.appdrawer" />
-        <package android:name="org.fossify.appdrawer.debug" />
-        <package android:name="org.fossify.calculator" />
-        <package android:name="org.fossify.calculator.debug" />
         <package android:name="org.fossify.calendar" />
         <package android:name="org.fossify.calendar.debug" />
         <package android:name="org.fossify.camera" />
@@ -42,10 +38,12 @@
         <package android:name="org.fossify.flashlight.debug" />
         <package android:name="org.fossify.gallery" />
         <package android:name="org.fossify.gallery.debug" />
-        <package android:name="org.fossify.keyboard" />
-        <package android:name="org.fossify.keyboard.debug" />
         <package android:name="org.fossify.home" />
         <package android:name="org.fossify.home.debug" />
+        <package android:name="org.fossify.keyboard" />
+        <package android:name="org.fossify.keyboard.debug" />
+        <package android:name="org.fossify.math" />
+        <package android:name="org.fossify.math.debug" />
         <package android:name="org.fossify.messages" />
         <package android:name="org.fossify.messages.debug" />
         <package android:name="org.fossify.musicplayer" />
