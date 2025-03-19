@@ -8,4 +8,12 @@
 \n kami akan sangat senang bisa membaca semua umpanbalik dan saran dari anda.
 \n
 \n(Biarkan aplikasi tetap terpasang untuk menghindari dialog \'Beli\' dan terus menikmati semua fitur yang ada)</string>
+    <string name="show_checkmarks_on_switches">Tampilkan centang pada pilihan</string>
+    <string name="potentially_unsafe_apps">Aplikasi yang berpotensi tidak aman</string>
+    <string name="installed_fossify_apps">Aplikasi Fossify yang terinstal</string>
+    <string name="version">Versi: %1$s</string>
+    <string name="package_id">Paket: %1$s</string>
+    <string name="installed_by">Dipasang oleh: %1$s</string>
+    <string name="main_donation_text">Fossify didanai oleh pengguna seperti Anda!\n\nDonasi Anda mendanai perbaikan dan fitur baru. Kami menghargai dukungan Anda—harap pertimbangkan untuk berkontribusi!\n\nTerima kasih!</string>
+    <string name="signed_by">Ditandatangani oleh: %1$s</string>
 </resources>

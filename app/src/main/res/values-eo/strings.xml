@@ -8,4 +8,12 @@
 \n we\'d love to hear all your feedback and suggestions.
 \n
 \n(Please keep the app installed to avoid seeing the \'Purchase\' dialog and have all app features unlocked)</string>
+    <string name="main_donation_text">Fossify estas financita pro uzantoj kiel vi!\n\nViaj donacoj ebligas plibonigojn kaj novajn funkciojn. Ni aprezas vian subtenon—bonvolu konsideri kontribui!\n\nDankon!</string>
+    <string name="potentially_unsafe_apps">Eble nesekuraj aplikaĵoj</string>
+    <string name="installed_fossify_apps">Instalitaj aplikaĵoj de Fossify</string>
+    <string name="version">Versio: %1$s</string>
+    <string name="package_id">Pakaĵo: %1$s</string>
+    <string name="installed_by">Instalita pro: %1$s</string>
+    <string name="signed_by">Subskribita pro: %1$s</string>
+    <string name="show_checkmarks_on_switches">Montri kontrolmarkojn sur ŝaltiloj</string>
 </resources>

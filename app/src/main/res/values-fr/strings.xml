@@ -8,4 +8,5 @@
     <string name="installed_by">Installé par : %1$s</string>
     <string name="signed_by">Signé par : %1$s</string>
     <string name="version">Version : %1$s</string>
+    <string name="package_id">Paquet : %1$s</string>
 </resources>
