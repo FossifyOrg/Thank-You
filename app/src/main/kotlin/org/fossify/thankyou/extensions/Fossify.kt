@@ -46,7 +46,7 @@ fun Context.getAllFossifyApps(): List<FossifyApp> {
                     installerName = getInstallerLabel(installerPackage),
                     verified = true
                 )
-            }.sortedBy { it.packageName }
+            }.sortedBy { it.name }
     }
 }
 
