@@ -59,6 +59,8 @@
         <package android:name="dev.imranr.obtainium" />
         <package android:name="dev.imranr.obtainium.fdroid" />
         <package android:name="com.aurora.store" />
+        <package android:name="app.accrescent.client" />
+        <package android:name="com.android.vending" />
     </queries>
 
     <application
