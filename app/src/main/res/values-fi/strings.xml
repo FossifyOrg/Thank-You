@@ -8,4 +8,12 @@
 \n Kuulisimme kaikki mielipiteesi ja ehdotuksesi mielellämme.
 \n
 \n(Pidä sovellus asennettuna, jotta ostovalinnat pysyvät piilossa ja sovellusten kaikki ominaisuudet käytössäsi.)</string>
+    <string name="show_checkmarks_on_switches">Näytä tarkistusmerkit kytkimissä</string>
+    <string name="main_donation_text">Fossify:a rahoittavat sinunlaisesi käyttäjät!\n\nLahjoituksesi auttaa parannusten ja uusien ominaisuuksien kehittämisessä. Arvostamme tukeasi - harkitse lahjoittamista!\n\nKiitos!</string>
+    <string name="potentially_unsafe_apps">Mahdollisesti haitallinen sovellus</string>
+    <string name="installed_fossify_apps">Asennetut Fossify sovellukset</string>
+    <string name="version">Versio: %1$s</string>
+    <string name="package_id">Paketti: %1$s</string>
+    <string name="installed_by">Asentanut: %1$s</string>
+    <string name="signed_by">Allekirjoittanut: %1$s</string>
 </resources>
