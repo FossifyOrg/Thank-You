@@ -9,4 +9,5 @@
     <string name="signed_by">Signé par : %1$s</string>
     <string name="version">Version : %1$s</string>
     <string name="package_id">Paquet : %1$s</string>
+    <string name="show_checkmarks_on_switches">Afficher les indicateurs sur les boutons on/off</string>
 </resources>
