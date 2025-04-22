@@ -8,4 +8,12 @@
 \n
 \n(कृपया \'खरीदारी\' डायलॉग देखने से बचने के लिए ऐप इंस्टॉल रखें और ऐप की सभी सुविधाएं अनलॉक रखें)</string>
     <string name="app_launcher_name">धन्यवाद</string>
+    <string name="show_checkmarks_on_switches">स्विच पर चेक मार्क दिखायें</string>
+    <string name="potentially_unsafe_apps">संभावित रूप से हानिकारक ऐप्स</string>
+    <string name="main_donation_text">Fossify को आप जैसे उपयोगकर्ताओं द्वारा वित्तपोषित किया जाता है!\n\nआपके दान से सुधार और नई सुविधाओं को बढ़ावा मिलता है। हम आपके समर्थन की सराहना करते हैं - कृपया योगदान देने पर विचार करें!\n\nधन्यवाद!</string>
+    <string name="package_id">पैकेज: %1$s</string>
+    <string name="installed_by">%1$s द्वारा इनस्टॉल किया गया</string>
+    <string name="signed_by">%1$s द्वारा हस्ताक्षर किया गया</string>
+    <string name="installed_fossify_apps">Fossify के इंस्टॉल किए गए ऐप्स</string>
+    <string name="version">वर्जन: %1$s</string>
 </resources>
