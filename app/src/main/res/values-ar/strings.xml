@@ -8,4 +8,12 @@
 \n نود أن نسمع جميع ملاحظاتك وأقتراحاتك..
 \n
 \n(يرجى الاحتفاظ بالتطبيق مثبتاً لتجنب رؤية مربع الحوار \'شراء\' وفتح جميع ميزات التطبيق)</string>
+    <string name="show_checkmarks_on_switches">إظهار علامات الاختيار على المفاتيح</string>
+    <string name="main_donation_text">يتم تمويل Fossify بواسطة مستخدمين مثلك!\n\nتبرعاتك تغذي التحسينات والميزات الجديدة. نحن نقدر دعمكم - نرجوا أن تفكر في المساهمة!\n\nشكراً لكم!</string>
+    <string name="potentially_unsafe_apps">التطبيقات التي يُحتمل أن تكون غير آمنة</string>
+    <string name="installed_fossify_apps">تطبيقات فوسيفاي المثبتة</string>
+    <string name="version">الإصدار:%1$s</string>
+    <string name="package_id">الحزمة:%1$s</string>
+    <string name="installed_by">تم التثبيت بواسطة: %1$s</string>
+    <string name="signed_by">موقّع من قبل: %1$s</string>
 </resources>
