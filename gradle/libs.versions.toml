@@ -2,7 +2,7 @@
 #jetbrains
 kotlin = "1.9.25"
 #Detekt
-detekt = "1.23.3"
+detekt = "1.23.8"
 #Fossify
 commons = "29e9b0d13e"
 #Compose
