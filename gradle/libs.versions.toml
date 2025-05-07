@@ -9,7 +9,7 @@ commons = "29e9b0d13e"
 composeActivity = "1.9.3"
 compose = "1.7.8"
 composeCompiler = "1.5.15"
-composeMaterial3 = "1.3.1"
+composeMaterial3 = "1.3.2"
 accompanist = "0.36.0"
 #Androidx
 androidx-customView = "1.2.0-alpha02"
