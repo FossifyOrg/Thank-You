@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Agradecimentos</string>
+    <string name="app_launcher_name">Fossify - Agradecimento</string>
     <string name="main_text">Obrigado por nos apoiar!\n\nEnvie-nos uma mensagem para\nhello@fossify.org,\nadoraríamos ouvir todos os seus comentários e sugestões.\n\n(Por favor, mantenha o aplicativo instalado para manter todos os recursos do aplicativo desbloqueados)</string>
     <string name="main_donation_text">Fossify é mantida por usuários como você!\n\nSuas doações alimentam melhorias e novas funcionalidades. Nós agradecemos o seu apoio—por favor, considere contribuir!\n\nObrigado!</string>
     <string name="installed_fossify_apps">Apps Fossify instalados</string>
