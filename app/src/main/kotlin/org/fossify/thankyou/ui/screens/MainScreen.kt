@@ -160,7 +160,7 @@ private fun rememberActionItems(
     openSettings: () -> Unit,
     openAbout: () -> Unit,
     showMoreApps: Boolean,
-    moreAppsFromUs: () -> Unit
+    moreAppsFromUs: () -> Unit,
 ) = remember {
     val settings =
         ActionItem(
@@ -181,7 +181,7 @@ private fun rememberActionItems(
             settings,
             about,
             ActionItem(
-                org.fossify.commons.R.string.more_apps_from_us,
+                org.fossify.commons.R.string.more_fossify_apps,
                 doAction = moreAppsFromUs,
                 overflowMode = OverflowMode.ALWAYS_OVERFLOW
             )
@@ -198,7 +198,7 @@ private fun MainNotice(
     buttonText: String,
     modifier: Modifier,
     linkColor: Color,
-    onButtonClicked: () -> Unit
+    onButtonClicked: () -> Unit,
 ) {
     val textColor = SimpleTheme.colorScheme.onSurface
     OutlinedCard(
@@ -277,7 +277,7 @@ private fun LazyListScope.fossifyApps(
 @Composable
 @MyDevices
 private fun MainScreenPreview(
-    @PreviewParameter(BooleanPreviewParameterProvider::class) showGoogleRelations: Boolean
+    @PreviewParameter(BooleanPreviewParameterProvider::class) showGoogleRelations: Boolean,
 ) {
     AppThemeSurface {
         MainScreen(
