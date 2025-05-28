@@ -22,10 +22,8 @@ import org.fossify.commons.compose.extensions.checkWhatsNewCompose
 import org.fossify.commons.compose.extensions.enableEdgeToEdgeSimple
 import org.fossify.commons.compose.extensions.linkColor
 import org.fossify.commons.compose.extensions.onEventValue
-import org.fossify.commons.compose.extensions.rateStarsRedirectAndThankYou
 import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.dialogs.DonateAlertDialog
-import org.fossify.commons.dialogs.RateStarsAlertDialog
 import org.fossify.commons.dialogs.WhatsNewAlertDialog
 import org.fossify.commons.extensions.hideKeyboard
 import org.fossify.commons.extensions.launchMoreAppsFromUsIntent
@@ -94,13 +92,11 @@ class MainActivity : BaseComposeActivity() {
     @Composable
     private fun AppLaunched(
         donateAlertDialogState: AlertDialogState = getDonateAlertDialogState(),
-        rateStarsAlertDialogState: AlertDialogState = getRateStarsAlertDialogState(),
     ) {
         LaunchedEffect(Unit) {
             appLaunchedCompose(
                 appId = BuildConfig.APPLICATION_ID,
                 showDonateDialog = donateAlertDialogState::show,
-                showRateUsDialog = rateStarsAlertDialogState::show,
                 showUpgradeDialog = {}
             )
         }
@@ -109,7 +105,7 @@ class MainActivity : BaseComposeActivity() {
     @Composable
     private fun CheckWhatsNew(
         releasesList: SnapshotStateList<Release>,
-        checkWhatsNewAlertDialogState: AlertDialogState
+        checkWhatsNewAlertDialogState: AlertDialogState,
     ) {
         DisposableEffect(Unit) {
             checkWhatsNewCompose(
@@ -144,13 +140,6 @@ class MainActivity : BaseComposeActivity() {
                 DonateAlertDialog(alertDialogState = this)
             }
         }
-
-    @Composable
-    private fun getRateStarsAlertDialogState() = rememberAlertDialogState().apply {
-        DialogMember {
-            RateStarsAlertDialog(alertDialogState = this, onRating = ::rateStarsRedirectAndThankYou)
-        }
-    }
 
     private fun launchSettings() {
         hideKeyboard()
