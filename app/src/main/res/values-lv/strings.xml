@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="main_text">Paldies par atbalstīšanu!\n\nUzraksti mums kaut ko\n hello@fossify.org,\n mēs vēlamies dzirdēt visus Tavus ieteikumus un atgriezeniskās saites.\n\n(Lūgums paturēt lietotni uzstādītu, lai paturētu visas atslēgtās lietotņu iespējas)</string>
+    <string name="app_launcher_name">Paldies</string>
+    <string name="main_donation_text">Fossify darbību nodrošina tādi lietotāji kā Tu.\n\nTavi ziedojumi veicina uzlabojumus un jaunas iespējas. Mēs novērtējam Tavu atbalstu — lūgums apsvērt sniegt savu ieguldījumu.\n\nPaldies!</string>
+    <string name="potentially_unsafe_apps">Iespējami nedrošas lietotnes</string>
+    <string name="installed_fossify_apps">Uzstādītās Fossify lietotnes</string>
+    <string name="version">Versija: %1$s</string>
+    <string name="package_id">Pakotne: %1$s</string>
+    <string name="installed_by">Uzstādīja: %1$s</string>
+    <string name="signed_by">Parakstīja: %1$s</string>
+    <string name="show_checkmarks_on_switches">Rādīt uz slēdžiem ķeksīšus</string>
+</resources>
