@@ -115,6 +115,11 @@ android {
         includeInApk = false
     }
 
+    androidResources {
+        @Suppress("UnstableApiUsage")
+        generateLocaleConfig = true
+    }
+
     namespace = project.property("APP_ID").toString()
 
     lint {
