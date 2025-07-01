@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_launcher_name">Eskerrik asko</string>
+    <string name="main_donation_text">Fossify zu bezalako erabiltzaileek finantzatzen dute!\n\nZure dohaintzek hobekuntzak eta ezaugarri berriak bultzatzen dituzte. Zure laguntza eskertzen dugu, mesedez, kontuan hartu laguntzea!\n\nEskerrik asko!</string>
+    <string name="main_text">Eskerrik asko laguntzeagatik!\n\nIdatzi hona\n hello@fossify.org,\n Zure iritzi eta iradokizun guztiak entzutea gustatuko litzaiguke.\n\n(Mesedez, mantendu aplikazioa instalatuta aplikazioaren funtzio guztiak desblokeatuta mantentzeko)</string>
+</resources>
