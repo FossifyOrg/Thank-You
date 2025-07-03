@@ -14,8 +14,8 @@
         errorLine1="app-build-targetSDK = &quot;34&quot;"
         errorLine2="                      ~~~~">
         <location
-            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
-            line="20"
+            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            line="21"
             column="23"/>
     </issue>
 
@@ -58,7 +58,7 @@
         errorLine1="distributionUrl=https\://services.gradle.org/distributions/gradle-8.11.1-bin.zip"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="$HOME/work/Thank-You/Thank-You/gradle/wrapper/gradle-wrapper.properties"
+            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/wrapper/gradle-wrapper.properties"
             line="3"
             column="17"/>
     </issue>
@@ -69,9 +69,31 @@
         errorLine1="gradlePlugins-agp = &quot;8.10.1&quot;"
         errorLine2="                    ~~~~~~~~">
         <location
-            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
-            line="18"
+            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            line="19"
             column="21"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlin.android than 2.1.21 is available: 2.2.0"
+        errorLine1="kotlin = &quot;2.1.21&quot;"
+        errorLine2="         ~~~~~~~~">
+        <location
+            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            line="3"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlin.plugin.compose than 2.1.21 is available: 2.2.0"
+        errorLine1="kotlin = &quot;2.1.21&quot;"
+        errorLine2="         ~~~~~~~~">
+        <location
+            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            line="3"
+            column="10"/>
     </issue>
 
     <issue
@@ -80,8 +102,8 @@
         errorLine1="composeActivity = &quot;1.9.3&quot;"
         errorLine2="                  ~~~~~~~">
         <location
-            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
-            line="9"
+            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            line="10"
             column="19"/>
     </issue>
 
@@ -91,8 +113,8 @@
         errorLine1="compose = &quot;1.7.8&quot;"
         errorLine2="          ~~~~~~~">
         <location
-            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
-            line="10"
+            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            line="11"
             column="11"/>
     </issue>
 
@@ -102,8 +124,8 @@
         errorLine1="compose = &quot;1.7.8&quot;"
         errorLine2="          ~~~~~~~">
         <location
-            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
-            line="10"
+            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            line="11"
             column="11"/>
     </issue>
 
@@ -113,8 +135,8 @@
         errorLine1="compose = &quot;1.7.8&quot;"
         errorLine2="          ~~~~~~~">
         <location
-            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
-            line="10"
+            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            line="11"
             column="11"/>
     </issue>
 
@@ -124,8 +146,8 @@
         errorLine1="compose = &quot;1.7.8&quot;"
         errorLine2="          ~~~~~~~">
         <location
-            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
-            line="10"
+            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            line="11"
             column="11"/>
     </issue>
 
@@ -135,8 +157,8 @@
         errorLine1="compose = &quot;1.7.8&quot;"
         errorLine2="          ~~~~~~~">
         <location
-            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
-            line="10"
+            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            line="11"
             column="11"/>
     </issue>
 
@@ -146,8 +168,8 @@
         errorLine1="compose = &quot;1.7.8&quot;"
         errorLine2="          ~~~~~~~">
         <location
-            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
-            line="10"
+            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            line="11"
             column="11"/>
     </issue>
 
@@ -157,8 +179,8 @@
         errorLine1="androidx-lifecycle = &quot;2.8.7&quot;"
         errorLine2="                     ~~~~~~~">
         <location
-            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
-            line="16"
+            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            line="17"
             column="22"/>
     </issue>
 
@@ -168,8 +190,8 @@
         errorLine1="androidx-lifecycle = &quot;2.8.7&quot;"
         errorLine2="                     ~~~~~~~">
         <location
-            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
-            line="16"
+            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            line="17"
             column="22"/>
     </issue>
 
@@ -179,8 +201,8 @@
         errorLine1="androidx-lifecycle = &quot;2.8.7&quot;"
         errorLine2="                     ~~~~~~~">
         <location
-            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
-            line="16"
+            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            line="17"
             column="22"/>
     </issue>
 
@@ -190,8 +212,8 @@
         errorLine1="androidx-lifecycle = &quot;2.8.7&quot;"
         errorLine2="                     ~~~~~~~">
         <location
-            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
-            line="16"
+            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            line="17"
             column="22"/>
     </issue>
 
@@ -201,8 +223,8 @@
         errorLine1="app-build-compileSDKVersion = &quot;34&quot;"
         errorLine2="                              ~~~~">
         <location
-            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
-            line="19"
+            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            line="20"
             column="31"/>
     </issue>
 

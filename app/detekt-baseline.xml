@@ -2,30 +2,17 @@
 <SmellBaseline>
   <ManuallySuppressedIssues/>
   <CurrentIssues>
+    <ID>ComposableParamOrder:FossifyApp.kt$FossifyApp</ID>
     <ID>EmptyFunctionBlock:MyContentProviderHelper.kt$MyContentProviderHelper${}</ID>
-    <ID>FunctionNaming:FossifyApp.kt$@Composable internal fun FossifyApp( app: FossifyApp, modifier: Modifier = Modifier, launchApp: (packageName: String) -&gt; Unit, uninstallApp: (packageName: String) -&gt; Unit )</ID>
-    <ID>FunctionNaming:FossifyApp.kt$@Composable private fun AppIcon( icon: Drawable?, verified: Boolean )</ID>
-    <ID>FunctionNaming:FossifyApp.kt$@Composable private fun AppInfo( versionName: String?, packageName: String, signerName: String?, installerName: String? )</ID>
-    <ID>FunctionNaming:FossifyApp.kt$@Composable private fun AppName( name: String, verified: Boolean )</ID>
-    <ID>FunctionNaming:FossifyApp.kt$@Composable private fun TrailingContent( verified: Boolean, packageName: String, launchApp: (packageName: String) -&gt; Unit, uninstallApp: (packageName: String) -&gt; Unit )</ID>
-    <ID>FunctionNaming:FossifyApp.kt$@Preview @Composable private fun PreviewFossifyApp( @PreviewParameter(BooleanPreviewParameterProvider::class) verified: Boolean )</ID>
-    <ID>FunctionNaming:MainActivity.kt$MainActivity$@Composable private fun AppLaunched( donateAlertDialogState: AlertDialogState = getDonateAlertDialogState(), )</ID>
-    <ID>FunctionNaming:MainActivity.kt$MainActivity$@Composable private fun CheckWhatsNew( releasesList: SnapshotStateList&lt;Release&gt;, checkWhatsNewAlertDialogState: AlertDialogState, )</ID>
-    <ID>FunctionNaming:MainScreen.kt$@Composable @MyDevices private fun MainScreenPreview( @PreviewParameter(BooleanPreviewParameterProvider::class) showGoogleRelations: Boolean, )</ID>
-    <ID>FunctionNaming:MainScreen.kt$@Composable internal fun MainScreen( allApps: List&lt;FossifyApp&gt;, fakeApps: List&lt;FossifyApp&gt;, showGoogleRelations: Boolean, showThankYouNotice: Boolean, openSettings: () -&gt; Unit, openAbout: () -&gt; Unit, moreAppsFromUs: () -&gt; Unit, launchApp: (packageName: String) -&gt; Unit, uninstallApp: (packageName: String) -&gt; Unit, hideThankYouNotice: () -&gt; Unit, onDonateClicked: () -&gt; Unit, linkColor: Color, )</ID>
-    <ID>FunctionNaming:MainScreen.kt$@Composable private fun MainNotice( text: String, buttonText: String, modifier: Modifier, linkColor: Color, onButtonClicked: () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:SettingsScreen.kt$@Composable @MyDevices private fun SettingsScreenPreview()</ID>
-    <ID>FunctionNaming:SettingsScreen.kt$@Composable internal fun SettingsScreen( displayLanguage: String, isUseEnglishEnabled: Boolean, isUseEnglishChecked: Boolean, isShowingCheckmarksOnSwitches: Boolean, onUseEnglishPress: (Boolean) -&gt; Unit, onSetupLanguagePress: () -&gt; Unit, showCheckmarksOnSwitches: (Boolean) -&gt; Unit, customizeColors: () -&gt; Unit, goBack: () -&gt; Unit, )</ID>
-    <ID>LongMethod:MainScreen.kt$@Composable internal fun MainScreen( allApps: List&lt;FossifyApp&gt;, fakeApps: List&lt;FossifyApp&gt;, showGoogleRelations: Boolean, showThankYouNotice: Boolean, openSettings: () -&gt; Unit, openAbout: () -&gt; Unit, moreAppsFromUs: () -&gt; Unit, launchApp: (packageName: String) -&gt; Unit, uninstallApp: (packageName: String) -&gt; Unit, hideThankYouNotice: () -&gt; Unit, onDonateClicked: () -&gt; Unit, linkColor: Color, )</ID>
-    <ID>LongParameterList:Context.kt$( appNameId: Int, licenseMask: Long, versionName: String, packageName: String, repositoryName: String, faqItems: ArrayList&lt;FAQItem&gt;, showFAQBeforeMail: Boolean, getAppIconIDs: ArrayList&lt;Int&gt; = getAppIconIDs(), getAppLauncherName: String = launcherName() )</ID>
-    <ID>LongParameterList:MainScreen.kt$( allApps: List&lt;FossifyApp&gt;, fakeApps: List&lt;FossifyApp&gt;, showGoogleRelations: Boolean, showThankYouNotice: Boolean, openSettings: () -&gt; Unit, openAbout: () -&gt; Unit, moreAppsFromUs: () -&gt; Unit, launchApp: (packageName: String) -&gt; Unit, uninstallApp: (packageName: String) -&gt; Unit, hideThankYouNotice: () -&gt; Unit, onDonateClicked: () -&gt; Unit, linkColor: Color, )</ID>
-    <ID>LongParameterList:SettingsScreen.kt$( displayLanguage: String, isUseEnglishEnabled: Boolean, isUseEnglishChecked: Boolean, isShowingCheckmarksOnSwitches: Boolean, onUseEnglishPress: (Boolean) -&gt; Unit, onSetupLanguagePress: () -&gt; Unit, showCheckmarksOnSwitches: (Boolean) -&gt; Unit, customizeColors: () -&gt; Unit, goBack: () -&gt; Unit, )</ID>
-    <ID>MagicNumber:MainScreen.kt$10</ID>
+    <ID>LambdaParameterEventTrailing:MainScreen.kt$onButtonClicked</ID>
     <ID>MaxLineLength:MainScreen.kt$customTopBar</ID>
     <ID>MaxLineLength:MyContentProvider.kt$MyContentProvider$override</ID>
+    <ID>ModifierWithoutDefault:MainScreen.kt$modifier</ID>
     <ID>NewLineAtEndOfFile:Constants.kt$org.fossify.thankyou.helpers.Constants.kt</ID>
     <ID>NewLineAtEndOfFile:Flow.kt$org.fossify.thankyou.extensions.Flow.kt</ID>
     <ID>NewLineAtEndOfFile:FossifyApp.kt$org.fossify.thankyou.ui.components.FossifyApp.kt</ID>
+    <ID>ParameterNaming:MainScreen.kt$onButtonClicked</ID>
+    <ID>ParameterNaming:MainScreen.kt$onDonateClicked</ID>
     <ID>PrintStackTrace:Fossify.kt$e</ID>
     <ID>ReturnCount:Fossify.kt$fun PackageManager.getSignerName(packageName: String?): String?</ID>
     <ID>SwallowedException:Context.kt$e: Exception</ID>
