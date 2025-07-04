@@ -3,4 +3,11 @@
     <string name="app_launcher_name">Eskerrik asko</string>
     <string name="main_donation_text">Fossify zu bezalako erabiltzaileek finantzatzen dute!\n\nZure dohaintzek hobekuntzak eta ezaugarri berriak bultzatzen dituzte. Zure laguntza eskertzen dugu, mesedez, kontuan hartu laguntzea!\n\nEskerrik asko!</string>
     <string name="main_text">Eskerrik asko laguntzeagatik!\n\nIdatzi hona\n hello@fossify.org,\n Zure iritzi eta iradokizun guztiak entzutea gustatuko litzaiguke.\n\n(Mesedez, mantendu aplikazioa instalatuta aplikazioaren funtzio guztiak desblokeatuta mantentzeko)</string>
+    <string name="potentially_unsafe_apps">Arriskutsuak izan daitezkeen aplikazioak</string>
+    <string name="installed_fossify_apps">Instalatutako Fossify aplikazioak</string>
+    <string name="version">Bertsioa: %1$s</string>
+    <string name="package_id">Paketea: %1$s</string>
+    <string name="installed_by">Instalatzailea: %1$s</string>
+    <string name="signed_by">Sinatzailea: %1$s</string>
+    <string name="show_checkmarks_on_switches">Erakutsi kontrol-markak etengailuetan</string>
 </resources>
