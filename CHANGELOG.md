@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated translations
+
+### Fixed
+
+- Fixed an issue where "Apply colors to all apps" did not work as expected
+
 ## [1.0.3] - 2025-05-29
 
 ### Changed
