@@ -10,7 +10,7 @@
 \n(אנא השאר את האפליקציה מותקנת כדי להימנע מלראות את תיבת הדו-שיח \'רכישה\' ולבטל את הנעילה של כל תכונות האפליקציה)</string>
     <string name="version">גרסה: %1$s</string>
     <string name="show_checkmarks_on_switches">הצג סימני וי על מתגים</string>
-    <string name="main_donation_text">Fossify ממומן על ידי משתמשים כמוך!\n\nהתרומות שלכם מעודדות שיפורים ותכונות חדשות. אנו מעריכים את תמיכתכם - אנא שקול לתרום!\n\nתודה לך!</string>
+    <string name="main_donation_text">Fossify ממומן על ידי משתמשים כמוך!\n\nהתרומות מעודדות שיפורים ותכונות חדשות. אנו מעריכים את התמיכה – נא לשקול תרומה!\n\nתודה לך!</string>
     <string name="potentially_unsafe_apps">אפליקציות שעלולות להיות לא בטוחות</string>
     <string name="installed_fossify_apps">התקנת אפליקציות Fossify</string>
     <string name="package_id">חבילה: %1$s</string>
