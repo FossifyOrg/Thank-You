@@ -9,4 +9,10 @@
 \n
 \n(Prosím ponechajte si aplikáciu nainštalovanú, aby sa vám nezobrazoval dialóg \'Podporte nás\' a mali všetky funkcie aplikácií odomknuté)</string>
     <string name="main_donation_text">Fossify funguje vďaka podpore od používateľov, ako ste vy!\n\nVaše príspevky podporujú tvorbu vylepšení a nových funkcií. Prosím, podporte nás, vážime si vašu pomoc!\n\nĎakujeme!</string>
+    <string name="potentially_unsafe_apps">Potenciálne nebezpečné aplikácie</string>
+    <string name="installed_fossify_apps">Nainštalované Fossify aplikácie</string>
+    <string name="version">Verzia: %1$s</string>
+    <string name="package_id">Balík: %1$s</string>
+    <string name="installed_by">Nainštalované zo zdroja: %1$s</string>
+    <string name="signed_by">Digitálny podpis: %1$s</string>
 </resources>
