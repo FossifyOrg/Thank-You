@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_launcher_name">תודה</string>
-    <string name="main_text">תודה שתמכת בנו!
-\n
-\nפנה אלינו ב-
-\nhello@fossify.org,
-\nנשמח לשמוע את כל המשוב וההצעות שלך.
-\n
-\n(אנא השאר את האפליקציה מותקנת כדי להימנע מלראות את תיבת הדו-שיח \'רכישה\' ולבטל את הנעילה של כל תכונות האפליקציה)</string>
+    <string name="main_text">תודה על התמיכה בנו! \n \nניתן לפנות אלינו דרך \nhello@fossify.org, \nונשמח לשמוע את כל המשוב ואת ההצעות שלך.\n \n(נא להשאיר את היישומון מותקן כדי להשאיר את כל תכונות היישומון פתוחות)</string>
     <string name="version">גרסה: %1$s</string>
     <string name="show_checkmarks_on_switches">הצג סימני וי על מתגים</string>
     <string name="main_donation_text">Fossify ממומן על ידי משתמשים כמוך!\n\nהתרומות מעודדות שיפורים ותכונות חדשות. אנו מעריכים את התמיכה – נא לשקול תרומה!\n\nתודה לך!</string>
