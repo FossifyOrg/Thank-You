@@ -15,4 +15,5 @@
     <string name="package_id">Balík: %1$s</string>
     <string name="installed_by">Nainštalované zo zdroja: %1$s</string>
     <string name="signed_by">Digitálny podpis: %1$s</string>
+    <string name="show_checkmarks_on_switches">Zobraziť fajky na prepínačoch</string>
 </resources>
