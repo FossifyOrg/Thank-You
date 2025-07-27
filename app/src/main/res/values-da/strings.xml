@@ -8,4 +8,12 @@
 \n vi vil gerne høre din feedback og dine forslag.
 \n
 \n(Behold venligst appen installeret for at undgå at se dialogboksen \'Køb\' og få alle app-funktioner låst op)</string>
+    <string name="main_donation_text">Fossify er finansieret af brugere som dig!\n\nDine donationer fremmer forbedringer og nye funktioner. Vi sætter pris på din støtte – overvej venligst at bidrage!\n\nTak!</string>
+    <string name="potentially_unsafe_apps">Potentielt usikre apps</string>
+    <string name="installed_fossify_apps">Installerede Fossify apps</string>
+    <string name="version">Version: %1$s</string>
+    <string name="package_id">Pakke: %1$s</string>
+    <string name="installed_by">Installeret af: %1$s</string>
+    <string name="signed_by">Signeret af: %1$s</string>
+    <string name="show_checkmarks_on_switches">Vis flueben på kontakter</string>
 </resources>
