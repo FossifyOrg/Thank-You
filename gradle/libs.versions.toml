@@ -3,7 +3,7 @@
 kotlin = "2.2.0"
 #Detekt
 detekt = "1.23.8"
-detektCompose = "0.4.24"
+detektCompose = "0.4.26"
 #Fossify
 commons = "4.3.0"
 #Compose
