@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<issues format="6" by="lint 8.10.1" type="baseline" client="gradle" dependencies="false" name="AGP (8.10.1)" variant="all" version="8.10.1">
+<issues format="6" by="lint 8.11.1" type="baseline" client="gradle" dependencies="false" name="AGP (8.11.1)" variant="all" version="8.11.1">
 
     <issue
         id="NotificationPermission"
@@ -14,7 +14,7 @@
         errorLine1="app-build-targetSDK = &quot;34&quot;"
         errorLine2="                      ~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="21"
             column="23"/>
     </issue>
@@ -54,46 +54,24 @@
 
     <issue
         id="AndroidGradlePluginVersion"
-        message="A newer version of Gradle than 8.11.1 is available: 8.14.2"
-        errorLine1="distributionUrl=https\://services.gradle.org/distributions/gradle-8.11.1-bin.zip"
-        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        message="A newer version of Gradle than 8.13 is available: 8.14.3"
+        errorLine1="distributionUrl=https\://services.gradle.org/distributions/gradle-8.13-bin.zip"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/wrapper/gradle-wrapper.properties"
+            file="$HOME/work/Thank-You/Thank-You/gradle/wrapper/gradle-wrapper.properties"
             line="3"
             column="17"/>
     </issue>
 
     <issue
         id="AndroidGradlePluginVersion"
-        message="A newer version of com.android.application than 8.10.1 is available: 8.11.0"
-        errorLine1="gradlePlugins-agp = &quot;8.10.1&quot;"
+        message="A newer version of com.android.application than 8.11.1 is available: 8.12.0"
+        errorLine1="gradlePlugins-agp = &quot;8.11.1&quot;"
         errorLine2="                    ~~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="19"
             column="21"/>
-    </issue>
-
-    <issue
-        id="GradleDependency"
-        message="A newer version of org.jetbrains.kotlin.android than 2.1.21 is available: 2.2.0"
-        errorLine1="kotlin = &quot;2.1.21&quot;"
-        errorLine2="         ~~~~~~~~">
-        <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
-            line="3"
-            column="10"/>
-    </issue>
-
-    <issue
-        id="GradleDependency"
-        message="A newer version of org.jetbrains.kotlin.plugin.compose than 2.1.21 is available: 2.2.0"
-        errorLine1="kotlin = &quot;2.1.21&quot;"
-        errorLine2="         ~~~~~~~~">
-        <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
-            line="3"
-            column="10"/>
     </issue>
 
     <issue
@@ -102,7 +80,7 @@
         errorLine1="composeActivity = &quot;1.9.3&quot;"
         errorLine2="                  ~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="10"
             column="19"/>
     </issue>
@@ -113,7 +91,7 @@
         errorLine1="compose = &quot;1.7.8&quot;"
         errorLine2="          ~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="11"
             column="11"/>
     </issue>
@@ -124,7 +102,7 @@
         errorLine1="compose = &quot;1.7.8&quot;"
         errorLine2="          ~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="11"
             column="11"/>
     </issue>
@@ -135,7 +113,7 @@
         errorLine1="compose = &quot;1.7.8&quot;"
         errorLine2="          ~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="11"
             column="11"/>
     </issue>
@@ -146,7 +124,7 @@
         errorLine1="compose = &quot;1.7.8&quot;"
         errorLine2="          ~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="11"
             column="11"/>
     </issue>
@@ -157,7 +135,7 @@
         errorLine1="compose = &quot;1.7.8&quot;"
         errorLine2="          ~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="11"
             column="11"/>
     </issue>
@@ -168,69 +146,69 @@
         errorLine1="compose = &quot;1.7.8&quot;"
         errorLine2="          ~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="11"
             column="11"/>
     </issue>
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.8.7 is available: 2.9.1"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.8.7 is available: 2.9.2"
         errorLine1="androidx-lifecycle = &quot;2.8.7&quot;"
         errorLine2="                     ~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="17"
             column="22"/>
     </issue>
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.7 is available: 2.9.1"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.7 is available: 2.9.2"
         errorLine1="androidx-lifecycle = &quot;2.8.7&quot;"
         errorLine2="                     ~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="17"
             column="22"/>
     </issue>
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.7 is available: 2.9.1"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.7 is available: 2.9.2"
         errorLine1="androidx-lifecycle = &quot;2.8.7&quot;"
         errorLine2="                     ~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="17"
             column="22"/>
     </issue>
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.8.7 is available: 2.9.1"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.8.7 is available: 2.9.2"
         errorLine1="androidx-lifecycle = &quot;2.8.7&quot;"
         errorLine2="                     ~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="17"
             column="22"/>
     </issue>
 
     <issue
         id="GradleDependency"
-        message="A newer version of `compileSdkVersion` than 34 is available: 35"
+        message="A newer version of `compileSdkVersion` than 34 is available: 36"
         errorLine1="app-build-compileSDKVersion = &quot;34&quot;"
         errorLine2="                              ~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="20"
             column="31"/>
     </issue>
 
     <issue
         id="MissingTranslation"
-        message="&quot;app_launcher_name&quot; is not translated in &quot;lv&quot; (Latvian), &quot;mk&quot; (Macedonian), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;eu&quot; (Basque), &quot;ne&quot; (Nepali), &quot;fa&quot; (Persian), &quot;nn&quot; (Norwegian Nynorsk), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;ltg&quot;, &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh)"
+        message="&quot;app_launcher_name&quot; is not translated in &quot;ms&quot; (Malay), &quot;is&quot; (Icelandic), &quot;ne&quot; (Nepali), &quot;fa&quot; (Persian), &quot;nn&quot; (Norwegian Nynorsk), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;ltg&quot;, &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh)"
         errorLine1="    &lt;string name=&quot;app_launcher_name&quot;>Thank You_debug&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -241,7 +219,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;app_launcher_name&quot; is not translated in &quot;lv&quot; (Latvian), &quot;mk&quot; (Macedonian), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;eu&quot; (Basque), &quot;ne&quot; (Nepali), &quot;fa&quot; (Persian), &quot;nn&quot; (Norwegian Nynorsk), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;ltg&quot;, &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh)"
+        message="&quot;app_launcher_name&quot; is not translated in &quot;ms&quot; (Malay), &quot;is&quot; (Icelandic), &quot;ne&quot; (Nepali), &quot;fa&quot; (Persian), &quot;nn&quot; (Norwegian Nynorsk), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;ltg&quot;, &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh)"
         errorLine1="    &lt;string name=&quot;app_launcher_name&quot;>Thank You&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -252,7 +230,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;main_donation_text&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;eu&quot; (Basque), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
+        message="&quot;main_donation_text&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
         errorLine1="    &lt;string name=&quot;main_donation_text&quot;>Fossify is funded by users like you!\n\nYour donations fuel improvements and new features. We appreciate your support—please consider contributing!\n\nThank you!&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -263,7 +241,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;main_text&quot; is not translated in &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;eu&quot; (Basque), &quot;ne&quot; (Nepali), &quot;fa&quot; (Persian), &quot;nn&quot; (Norwegian Nynorsk), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;or&quot; (Odia), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;cr&quot; (Cree), &quot;cy&quot; (Welsh)"
+        message="&quot;main_text&quot; is not translated in &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;ne&quot; (Nepali), &quot;fa&quot; (Persian), &quot;nn&quot; (Norwegian Nynorsk), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;or&quot; (Odia), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;cr&quot; (Cree), &quot;cy&quot; (Welsh)"
         errorLine1="    &lt;string name=&quot;main_text&quot;>Thank you for supporting us!\n\nDrop us a line at \n hello@fossify.org,\n we\&apos;d love to hear all your feedback and suggestions.\n\n(Please keep the app installed to keep all app features unlocked)&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~">
         <location
@@ -274,7 +252,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;potentially_unsafe_apps&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;eu&quot; (Basque), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
+        message="&quot;potentially_unsafe_apps&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
         errorLine1="    &lt;string name=&quot;potentially_unsafe_apps&quot;>Potentially unsafe apps&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -285,7 +263,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;installed_fossify_apps&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;eu&quot; (Basque), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
+        message="&quot;installed_fossify_apps&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
         errorLine1="    &lt;string name=&quot;installed_fossify_apps&quot;>Installed Fossify apps&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -296,7 +274,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;version&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;eu&quot; (Basque), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
+        message="&quot;version&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
         errorLine1="    &lt;string name=&quot;version&quot;>Version: %1$s&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~">
         <location
@@ -307,7 +285,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;package_id&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;eu&quot; (Basque), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
+        message="&quot;package_id&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
         errorLine1="    &lt;string name=&quot;package_id&quot;>Package: %1$s&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~">
         <location
@@ -318,7 +296,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;installed_by&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;eu&quot; (Basque), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
+        message="&quot;installed_by&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
         errorLine1="    &lt;string name=&quot;installed_by&quot;>Installed by: %1$s&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~">
         <location
@@ -329,7 +307,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;signed_by&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;eu&quot; (Basque), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
+        message="&quot;signed_by&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
         errorLine1="    &lt;string name=&quot;signed_by&quot;>Signed by: %1$s&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~">
         <location
@@ -340,7 +318,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;show_checkmarks_on_switches&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;eu&quot; (Basque), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
+        message="&quot;show_checkmarks_on_switches&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;ckb&quot;, &quot;da&quot; (Danish)"
         errorLine1="    &lt;string name=&quot;show_checkmarks_on_switches&quot;>Show checkmarks on switches&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -354,28 +332,6 @@
         message="This folder configuration (`v26`) is unnecessary; `minSdkVersion` is 26. Merge all the resources in this folder into `mipmap-anydpi`.">
         <location
             file="src/main/res/mipmap-anydpi-v26"/>
-    </issue>
-
-    <issue
-        id="VectorPath"
-        message="Very long vector path (890 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
-        errorLine1="    &lt;path android:fillColor=&quot;#ffffff&quot; android:pathData=&quot;M274.93 355.19q2.78 0.76 6.44 0.63 3.66-0.13 6.18-1.14L362 326.67q0-8.58-6.06-14.39-6.06-5.8-14.13-5.8h-69.15q-0.76 0-1.77-0.13t-1.51-0.38l-14.89-5.3q-2.02-0.76-2.78-2.52-0.76-1.77-0.25-3.79 0.5-1.77 2.52-2.78 2.02-1.01 4.04-0.25l11.36 4.29q1.01 0.5 1.64 0.63 0.63 0.13 1.89 0.13h26.5q4.8 0 8.45-3.28 3.66-3.28 3.66-8.58 0-3.53-2.15-6.81t-5.68-4.54l-69.91-26q-1.77-0.5-3.53-0.88-1.77-0.38-3.53-0.38h-16.15v91.11zM150 336.76q0 8.33 5.93 14.26t14.26 5.93q8.33 0 14.26-5.93t5.93-14.26v-70.67q0-8.33-5.93-14.26t-14.26-5.93q-8.33 0-14.26 5.93-5.93 5.94-5.93 14.27zm151.43-78.74q-3.79 0-7.45-1.39t-6.69-4.16l-27.76-27.26q-7.82-7.57-13.25-16.78t-5.43-20.06q0-13.88 9.72-23.6t23.6-9.72q8.08 0 15.14 3.41 7.07 3.41 12.11 9.21 5.05-5.8 12.11-9.21 7.07-3.41 15.14-3.41 13.88 0 23.6 9.72 9.73 9.71 9.73 23.59 0 10.85-5.3 20.06-5.3 9.21-13.12 16.78l-28.01 27.26q-3.03 2.78-6.69 4.16-3.66 1.39-7.45 1.39z&quot; android:strokeWidth=&quot;0.252381&quot;/>"
-        errorLine2="                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/drawable/ic_launcher_foreground.xml"
-            line="2"
-            column="57"/>
-    </issue>
-
-    <issue
-        id="VectorPath"
-        message="Very long vector path (890 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
-        errorLine1="    &lt;path android:fillColor=&quot;#ffffff&quot; android:pathData=&quot;M274.93 355.19q2.78 0.76 6.44 0.63 3.66-0.13 6.18-1.14L362 326.67q0-8.58-6.06-14.39-6.06-5.8-14.13-5.8h-69.15q-0.76 0-1.77-0.13t-1.51-0.38l-14.89-5.3q-2.02-0.76-2.78-2.52-0.76-1.77-0.25-3.79 0.5-1.77 2.52-2.78 2.02-1.01 4.04-0.25l11.36 4.29q1.01 0.5 1.64 0.63 0.63 0.13 1.89 0.13h26.5q4.8 0 8.45-3.28 3.66-3.28 3.66-8.58 0-3.53-2.15-6.81t-5.68-4.54l-69.91-26q-1.77-0.5-3.53-0.88-1.77-0.38-3.53-0.38h-16.15v91.11zM150 336.76q0 8.33 5.93 14.26t14.26 5.93q8.33 0 14.26-5.93t5.93-14.26v-70.67q0-8.33-5.93-14.26t-14.26-5.93q-8.33 0-14.26 5.93-5.93 5.94-5.93 14.27zm151.43-78.74q-3.79 0-7.45-1.39t-6.69-4.16l-27.76-27.26q-7.82-7.57-13.25-16.78t-5.43-20.06q0-13.88 9.72-23.6t23.6-9.72q8.08 0 15.14 3.41 7.07 3.41 12.11 9.21 5.05-5.8 12.11-9.21 7.07-3.41 15.14-3.41 13.88 0 23.6 9.72 9.73 9.71 9.73 23.59 0 10.85-5.3 20.06-5.3 9.21-13.12 16.78l-28.01 27.26q-3.03 2.78-6.69 4.16-3.66 1.39-7.45 1.39z&quot; android:strokeWidth=&quot;0.252381&quot;/>"
-        errorLine2="                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/drawable/ic_launcher_monochrome.xml"
-            line="2"
-            column="57"/>
     </issue>
 
     <issue
