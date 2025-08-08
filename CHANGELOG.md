@@ -7,9 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [1.1.1] - 2025-08-08
-### Changed
-- Updated translations
-
 ### Fixed
 - The `Use English language` preference now works properly ([#75])
 
