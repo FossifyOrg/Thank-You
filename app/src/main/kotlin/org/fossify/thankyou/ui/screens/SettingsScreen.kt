@@ -5,7 +5,6 @@ import androidx.compose.ui.res.stringResource
 import org.fossify.commons.R
 import org.fossify.commons.compose.extensions.MyDevices
 import org.fossify.commons.compose.lists.SimpleColumnScaffold
-import org.fossify.commons.compose.settings.SettingsCheckBoxComponent
 import org.fossify.commons.compose.settings.SettingsGroup
 import org.fossify.commons.compose.settings.SettingsHorizontalDivider
 import org.fossify.commons.compose.settings.SettingsPreferenceComponent
@@ -43,10 +42,11 @@ internal fun SettingsScreen(
                 SettingsTitleTextComponent(text = stringResource(id = R.string.general_settings))
             }) {
                 if (isUseEnglishEnabled) {
-                    SettingsCheckBoxComponent(
+                    SettingsSwitchComponent(
                         label = stringResource(id = R.string.use_english_language),
                         initialValue = isUseEnglishChecked,
                         onChange = onUseEnglishPress,
+                        showCheckmark = isShowingCheckmarksOnSwitches
                     )
                 }
                 if (isTiramisuPlus()) {
