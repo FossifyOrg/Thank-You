@@ -1,7 +1,3 @@
-Changed:
-
-• Updated translations
-
 Fixed:
 
 • The `Use English language` preference now works properly 
