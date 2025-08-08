@@ -3,12 +3,12 @@ package org.fossify.thankyou.activities
 import android.annotation.SuppressLint
 import android.content.ContentValues
 import android.os.Bundle
-import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import org.fossify.commons.activities.BaseComposeActivity
 import org.fossify.commons.compose.extensions.enableEdgeToEdgeSimple
 import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.extensions.updateGlobalConfig
@@ -21,7 +21,7 @@ import org.fossify.thankyou.ui.screens.SettingsScreen
 import java.util.Locale
 import kotlin.system.exitProcess
 
-class SettingsActivity : ComponentActivity() {
+class SettingsActivity : BaseComposeActivity() {
 
     private val preferences by lazy { config }
 
