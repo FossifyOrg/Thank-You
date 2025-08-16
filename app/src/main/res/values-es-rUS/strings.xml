@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_launcher_name">Gracias</string>
+    <string name="main_donation_text">¡Fossify está financiado por usuarios como tú!\n\nTus donaciones impulsan mejoras y nuevas funciones. Agradecemos su apoyo, ¡considere contribuir—\n\n¡Gracias!</string>
+    <string name="main_text">¡Gracias por apoyarnos!\n\nEscríbanos al \n hello@fossify.org,\n nos encantaría escuchar todos sus comentarios y sugerencias.\n\n(Mantenga la aplicación instalada para mantener todas las funciones de la aplicación desbloqueadas)</string>
+</resources>
