@@ -5,7 +5,7 @@ kotlin = "2.2.10"
 detekt = "1.23.8"
 detektCompose = "0.4.27"
 #Fossify
-commons = "4.4.2"
+commons = "5.0.0"
 #Compose
 composeActivity = "1.9.3"
 compose = "1.7.8"
