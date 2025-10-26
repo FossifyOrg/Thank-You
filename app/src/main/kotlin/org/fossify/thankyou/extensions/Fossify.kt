@@ -37,8 +37,8 @@ fun Context.getAllFossifyApps(): List<FossifyApp> {
                 val `package` = it.packageName
                 val installerPackage = getInstallerPackage(`package`)
                 FossifyApp(
-                    name = getApplicationLabel(it.applicationInfo).toString(),
-                    icon = getApplicationIcon(it.applicationInfo),
+                    name = it.applicationInfo?.let { info -> getApplicationLabel(info) }.toString(),
+                    icon = it.applicationInfo?.let { info -> getApplicationIcon(info) },
                     packageName = `package`,
                     versionName = it.versionName,
                     signerName = getSignerName(`package`),
@@ -61,8 +61,8 @@ fun Context.getFakeFossifyApps(): List<FossifyApp> {
                 val `package` = it.packageName
                 val installerPackage = getInstallerPackage(`package`)
                 FossifyApp(
-                    name = getApplicationLabel(it.applicationInfo).toString(),
-                    icon = getApplicationIcon(it.applicationInfo),
+                    name = it.applicationInfo?.let { info -> getApplicationLabel(info) }.toString(),
+                    icon = it.applicationInfo?.let { info -> getApplicationIcon(info) },
                     packageName = `package`,
                     versionName = it.versionName,
                     signerName = getSignerName(`package`),
