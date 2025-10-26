@@ -14,7 +14,6 @@
     <ID>ParameterNaming:MainScreen.kt$onButtonClicked</ID>
     <ID>ParameterNaming:MainScreen.kt$onDonateClicked</ID>
     <ID>PrintStackTrace:Fossify.kt$e</ID>
-    <ID>ReturnCount:Fossify.kt$fun PackageManager.getSignerName(packageName: String?): String?</ID>
     <ID>SwallowedException:Context.kt$e: Exception</ID>
     <ID>TooGenericExceptionCaught:Context.kt$e: Exception</ID>
     <ID>TooGenericExceptionCaught:Fossify.kt$e: Exception</ID>
