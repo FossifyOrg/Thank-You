@@ -9,7 +9,7 @@ commons = "5.5.0"
 #Compose
 composeActivity = "1.9.3"
 compose = "1.7.8"
-composeMaterial3 = "1.3.2"
+composeMaterial3 = "1.4.0"
 accompanist = "0.37.3"
 #Androidx
 androidx-customView = "1.2.0"
