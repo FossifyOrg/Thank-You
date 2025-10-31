@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_launcher_name">Благодарим ви</string>
-    <string name="main_text">Благодаря ви, че ни подкрепихте!
-\n
-\nПуснете ни линия на
-\n hello@fossify.org,
-\n ще се радваме да чуем всичките ви отзиви и предложения.
-\n
-\n(Моля, дръжте приложението инсталирано, за да избегнете виждането на диалога \"Покупка\" и да имате отключени всички функции на приложението)</string>
+    <string name="main_text">Благодарим ви, че ни подкрепяте!\n\nПише те ни на\nhello@fossify.org,\nще се радваме да чуем отзивите и предложения та ви.\n\nДръжте приложението инсталирано, за да избегнете диалога „Покупка“ и да имате отключени всички възможности на приложението.</string>
+    <string name="main_donation_text">Fossify се финансира от потребители като вас!\n\nДаренията ви подклаждат подобрения и нови възможности. Оценяваме, че ни поддържате. Моля, направете дарение!\n\nБлагодарим ви!</string>
+    <string name="potentially_unsafe_apps">Вероятно незащитени приложения</string>
+    <string name="installed_fossify_apps">Инсталирани приложения на Fossify</string>
+    <string name="version">Издание: %1$s</string>
+    <string name="package_id">Пакет: %1$s</string>
+    <string name="installed_by">Инсталирано от: %1$s</string>
+    <string name="signed_by">Подписано от: %1$s</string>
+    <string name="show_checkmarks_on_switches">Отметки на бутоните за превключване</string>
 </resources>
