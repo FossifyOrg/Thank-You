@@ -47,7 +47,7 @@
         errorLine1="distributionUrl=https\://services.gradle.org/distributions/gradle-8.13-bin.zip"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/wrapper/gradle-wrapper.properties"
+            file="$HOME/work/Thank-You/Thank-You/gradle/wrapper/gradle-wrapper.properties"
             line="3"
             column="17"/>
     </issue>
@@ -58,20 +58,9 @@
         errorLine1="gradlePlugins-agp = &quot;8.11.1&quot;"
         errorLine2="                    ~~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="19"
             column="21"/>
-    </issue>
-
-    <issue
-        id="GradleDependency"
-        message="A newer version of androidx.activity:activity-compose than 1.9.3 is available: 1.11.0"
-        errorLine1="composeActivity = &quot;1.9.3&quot;"
-        errorLine2="                  ~~~~~~~">
-        <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
-            line="10"
-            column="19"/>
     </issue>
 
     <issue
@@ -80,7 +69,7 @@
         errorLine1="compose = &quot;1.7.8&quot;"
         errorLine2="          ~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="11"
             column="11"/>
     </issue>
@@ -91,7 +80,7 @@
         errorLine1="compose = &quot;1.7.8&quot;"
         errorLine2="          ~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="11"
             column="11"/>
     </issue>
@@ -102,7 +91,7 @@
         errorLine1="compose = &quot;1.7.8&quot;"
         errorLine2="          ~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="11"
             column="11"/>
     </issue>
@@ -113,7 +102,7 @@
         errorLine1="compose = &quot;1.7.8&quot;"
         errorLine2="          ~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="11"
             column="11"/>
     </issue>
@@ -124,7 +113,7 @@
         errorLine1="compose = &quot;1.7.8&quot;"
         errorLine2="          ~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="11"
             column="11"/>
     </issue>
@@ -135,86 +124,9 @@
         errorLine1="compose = &quot;1.7.8&quot;"
         errorLine2="          ~~~~~~~">
         <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
+            file="$HOME/work/Thank-You/Thank-You/gradle/libs.versions.toml"
             line="11"
             column="11"/>
-    </issue>
-
-    <issue
-        id="GradleDependency"
-        message="A newer version of androidx.compose.material3:material3 than 1.3.2 is available: 1.4.0"
-        errorLine1="composeMaterial3 = &quot;1.3.2&quot;"
-        errorLine2="                   ~~~~~~~">
-        <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
-            line="12"
-            column="20"/>
-    </issue>
-
-    <issue
-        id="GradleDependency"
-        message="A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.8.7 is available: 2.9.4"
-        errorLine1="androidx-lifecycle = &quot;2.8.7&quot;"
-        errorLine2="                     ~~~~~~~">
-        <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
-            line="17"
-            column="22"/>
-    </issue>
-
-    <issue
-        id="GradleDependency"
-        message="A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.7 is available: 2.9.4"
-        errorLine1="androidx-lifecycle = &quot;2.8.7&quot;"
-        errorLine2="                     ~~~~~~~">
-        <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
-            line="17"
-            column="22"/>
-    </issue>
-
-    <issue
-        id="GradleDependency"
-        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.7 is available: 2.9.4"
-        errorLine1="androidx-lifecycle = &quot;2.8.7&quot;"
-        errorLine2="                     ~~~~~~~">
-        <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
-            line="17"
-            column="22"/>
-    </issue>
-
-    <issue
-        id="GradleDependency"
-        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.8.7 is available: 2.9.4"
-        errorLine1="androidx-lifecycle = &quot;2.8.7&quot;"
-        errorLine2="                     ~~~~~~~">
-        <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
-            line="17"
-            column="22"/>
-    </issue>
-
-    <issue
-        id="NewerVersionAvailable"
-        message="A newer version of org.jetbrains.kotlin.android than 2.2.20 is available: 2.2.21"
-        errorLine1="kotlin = &quot;2.2.20&quot;"
-        errorLine2="         ~~~~~~~~">
-        <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
-            line="3"
-            column="10"/>
-    </issue>
-
-    <issue
-        id="NewerVersionAvailable"
-        message="A newer version of org.jetbrains.kotlin.plugin.compose than 2.2.20 is available: 2.2.21"
-        errorLine1="kotlin = &quot;2.2.20&quot;"
-        errorLine2="         ~~~~~~~~">
-        <location
-            file="$HOME/Projects/Fossify/FossifyOrg/Thank-You/gradle/libs.versions.toml"
-            line="3"
-            column="10"/>
     </issue>
 
     <issue
