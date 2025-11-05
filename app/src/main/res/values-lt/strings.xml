@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_launcher_name">Ačiū</string>
-    <string name="main_text">"Dėkojame, kad palaikote mus!
-\n
-\nParašykite mums adresu hello@fossify.org, mes norėtume išgirsti visus jūsų atsiliepimus ir pasiūlymus.
-\n
-\n(Prašome laikyti programėlę įdiegtą, kad nematytumėte  Pirkimo \" dialogo ir visos programėlės funkcijos bus atrakintos)"</string>
+    <string name="main_text">Dėkojame, kad remiate mus!\n\nParašykite mums adresu \n hello@fossify.org.\n Mielai išgirsime visus jūsų atsiliepimus ir pasiūlymus.\n\n(Laikykite programą įdiegtą, kad visos programos funkcijos būtų atrakintos).</string>
+    <string name="main_donation_text">„Fossify“ finansuoja tokie naudotojai kaip jūs!\n\nJūsų aukos skatina tobulinimus ir naujas funkcijas. Mes dėkojame už paramą – apsvarstykite galimybę prisidėti!\n\nAčiū!</string>
+    <string name="potentially_unsafe_apps">Galimai nesaugios programos</string>
+    <string name="installed_fossify_apps">Įdiegtos „Fossify“ programos</string>
+    <string name="version">Versija: %1$s</string>
+    <string name="package_id">Paketas: %1$s</string>
+    <string name="installed_by">Įdiegė: %1$s</string>
+    <string name="signed_by">Pasirašė: %1$s</string>
+    <string name="show_checkmarks_on_switches">Rodyti varneles ant jungiklių</string>
 </resources>
