@@ -8,4 +8,11 @@
 \nadoraríamos ouvir todos os seus comentários e sugestões.
 \n
 \n(Por favor, mantenha a aplicação instalada para evitar ver o diálogo \'Comprar\' e ter todos os recursos da aplicação desbloqueadas)</string>
+    <string name="main_donation_text">O Fossify é financiado por utilizadores como você!\n\nAs suas doações impulsionam melhorias e novos recursos. Agradecemos o seu apoio — considere contribuir!\n\nObrigado!</string>
+    <string name="potentially_unsafe_apps">Potenciais aplicações não seguras</string>
+    <string name="installed_fossify_apps">Aplicações Fossify instaladas</string>
+    <string name="version">Versão: %1$s</string>
+    <string name="package_id">Pacote: %1$s</string>
+    <string name="installed_by">Instalado por: %1$s</string>
+    <string name="signed_by">Assinado por: %1$s</string>
 </resources>
