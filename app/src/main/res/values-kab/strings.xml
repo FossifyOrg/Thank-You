@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_launcher_name">Tanemmirt</string>
+    <string name="version">Lqem: %1$s</string>
+    <string name="package_id">Akemmus: %1$s</string>
+    <string name="installed_fossify_apps">Isnasen n Fossify i yettusbedden</string>
+    <string name="installed_by">Yesbedd-it: %1$s</string>
 </resources>
