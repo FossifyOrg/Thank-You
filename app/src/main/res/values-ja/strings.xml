@@ -8,4 +8,12 @@
 \n皆様のご意見、ご提案をお待ちしています。
 \n
 \n(購入ダイアログが表示されないように、アプリをインストールしたままにして、すべてのアプリ機能をロック解除してください)</string>
+    <string name="installed_fossify_apps">インストールされている Fossify アプリ</string>
+    <string name="version">バージョン: %1$s</string>
+    <string name="package_id">パッケージ名: %1$s</string>
+    <string name="installed_by">­%1$s によってインストールされたアプリ</string>
+    <string name="signed_by">%1$s によって署名されたアプリ</string>
+    <string name="show_checkmarks_on_switches">スイッチボタンにチェックマークを表示</string>
+    <string name="potentially_unsafe_apps">潜在的に安全でないアプリ</string>
+    <string name="main_donation_text">Fossify はあなたのようなユーザーによって資金提供されています! \n\n皆様のご寄付は、改善と新機能の実現に役立てられます。皆様のご支援に感謝申し上げます。ぜひご寄付をご検討ください。 \n\nありがとう！</string>
 </resources>
