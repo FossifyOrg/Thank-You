@@ -8,7 +8,7 @@
 \npois gustaríanos saber as tuas opinións e suxerencias.
 \n
 \n(Manteña este aplicativo instalado para impedir a exibición do diálogo \'Comprar\' e para ter acceso a todas as funcionalidades da dos nosos aplicativos)</string>
-    <string name="main_donation_text">Fossify finánciase grazas a usuarios como ti.\n\nAs túas doacións impulsan melloras e novas funcións. Agradecemos o teu apoio. Por favor, considera contribuir.\n\nGrazas.</string>
+    <string name="main_donation_text">Fossify finánciase grazas a usuarios como ti!\n\nAs túas doacións impulsan melloras e novas funcións. Agradecemos o teu apoio. Por favor, considera contribuir!\n\nGrazas!</string>
     <string name="potentially_unsafe_apps">Aplicacións potencialmente inseguras</string>
     <string name="installed_fossify_apps">Aplicacións Fossify instaladas</string>
     <string name="version">Versión: %1$s</string>
