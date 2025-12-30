@@ -9,10 +9,13 @@ import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import org.fossify.commons.R
+import org.fossify.commons.helpers.FONT_TYPE_SYSTEM_DEFAULT
 import org.fossify.commons.helpers.MyContentProvider.ACTION_GLOBAL_CONFIG_UPDATED
 import org.fossify.commons.helpers.MyContentProvider.COL_ACCENT_COLOR
 import org.fossify.commons.helpers.MyContentProvider.COL_APP_ICON_COLOR
 import org.fossify.commons.helpers.MyContentProvider.COL_BACKGROUND_COLOR
+import org.fossify.commons.helpers.MyContentProvider.COL_FONT_NAME
+import org.fossify.commons.helpers.MyContentProvider.COL_FONT_TYPE
 import org.fossify.commons.helpers.MyContentProvider.COL_ID
 import org.fossify.commons.helpers.MyContentProvider.COL_LAST_UPDATED_TS
 import org.fossify.commons.helpers.MyContentProvider.COL_PRIMARY_COLOR
@@ -29,7 +32,7 @@ class MyContentProviderHelper private constructor(
 
     companion object {
         private const val DB_NAME = "Preferences.db"
-        private const val DB_VERSION = 1
+        private const val DB_VERSION = 2
         private const val TABLE_NAME = "settings"
         private const val PREF_ID = 1
 
@@ -48,13 +51,20 @@ class MyContentProviderHelper private constructor(
                 $COL_ACCENT_COLOR INTEGER DEFAULT 0,
                 $COL_APP_ICON_COLOR INTEGER DEFAULT 0,
                 $COL_SHOW_CHECKMARKS_ON_SWITCHES INTEGER DEFAULT 0,
-                $COL_LAST_UPDATED_TS INTEGER DEFAULT 0
+                $COL_LAST_UPDATED_TS INTEGER DEFAULT 0,
+                $COL_FONT_TYPE INTEGER DEFAULT 0,
+                $COL_FONT_NAME TEXT DEFAULT ''
             )
             """.trimIndent()
         )
     }
 
-    override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {}
+    override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
+        if (oldVersion < 2) {
+            db.execSQL("ALTER TABLE $TABLE_NAME ADD COLUMN $COL_FONT_TYPE INTEGER DEFAULT 0")
+            db.execSQL("ALTER TABLE $TABLE_NAME ADD COLUMN $COL_FONT_NAME TEXT DEFAULT ''")
+        }
+    }
 
     private fun initializePreferences() {
         with(context.resources) {
@@ -70,6 +80,8 @@ class MyContentProviderHelper private constructor(
                     put(COL_APP_ICON_COLOR, getColor(R.color.color_primary))
                     put(COL_SHOW_CHECKMARKS_ON_SWITCHES, false)
                     put(COL_LAST_UPDATED_TS, 0)
+                    put(COL_FONT_TYPE, FONT_TYPE_SYSTEM_DEFAULT)
+                    put(COL_FONT_NAME, "")
                 }
             )
         }
@@ -116,6 +128,8 @@ class MyContentProviderHelper private constructor(
             COL_APP_ICON_COLOR,
             COL_SHOW_CHECKMARKS_ON_SWITCHES,
             COL_LAST_UPDATED_TS,
+            COL_FONT_TYPE,
+            COL_FONT_NAME,
         )
 
         val selection = "$COL_ID = ?"
