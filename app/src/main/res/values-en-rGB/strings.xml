@@ -5,4 +5,9 @@
     <string name="main_text">Thank you for supporting us!\n\nDrop us a line at \n hello@fossify.org,\n we\'d love to hear all your feedback and suggestions.\n\n(Please keep the app installed to keep all app features unlocked)</string>
     <string name="potentially_unsafe_apps">Potentially unsafe apps</string>
     <string name="installed_fossify_apps">Installed Fossify apps</string>
+    <string name="version">Version: %1$s</string>
+    <string name="package_id">Package: %1$s</string>
+    <string name="installed_by">Installed by: %1$s</string>
+    <string name="signed_by">Signed by: %1$s</string>
+    <string name="show_checkmarks_on_switches">Show checkmarks on switches</string>
 </resources>
