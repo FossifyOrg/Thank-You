@@ -15,4 +15,5 @@
     <string name="package_id">Pacote: %1$s</string>
     <string name="installed_by">Instalado por: %1$s</string>
     <string name="signed_by">Assinado por: %1$s</string>
+    <string name="show_checkmarks_on_switches">Mostrar marcas de verificação nos interruptores</string>
 </resources>
