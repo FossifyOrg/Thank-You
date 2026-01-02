@@ -11,4 +11,5 @@
     <string name="installed_fossify_apps">Εγκατεστημένες Fossify εφαρμογές</string>
     <string name="version">Έκδοση: %1$s</string>
     <string name="installed_by">Εγκαταστάθηκε από: %1$s</string>
+    <string name="main_donation_text">Το Fossify χρηματοδοτείται από χρήστες σαν εσάς!\n\nΟι δωρεές σας ενισχύουν τις βελτιώσεις και τις νέες λειτουργίες. Εκτιμούμε την υποστήριξή σας — παρακαλούμε σκεφτείτε να συνεισφέρετε!\n\nΣας ευχαριστούμε!</string>
 </resources>
