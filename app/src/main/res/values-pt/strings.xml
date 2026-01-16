@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_launcher_name">Obrigado</string>
-    <string name="main_text">Obrigado por nos apoiar!\n\nContacte-nos em\n hello@fossify.org,\nadoraríamos ouvir todos os seus comentários e sugestões.\n\n(Por favor, mantenha a aplicação instalada para manter rodas as funcionalidades desbloqueadas)</string>
+    <string name="main_text">Obrigado por nos apoiar!\n\nContacte-nos em \n hello@fossify.org,\nadoraríamos ouvir todos os seus comentários e sugestões.\n\n(Por favor mantenha a aplicação instalada para manter todas as funcionalidades desbloqueadas)</string>
     <string name="potentially_unsafe_apps">Aplicações potencialmente inseguras</string>
     <string name="installed_fossify_apps">Aplicações Fossify instaladas</string>
     <string name="version">Versão: %1$s</string>
@@ -9,4 +9,5 @@
     <string name="installed_by">Instalada de: %1$s</string>
     <string name="signed_by">Assinada por: %1$s</string>
     <string name="show_checkmarks_on_switches">Mostrar marcas de ativação</string>
+    <string name="main_donation_text">Fossify é financiado por utilizadores como você!\n\nAs suas doações alimentam melhorias e novas funcionalidades. Agradecemos o seu apoio-por favor considere contribuir!\n\nObrigado!</string>
 </resources>
