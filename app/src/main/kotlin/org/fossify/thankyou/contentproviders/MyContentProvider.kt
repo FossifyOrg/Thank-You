@@ -62,7 +62,7 @@ class MyContentProvider : ContentProvider() {
         if (uriMatcher.match(uri) != FONTS_FILE) throw FileNotFoundException(uri.toString())
         val name = uri.lastPathSegment ?: throw FileNotFoundException(uri.toString())
         val safeName = File(name).name
-        if (safeName.isFontFile()) throw FileNotFoundException("Not a font file")
+        if (!safeName.isFontFile()) throw FileNotFoundException("Not a font file")
 
         val fontsDir = File(context!!.filesDir, "fonts").apply { mkdirs() }
         val file = File(fontsDir, safeName)
