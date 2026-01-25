@@ -51,6 +51,7 @@ import org.fossify.commons.compose.menus.OverflowMode
 import org.fossify.commons.compose.settings.SettingsGroupTitle
 import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.compose.theme.SimpleTheme
+import org.fossify.commons.extensions.applyFontToTextView
 import org.fossify.thankyou.R
 import org.fossify.thankyou.models.FossifyApp
 import org.fossify.thankyou.ui.components.FossifyApp
@@ -206,6 +207,7 @@ private fun MainNotice(
             .padding(start = 16.dp, end = 16.dp, top = 16.dp, bottom = 8.dp)
             .then(modifier)
     ) {
+        val context = LocalContext.current
         AndroidView(
             factory = { context ->
                 TextView(context).apply {
@@ -221,6 +223,7 @@ private fun MainNotice(
             update = { textView ->
                 textView.setLinkTextColor(linkColor.toArgb())
                 textView.setTextColor(textColor.toArgb())
+                context.applyFontToTextView(textView)
             }
         )
 
