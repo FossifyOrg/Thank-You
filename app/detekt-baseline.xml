@@ -3,10 +3,8 @@
   <ManuallySuppressedIssues/>
   <CurrentIssues>
     <ID>ComposableParamOrder:FossifyApp.kt$FossifyApp</ID>
-    <ID>EmptyFunctionBlock:MyContentProviderHelper.kt$MyContentProviderHelper${}</ID>
     <ID>LambdaParameterEventTrailing:MainScreen.kt$onButtonClicked</ID>
     <ID>MaxLineLength:MainScreen.kt$customTopBar</ID>
-    <ID>MaxLineLength:MyContentProvider.kt$MyContentProvider$override</ID>
     <ID>ModifierWithoutDefault:MainScreen.kt$modifier</ID>
     <ID>NewLineAtEndOfFile:Constants.kt$org.fossify.thankyou.helpers.Constants.kt</ID>
     <ID>NewLineAtEndOfFile:Flow.kt$org.fossify.thankyou.extensions.Flow.kt</ID>
