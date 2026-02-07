@@ -70,6 +70,5 @@ lifecycle = [
 ]
 [plugins]
 android = { id = "com.android.application", version.ref = "gradlePlugins-agp" }
-kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
