@@ -8,4 +8,13 @@
 \nSimple Thank You 런처 아이콘은 설정 메뉴의 옵션을 이용해서 숨길 수 있습니다.
 \n
 \n(애플리케이션을 설치 한 상태로 유지해야 잠금 해제된 기능이 이용가능하고, \'구매\' 다이얼로그가 다시 나타나지 않습니다.)</string>
+    <string name="app_launcher_name">감사합니다</string>
+    <string name="main_donation_text">Fossify는 당신과 같은 사용자들에 의해 후원됩니다!\n\n여러분의 후원은 기능 개선과 새로운 기능에 큰 도움이 됩니다. 여러분의 성원에 감사드립니다. 기부를 고려해 주시면 감사하겠습니다!\n\n감사합니다!</string>
+    <string name="potentially_unsafe_apps">잠재적으로 위험한 앱</string>
+    <string name="installed_fossify_apps">Fossify 앱 설치하기</string>
+    <string name="version">버전: %1$s</string>
+    <string name="package_id">패키지: %1$s</string>
+    <string name="installed_by">%1$s에 의해 설치됨</string>
+    <string name="signed_by">%1$s에 의해 서명됨</string>
+    <string name="show_checkmarks_on_switches">스위치에 체크 표시 보이기</string>
 </resources>
