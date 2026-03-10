@@ -7,4 +7,13 @@
 \n we\'d love to hear all your feedback and suggestions.
 \n
 \n(Please keep the app installed to avoid seeing the \'Purchase\' dialog and have all app features unlocked)</string>
+    <string name="app_launcher_name">ขอบคุณ</string>
+    <string name="main_donation_text">Fossify ได้รับเงินทุนสนับสนุนจากผู้ใช้งานเช่นคุณ!\n\nเงินบริจาคของคุณช่วยขับเคลื่อนการปรับปรุงและเพิ่มฟีเจอร์ใหม่ๆ เราขอขอบคุณสำหรับการสนับสนุนของคุณ โปรดพิจารณาบริจาค!\n\nขอบคุณ!</string>
+    <string name="potentially_unsafe_apps">แอปอาจไม่ปลอดภัย</string>
+    <string name="installed_fossify_apps">ติดตั้งแอป Fossify แล้ว</string>
+    <string name="version">เวอร์ชัน: %1$s</string>
+    <string name="package_id">แพ็คเกจ: %1$s</string>
+    <string name="installed_by">ติดตั้งโดย: %1$s</string>
+    <string name="signed_by">ลงชื่อโดย: %1$s</string>
+    <string name="show_checkmarks_on_switches">แสดงเครื่องหมายถูกบนสวิตช์</string>
 </resources>
