@@ -3,9 +3,9 @@
     <string name="app_launcher_name">Köszönet</string>
     <string name="main_text">Köszönjük, hogy támogat minket! \n \nÍrjunk nekik a következő címre: \n hello@fossify.org, \n szeretnénk hallani a visszajelzéseit és javaslatait. \n \n(Hagyja telepítve az alkalmazást, hogy továbbra is működjön minden funkció)</string>
     <string name="show_checkmarks_on_switches">Jelölések megjelenítése a kapcsolókon</string>
-    <string name="potentially_unsafe_apps">Potenciálisan nem biztonságos alkalmazások</string>
+    <string name="potentially_unsafe_apps">Potenciálisan ártalmas alkalmazások</string>
     <string name="installed_fossify_apps">Telepített Fossify alkalmazások</string>
-    <string name="version">Verzió: %1$s</string>
+    <string name="version">%1$s verzió</string>
     <string name="signed_by">Aláírta: %1$s</string>
     <string name="package_id">Csomag: %1$s</string>
     <string name="main_donation_text">A Fossify-t az olyan felhasználók finanszírozzák, mint Ön!\n\nAdományai lehetővé teszik a további fejlesztéseket és új funkciókat. Nagyra értékeljük a támogatását - kérjük, fontolja meg a hozzájárulást!\n\nKöszönjük!</string>
