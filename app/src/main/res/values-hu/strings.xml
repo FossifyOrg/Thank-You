@@ -6,8 +6,8 @@
     <string name="potentially_unsafe_apps">Potenciálisan ártalmas alkalmazások</string>
     <string name="installed_fossify_apps">Telepített Fossify alkalmazások</string>
     <string name="version">%1$s verzió</string>
-    <string name="signed_by">Aláírta: %1$s</string>
-    <string name="package_id">Csomag: %1$s</string>
+    <string name="signed_by">%1$s írta alá</string>
+    <string name="package_id">%1$s csomag</string>
     <string name="main_donation_text">A Fossify-t az olyan felhasználók finanszírozzák, mint Ön!\n\nAdományai lehetővé teszik a további fejlesztéseket és új funkciókat. Nagyra értékeljük a támogatását - kérjük, fontolja meg a hozzájárulást!\n\nKöszönjük!</string>
-    <string name="installed_by">Telepítette: %1$s</string>
+    <string name="installed_by">%1$s által telepítve</string>
 </resources>
