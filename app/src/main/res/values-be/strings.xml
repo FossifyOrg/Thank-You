@@ -7,4 +7,12 @@
 \nмы будзем рады пачуць усе вашы водгукі і прапановы. 
 \n
 \n(Калі ласка, пакіньце праграму ўсталяванай, каб не бачыць дыялогавае акно «Купля» і каб усе функцыі праграмы былі разблакіраваны)</string>
+    <string name="main_donation_text">Fossify фінансуецца такімі ж карыстальнікамі, як вы!\n\nВашы ахвяраванні спрыяюць паляпшэнню і з\'яўленню новых функцый. Мы шануем вашу падтрымку — калі ласка, зрабіце свой уклад!\n\nДзякуй!</string>
+    <string name="potentially_unsafe_apps">Патэнцыйна небяспечныя праграмы</string>
+    <string name="installed_fossify_apps">Устаноўленыя праграмы Fossify</string>
+    <string name="version">Версія: %1$s</string>
+    <string name="package_id">Пакет: %1$s</string>
+    <string name="installed_by">Устаноўлена: %1$s</string>
+    <string name="signed_by">Падпісана: %1$s</string>
+    <string name="show_checkmarks_on_switches">Паказваць меткі на перамыкальніках</string>
 </resources>
