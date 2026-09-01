@@ -8,4 +8,12 @@
 \n z veseljem bomo prisluhnili vašemu odzivu in predlogom.
 \n
 \n(prosimo vas, da aplikacija ostane nameščena, saj se na ta način izognete pogovornemu oknu \"Nakup\" in ohranite vse funkcije aplikacije odklenjene)</string>
+    <string name="main_donation_text">Fossify financirajo uporabniki, kot ste vi!\n\nVaši prispevki spodbujajo izboljšave in nove funkcije. Cenimo vašo podporo – prosimo, razmislite o prispevku!\n\nHvala!</string>
+    <string name="potentially_unsafe_apps">Potencialno nevarne aplikacije</string>
+    <string name="installed_fossify_apps">Nameščene aplikacije Fossify</string>
+    <string name="version">Različica: %1$s</string>
+    <string name="package_id">Paket: %1$s</string>
+    <string name="installed_by">Namestil: %1$s</string>
+    <string name="signed_by">Podpisal: %1$s</string>
+    <string name="show_checkmarks_on_switches">Prikaži kljukice na stikalih</string>
 </resources>
