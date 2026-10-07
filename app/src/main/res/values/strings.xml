@@ -12,6 +12,9 @@
 
     <!-- Settings -->
     <string name="show_checkmarks_on_switches">Show checkmarks on switches</string>
+    <string name="storage_units">Storage units</string>
+    <string name="storage_units_decimal">Decimal (1 kB = 1,000 bytes)</string>
+    <string name="storage_units_binary">Binary (1 KiB = 1,024 bytes)</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res

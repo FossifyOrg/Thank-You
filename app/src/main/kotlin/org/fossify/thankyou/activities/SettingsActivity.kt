@@ -37,6 +37,8 @@ class SettingsActivity : BaseComposeActivity() {
                     .collectAsStateWithLifecycle(preferences.useEnglish)
                 val showCheckmarksOnSwitches by preferences.showCheckmarksOnSwitchesFlow
                     .collectAsStateWithLifecycle(preferences.showCheckmarksOnSwitches)
+                val useBinaryStorageUnits by preferences.useBinaryStorageUnitsFlow
+                    .collectAsStateWithLifecycle(preferences.useBinaryStorageUnits)
                 val displayLanguage = remember { Locale.getDefault().displayLanguage }
                 val isUseEnglishEnabled by remember(wasUseEnglishToggledFlow) {
                     derivedStateOf {
@@ -49,6 +51,7 @@ class SettingsActivity : BaseComposeActivity() {
                     isUseEnglishEnabled = isUseEnglishEnabled,
                     isUseEnglishChecked = useEnglishFlow,
                     isShowingCheckmarksOnSwitches = showCheckmarksOnSwitches,
+                    useBinaryStorageUnits = useBinaryStorageUnits,
                     onUseEnglishPress = { isChecked ->
                         preferences.useEnglish = isChecked
                         exitProcess(0)
@@ -59,6 +62,14 @@ class SettingsActivity : BaseComposeActivity() {
                         updateGlobalConfig(
                             contentValues = ContentValues().apply {
                                 put(MyContentProvider.COL_SHOW_CHECKMARKS_ON_SWITCHES, isChecked)
+                            }
+                        )
+                    },
+                    onStorageUnitsChange = { useBinaryUnits ->
+                        preferences.useBinaryStorageUnits = useBinaryUnits
+                        updateGlobalConfig(
+                            contentValues = ContentValues().apply {
+                                put(MyContentProvider.COL_USE_BINARY_STORAGE_UNITS, useBinaryUnits)
                             }
                         )
                     },

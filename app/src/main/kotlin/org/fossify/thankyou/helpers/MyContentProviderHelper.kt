@@ -22,6 +22,7 @@ import org.fossify.commons.helpers.MyContentProvider.COL_PRIMARY_COLOR
 import org.fossify.commons.helpers.MyContentProvider.COL_SHOW_CHECKMARKS_ON_SWITCHES
 import org.fossify.commons.helpers.MyContentProvider.COL_TEXT_COLOR
 import org.fossify.commons.helpers.MyContentProvider.COL_THEME_TYPE
+import org.fossify.commons.helpers.MyContentProvider.COL_USE_BINARY_STORAGE_UNITS
 import org.fossify.commons.helpers.MyContentProvider.GLOBAL_THEME_DISABLED
 
 class MyContentProviderHelper private constructor(
@@ -32,7 +33,7 @@ class MyContentProviderHelper private constructor(
 
     companion object {
         private const val DB_NAME = "Preferences.db"
-        private const val DB_VERSION = 2
+        private const val DB_VERSION = 3
         private const val TABLE_NAME = "settings"
         private const val PREF_ID = 1
 
@@ -53,7 +54,8 @@ class MyContentProviderHelper private constructor(
                 $COL_SHOW_CHECKMARKS_ON_SWITCHES INTEGER DEFAULT 0,
                 $COL_LAST_UPDATED_TS INTEGER DEFAULT 0,
                 $COL_FONT_TYPE INTEGER DEFAULT 0,
-                $COL_FONT_NAME TEXT DEFAULT ''
+                $COL_FONT_NAME TEXT DEFAULT '',
+                $COL_USE_BINARY_STORAGE_UNITS INTEGER DEFAULT 0
             )
             """.trimIndent()
         )
@@ -63,6 +65,9 @@ class MyContentProviderHelper private constructor(
         if (oldVersion < 2) {
             db.execSQL("ALTER TABLE $TABLE_NAME ADD COLUMN $COL_FONT_TYPE INTEGER DEFAULT 0")
             db.execSQL("ALTER TABLE $TABLE_NAME ADD COLUMN $COL_FONT_NAME TEXT DEFAULT ''")
+        }
+        if (oldVersion < 3) {
+            db.execSQL("ALTER TABLE $TABLE_NAME ADD COLUMN $COL_USE_BINARY_STORAGE_UNITS INTEGER DEFAULT 0")
         }
     }
 
@@ -82,6 +87,7 @@ class MyContentProviderHelper private constructor(
                     put(COL_LAST_UPDATED_TS, 0)
                     put(COL_FONT_TYPE, FONT_TYPE_SYSTEM_DEFAULT)
                     put(COL_FONT_NAME, "")
+                    put(COL_USE_BINARY_STORAGE_UNITS, false)
                 }
             )
         }
@@ -130,6 +136,7 @@ class MyContentProviderHelper private constructor(
             COL_LAST_UPDATED_TS,
             COL_FONT_TYPE,
             COL_FONT_NAME,
+            COL_USE_BINARY_STORAGE_UNITS,
         )
 
         val selection = "$COL_ID = ?"
