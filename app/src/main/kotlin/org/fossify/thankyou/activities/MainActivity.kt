@@ -23,7 +23,6 @@ import org.fossify.commons.compose.extensions.enableEdgeToEdgeSimple
 import org.fossify.commons.compose.extensions.linkColor
 import org.fossify.commons.compose.extensions.onEventValue
 import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.dialogs.DonateAlertDialog
 import org.fossify.commons.dialogs.WhatsNewAlertDialog
 import org.fossify.commons.extensions.hideKeyboard
 import org.fossify.commons.extensions.launchMoreAppsFromUsIntent
@@ -55,7 +54,7 @@ class MainActivity : BaseComposeActivity() {
                 val checkWhatsNewAlertDialogState = getCheckWhatsNewAlertDialogState(releasesList)
                 val linkColor = linkColor()
                 val showMoreApps =
-                    onEventValue { !resources.getBoolean(org.fossify.commons.R.bool.hide_google_relations) }
+                    onEventValue { resources.getBoolean(org.fossify.commons.R.bool.is_google_play_build) }
 
                 val showThankYouNotice by preferences.showThankYouNoticeFlow
                     .collectAsStateWithLifecycle(preferences.showThankYouNotice)
@@ -90,15 +89,9 @@ class MainActivity : BaseComposeActivity() {
     }
 
     @Composable
-    private fun AppLaunched(
-        donateAlertDialogState: AlertDialogState = getDonateAlertDialogState(),
-    ) {
+    private fun AppLaunched() {
         LaunchedEffect(Unit) {
-            appLaunchedCompose(
-                appId = BuildConfig.APPLICATION_ID,
-                showDonateDialog = donateAlertDialogState::show,
-                showUpgradeDialog = {}
-            )
+            appLaunchedCompose(appId = BuildConfig.APPLICATION_ID)
         }
     }
 
@@ -133,14 +126,6 @@ class MainActivity : BaseComposeActivity() {
             }
         }
 
-    @Composable
-    private fun getDonateAlertDialogState() =
-        rememberAlertDialogState().apply {
-            DialogMember {
-                DonateAlertDialog(alertDialogState = this)
-            }
-        }
-
     private fun launchSettings() {
         hideKeyboard()
         startActivity(Intent(this, SettingsActivity::class.java))
@@ -153,7 +138,7 @@ class MainActivity : BaseComposeActivity() {
 
     private fun launchAbout() {
         val faqItems = ArrayList<FAQItem>()
-        if (!resources.getBoolean(org.fossify.commons.R.bool.hide_google_relations)) {
+        if (resources.getBoolean(org.fossify.commons.R.bool.is_google_play_build)) {
             faqItems.add(
                 FAQItem(
                     title = org.fossify.commons.R.string.faq_2_title_commons,
