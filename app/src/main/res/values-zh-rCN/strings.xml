@@ -10,4 +10,7 @@
     <string name="main_donation_text">Fossify 由像您这样的用户资助！\n\n您的捐款为改进和新功能提供了动力。我们感谢您的支持——请考虑贡献！\n\n谢谢您！</string>
     <string name="potentially_unsafe_apps">潜在的不安全应用</string>
     <string name="installed_by">安装者：%1$s</string>
+    <string name="storage_units">存储单位</string>
+    <string name="storage_units_decimal">十进制（(1 kB = 1,000 bytes）</string>
+    <string name="storage_units_binary">二进制（1 KiB = 1,024 bytes）</string>
 </resources>
