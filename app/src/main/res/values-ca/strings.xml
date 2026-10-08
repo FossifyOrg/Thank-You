@@ -16,4 +16,7 @@
     <string name="package_id">Paquet: %1$s</string>
     <string name="signed_by">Signat per: %1$s</string>
     <string name="installed_by">Instal·lat per: %1$s</string>
+    <string name="storage_units">Unitats de l\'emmagatzematge</string>
+    <string name="storage_units_decimal">Decimal (1 kB = 1.000 bytes)</string>
+    <string name="storage_units_binary">Binari (1 KiB = 1.024 bytes)</string>
 </resources>
