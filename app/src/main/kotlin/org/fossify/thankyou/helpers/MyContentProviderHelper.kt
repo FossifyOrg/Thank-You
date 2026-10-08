@@ -34,6 +34,7 @@ class MyContentProviderHelper private constructor(
     companion object {
         private const val DB_NAME = "Preferences.db"
         private const val DB_VERSION = 3
+        private const val STORAGE_UNITS_DB_VERSION = 3
         private const val TABLE_NAME = "settings"
         private const val PREF_ID = 1
 
@@ -66,7 +67,7 @@ class MyContentProviderHelper private constructor(
             db.execSQL("ALTER TABLE $TABLE_NAME ADD COLUMN $COL_FONT_TYPE INTEGER DEFAULT 0")
             db.execSQL("ALTER TABLE $TABLE_NAME ADD COLUMN $COL_FONT_NAME TEXT DEFAULT ''")
         }
-        if (oldVersion < 3) {
+        if (oldVersion < STORAGE_UNITS_DB_VERSION) {
             db.execSQL("ALTER TABLE $TABLE_NAME ADD COLUMN $COL_USE_BINARY_STORAGE_UNITS INTEGER DEFAULT 0")
         }
     }
