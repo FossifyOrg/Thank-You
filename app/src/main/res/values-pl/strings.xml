@@ -16,4 +16,7 @@
     <string name="installed_by">Zainstalowane przez: %1$s</string>
     <string name="signed_by">Podpisane przez: %1$s</string>
     <string name="main_donation_text">Fossify jest finansowane przez użytkowników takich jak Ty!\n\nTwoje darowizny napędzają ulepszenia i nowe funkcje. Doceniamy Twoje wsparcie — prosimy o rozważenie wpłaty!\n\nDziękujemy!</string>
+    <string name="storage_units">Jednostki pamięci</string>
+    <string name="storage_units_decimal">Dziesiętne (1 kB = 1000 bajtów)</string>
+    <string name="storage_units_binary">Binarne (1 KiB = 1024 bajty)</string>
 </resources>
