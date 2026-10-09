@@ -10,4 +10,7 @@
     <string name="installed_by">Har installerats av: %1$s</string>
     <string name="signed_by">Har signerats av: %1$s</string>
     <string name="version">Version: %1$s</string>
+    <string name="storage_units">Lagringsenheter</string>
+    <string name="storage_units_decimal">Decimala (1 kB = 1 000 byte)</string>
+    <string name="storage_units_binary">Binära (1 KiB = 1 024 byte)</string>
 </resources>
