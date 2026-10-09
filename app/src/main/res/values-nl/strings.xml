@@ -16,4 +16,7 @@
     <string name="package_id">Pakket: %1$s</string>
     <string name="installed_by">Geïnstalleerd via: %1$s</string>
     <string name="signed_by">Ondertekend door: %1$s</string>
+    <string name="storage_units">Eenheden</string>
+    <string name="storage_units_decimal">Decimaal (1 kB = 1.000 bytes)</string>
+    <string name="storage_units_binary">Binair (1 KiB = 1.024 bytes)</string>
 </resources>
