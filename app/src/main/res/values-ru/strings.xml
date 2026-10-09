@@ -16,4 +16,7 @@
     <string name="package_id">Пакет: %1$s</string>
     <string name="installed_by">Установлено: %1$s</string>
     <string name="signed_by">Подписано: %1$s</string>
+    <string name="storage_units">Единицы измерения данных</string>
+    <string name="storage_units_decimal">Десятичные (1 КБ = 1000 байт)</string>
+    <string name="storage_units_binary">Двоичные (1 КиБ = 1024 байта)</string>
 </resources>
