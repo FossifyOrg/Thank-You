@@ -16,4 +16,7 @@
     <string name="installed_fossify_apps">Встановлені застосунки Fossify</string>
     <string name="version">Версія: %1$s</string>
     <string name="signed_by">Підписано: %1$s</string>
+    <string name="storage_units">Одиниці зберігання</string>
+    <string name="storage_units_decimal">Десяткові (1 кБ = 1 000 байтів)</string>
+    <string name="storage_units_binary">Двійкові (1 КіБ = 1 024 байти)</string>
 </resources>
