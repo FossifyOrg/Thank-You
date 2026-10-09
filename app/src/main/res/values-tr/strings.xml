@@ -16,4 +16,7 @@
     <string name="installed_fossify_apps">Kurulu Fossify uygulamaları</string>
     <string name="package_id">Paket: %1$s</string>
     <string name="main_donation_text">Fossify sizin gibi kullanıcılar tarafından desteklenmektedir!\n\nBağışlarınız iyileştirmeleri ve yeni özellikleri destekler. Desteğiniz için minnettarız - lütfen katkıda bulunmayı düşünün!\n\nTeşekkür ederiz!</string>
+    <string name="storage_units">Depolama birimleri</string>
+    <string name="storage_units_decimal">Ondalık (1 kB = 1000 bayt)</string>
+    <string name="storage_units_binary">İkilik (1 KiB = 1024 bayt)</string>
 </resources>
