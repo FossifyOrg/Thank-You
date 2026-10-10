@@ -16,4 +16,7 @@
     <string name="installed_by">Nainstalováno z obchodu: %1$s</string>
     <string name="package_id">Balíček: %1$s</string>
     <string name="main_donation_text">Fossify je financováno uživateli, jako jste vy!\n\nVaše dary podporují vylepšení a nové funkce. Vážíme si vaší podpory – zvažte prosím možnost přispění!\n\nDěkujeme vám!</string>
+    <string name="storage_units">Jednotky úložiště</string>
+    <string name="storage_units_decimal">Desítkové (1 kB = 1 000 bajtů)</string>
+    <string name="storage_units_binary">Binární (1 KiB = 1 024 bajtů)</string>
 </resources>
