@@ -11,6 +11,6 @@
     <string name="potentially_unsafe_apps">潜在的不安全应用</string>
     <string name="installed_by">安装者：%1$s</string>
     <string name="storage_units">存储单位</string>
-    <string name="storage_units_decimal">十进制（(1 kB = 1,000 bytes）</string>
+    <string name="storage_units_decimal">十进制（1 kB = 1,000 bytes）</string>
     <string name="storage_units_binary">二进制（1 KiB = 1,024 bytes）</string>
 </resources>
