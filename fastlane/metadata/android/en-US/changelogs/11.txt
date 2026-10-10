@@ -1,0 +1,8 @@
+Added:
+
+• Added option to change digital storage unit across all apps
+
+Changed:
+
+• Updated translations
+
