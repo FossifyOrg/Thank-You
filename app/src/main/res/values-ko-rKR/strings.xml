@@ -10,4 +10,6 @@
     <string name="installed_by">%1$s에 의해 설치됨</string>
     <string name="signed_by">%1$s에 의해 서명됨</string>
     <string name="show_checkmarks_on_switches">스위치에 체크 표시 보이기</string>
+    <string name="storage_units">용량 단위</string>
+    <string name="storage_units_decimal">십진법(1kB = 1,000바이트)</string>
 </resources>
