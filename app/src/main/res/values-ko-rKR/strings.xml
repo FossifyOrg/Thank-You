@@ -12,4 +12,5 @@
     <string name="show_checkmarks_on_switches">스위치에 체크 표시 보이기</string>
     <string name="storage_units">용량 단위</string>
     <string name="storage_units_decimal">십진법(1kB = 1,000바이트)</string>
+    <string name="storage_units_binary">이진법(1KiB = 1,024바이트)</string>
 </resources>
