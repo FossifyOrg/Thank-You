@@ -10,4 +10,7 @@
     <string name="potentially_unsafe_apps">App potenzialmente pericolose</string>
     <string name="installed_by">Installata da: %1$s</string>
     <string name="signed_by">Firmata da: %1$s</string>
+    <string name="storage_units">Unità di archiviazione</string>
+    <string name="storage_units_decimal">Decimale (1 kB = 1.000 byte)</string>
+    <string name="storage_units_binary">Binario (1 KiB = 1.024 byte)</string>
 </resources>
