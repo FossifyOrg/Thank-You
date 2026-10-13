@@ -10,4 +10,7 @@
     <string name="installed_by">Инсталирано от: %1$s</string>
     <string name="signed_by">Подписано от: %1$s</string>
     <string name="show_checkmarks_on_switches">Отметки на бутоните за превключване</string>
+    <string name="storage_units">Единици за данни</string>
+    <string name="storage_units_decimal">Десетични (1 КБ = 1000 байта)</string>
+    <string name="storage_units_binary">Двоични (1 КБ = 1024 байта)</string>
 </resources>
