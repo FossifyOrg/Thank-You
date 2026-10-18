@@ -16,4 +16,7 @@
     <string name="installed_by">Instalita pro: %1$s</string>
     <string name="signed_by">Subskribita pro: %1$s</string>
     <string name="show_checkmarks_on_switches">Montri kontrolmarkojn sur ŝaltiloj</string>
+    <string name="storage_units">Konservejaj unuoj</string>
+    <string name="storage_units_decimal">Dekuma (1 kB = 1,000 bajtoj)</string>
+    <string name="storage_units_binary">Duuma (1 KiB = 1,024 bajtoj)</string>
 </resources>
