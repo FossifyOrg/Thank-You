@@ -10,4 +10,7 @@
     <string name="version">Version : %1$s</string>
     <string name="package_id">Paquet : %1$s</string>
     <string name="show_checkmarks_on_switches">Afficher les indicateurs sur les boutons</string>
+    <string name="storage_units_binary">Binaire (1 KiB = 1 024 octets)</string>
+    <string name="storage_units">Unités de stockage</string>
+    <string name="storage_units_decimal">Décimal (1 ko = 1 000 octets)</string>
 </resources>
