@@ -11,6 +11,6 @@
     <string name="signed_by">Firmado por: %1$s</string>
     <string name="main_donation_text">¡Fossify se financia gracias a usuarios como tú!\n\nTus donaciones impulsan mejoras y nuevas funciones. Agradecemos tu apoyo. ¡Considera contribuir!\n\n¡Gracias!</string>
     <string name="storage_units">Unidades de almacenamiento</string>
-    <string name="storage_units_decimal">Decimal (1 kB = 1,000 bytes)</string>
-    <string name="storage_units_binary">Binario (1 KiB = 1,024 bytes)</string>
+    <string name="storage_units_decimal">Decimal (1 kB = 1000 bytes)</string>
+    <string name="storage_units_binary">Binario (1 KiB = 1024 bytes)</string>
 </resources>
