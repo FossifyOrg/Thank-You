@@ -16,4 +16,7 @@
     <string name="package_id">軟體包：%1$s</string>
     <string name="installed_by">安裝者：%1$s</string>
     <string name="signed_by">簽署者：%1$s</string>
+    <string name="storage_units">儲存空間單位</string>
+    <string name="storage_units_decimal">十進位（1 kB = 1,000 位元組）</string>
+    <string name="storage_units_binary">二進位（1 KiB = 1,024 位元組）</string>
 </resources>

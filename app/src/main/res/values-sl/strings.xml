@@ -16,4 +16,7 @@
     <string name="installed_by">Namestil: %1$s</string>
     <string name="signed_by">Podpisal: %1$s</string>
     <string name="show_checkmarks_on_switches">Prikaži kljukice na stikalih</string>
+    <string name="storage_units">Enote za količino podatkov</string>
+    <string name="storage_units_decimal">Decimalne (1 kB = 1000 bajtov)</string>
+    <string name="storage_units_binary">Binarne (1 KiB = 1024 bajtov)</string>
 </resources>
