@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_launcher_name">Trugarez deoc\'h</string>
+    <string name="installed_fossify_apps">Arloadoù Fossify staliet</string>
+    <string name="version">Stumm : %1$s</string>
+    <string name="package_id">Pakad : %1$s</string>
+    <string name="installed_by">Staliet gant : %1$s</string>
+    <string name="signed_by">Sinet gant : %1$s</string>
+    <string name="show_checkmarks_on_switches">Diskouez an titouroù war ar boutonoù</string>
+    <string name="storage_units">Lec\'hioù stokañ</string>
+    <string name="storage_units_decimal">Dekrannel (1 ke = 1,000 eizh-bit)</string>
+    <string name="storage_units_binary">Binarel (1 KiB = 1,024 eizh-bit)</string>
+</resources>
