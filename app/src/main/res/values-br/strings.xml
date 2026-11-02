@@ -7,7 +7,7 @@
     <string name="installed_by">Staliet gant : %1$s</string>
     <string name="signed_by">Sinet gant : %1$s</string>
     <string name="show_checkmarks_on_switches">Diskouez an titouroù war ar boutonoù</string>
-    <string name="storage_units">Lec\'hioù stokañ</string>
+    <string name="storage_units">Unanennoù stokañ</string>
     <string name="storage_units_decimal">Dekrannel (1 ke = 1,000 eizh-bit)</string>
     <string name="storage_units_binary">Binarel (1 KiB = 1,024 eizh-bit)</string>
 </resources>
